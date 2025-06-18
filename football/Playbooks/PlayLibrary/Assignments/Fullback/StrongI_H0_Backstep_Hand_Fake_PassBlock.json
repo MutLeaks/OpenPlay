@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Fullback/StrongI_H0_Backstep_Hand_Fake_PassBlock",
+    "steps":  [
+                  {
+                      "guid":  "81d17956-d89c-4431-8e26-0e93500fda9d",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_RECEIVEHANDOFF",
+                                   "direction":  "135"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "ea541590-a346-40e4-8021-7638c8d4961e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "135",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "d78f7f0d-0ff8-46f3-8aee-8c548ab2c827",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "a576ba2d-4605-41ef-84df-72a330e1d5fb",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

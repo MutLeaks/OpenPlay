@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Weak_Slot_Open/Jet_Touch_Pass",
+                 "playName":  "Jet Touch Pass",
+                 "playId":  "26056",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "6ce0aefc-5ee9-4c2c-83d5-d08cdc0e1613",
+                 "offensePlayType":  "OffensePlayType_TouchPass",
+                 "flowType":  "FlowType_FullFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Weak_Slot_Open/Weak_Slot_Open [4ae24530-b1d1-4265-95f2-5f7c1d2c4725]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/OutsideZone [77f68664-0ad2-4634-9712-6acbe0eca6aa]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/00_PISTOL_TouchPass_JetSweep_Left",
+                            "guid":  "0c4944d3-fa4f-49c8-82c5-c54c9208bfca",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead30for05_MoveDirDist_Lead_Sweep_PullBlock_OutsideLast_(1)",
+                            "guid":  "d3608b0f-48a1-407b-9127-85b47880e0ec",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_WeakI_H7_Lead",
+                            "guid":  "90a044ed-fe47-4e13-bd95-0274bc5b13ce",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Pistol_TouchPass_JetSweep_Left",
+                            "guid":  "d374daf8-1e52-4d43-b240-f87fa6658c0d",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

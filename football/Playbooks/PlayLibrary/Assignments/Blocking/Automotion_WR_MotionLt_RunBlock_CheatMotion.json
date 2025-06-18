@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_MotionLt_RunBlock_CheatMotion",
+    "steps":  [
+                  {
+                      "guid":  "ace95528-5a06-4417-936e-925ee85a9ad6",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-4",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "8cb972e9-de58-4c58-abd3-60ac51466f6b",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "7dc0e768-fb52-4929-89c0-011f3bcc40d5",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "5",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "b58d76f5-7628-498a-91c8-c77e3cbecead",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "83eabcac-35f2-466f-9280-b2bbec69d58e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "c2d37537-27ed-4eae-86c9-30fbac94e9a8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Full_House/Normal_Wide/DBL_Stop_N_Go\u0027s",
+                 "playName":  "DBL Stop N Go\u0027s",
+                 "playId":  "10723",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "f1fed7e7-f062-43b6-93ca-a63b3c683792",
+                 "offensePlayType":  "OffensePlayType_Pass5Step",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Full_House/Normal_Wide/Normal_Wide [b0eab212-ae98-47c0-892c-6c44230a178c]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_5Step_Pumpfake",
+                            "guid":  "5ab9adff-75dd-4c31-9065-2753b3f936af",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/HB_SB_PassBlockRt",
+                            "guid":  "c342b2f6-a7fd-4d0c-8d40-487fa31eb905",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_Block_ALL_FlatsLt_SG",
+                            "guid":  "ba16f466-c7a6-4511-bdd6-24d2b6fae490",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run105for3_Run90for13_ComebackLt_and_GO",
+                            "guid":  "5a9541ad-ec8e-4bc3-a98f-e4c8b98a13fc",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_Block_ALL_HBSpotRt",
+                            "guid":  "41cf46ae-df4d-4c86-b677-0a1453563b4b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run45for02_Run90for13_ComebackRt_and_GO",
+                            "guid":  "c75b6325-7101-4d0e-9a37-c750d2949e36",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

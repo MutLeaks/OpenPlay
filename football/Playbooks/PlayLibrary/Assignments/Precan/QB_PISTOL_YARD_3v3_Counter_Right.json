@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_PISTOL_YARD_3v3_Counter_Right",
+    "steps":  [
+                  {
+                      "guid":  "3a493e98-d82f-4ec5-945b-b3b463e0c760",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "4",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "212"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "52341be9-a9bb-4b88-8a5d-e5286dbe657b",
+                      "data":  {
+                                   "speed":  "0.85",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_RIGHT",
+                                   "direction":  "182",
+                                   "BallHand":  "BALLHAND_LEFT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "13a7a03b-53a7-4f46-ac77-813b4e8ad2e4",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_DROPBACK",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "1",
+                                   "handoffRun":  "RUNTYPE_HANDIN"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "guid":  "1c9f0fcb-8c81-4fae-816f-03535f01efda",
+                      "data":  {
+                                   "direction":  "90",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  }
+              ]
+}

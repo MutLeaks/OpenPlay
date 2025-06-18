@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Normal_Y_Off/PA_Jet_Sweep_1",
+                 "playName":  "PA Jet Sweep",
+                 "playId":  "797549280",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "a0375100-d439-43d4-833e-37fc6696050d",
+                 "offensePlayType":  "OffensePlayType_PassPlayAction",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Normal_Y_Off/Normal_Y_Off [ec76745f-eb55-4b74-8a5c-79bfd4ed7c26]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_EvenRight_Doubles_PAJetSweep",
+                            "guid":  "0f37c885-a169-4a34-ad43-f6ead52996b4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SG_Doubles_PA_Jet_HB_Slide_Left",
+                            "guid":  "160b13b3-798d-4471-91fc-76f9ca69abf8",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Gun_Doubles_JetSweep_SwingRt",
+                            "guid":  "261229a5-ef2f-4f2c-9569-60f2deaba086",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for15_Run65for30_WRDeepPostRt",
+                            "guid":  "3f468724-c247-4c24-9bd1-5ff17dd1ac57",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_CutL90_Run180for15_(1)",
+                            "guid":  "14b6a7f7-67fe-4a4b-ab5b-2ee64c863574",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run120for05_Run140for25_SlotCrossLt",
+                            "guid":  "9dbf5763-be8d-46a8-b08a-0813989ed840",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

@@ -1,0 +1,75 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/PitchToHB",
+    "steps":  [
+                  {
+                      "guid":  "d9b241ed-7f43-452f-8670-5238762d1828",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "6",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "8"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "33ee82a3-0e3b-47e4-92c3-b368a3aa0a61",
+                      "data":  {
+                                   "opCodeEX":  "ID_PITCH",
+                                   "playerNum":  "1",
+                                   "speed":  "0",
+                                   "pitchType":  "QB_UNDERHAND_LONG"
+                               },
+                      "type":  "PitchBallAssignment"
+                  },
+                  {
+                      "guid":  "8eccd72a-07d6-47c8-9ae7-e16e10fddc06",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "59d0a5c9-8681-4055-a39f-aabebda63227",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "270",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "5704d97e-f3ac-4de9-b910-b7ce62567cf3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "260",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "d60733aa-6f29-4b74-96f0-fe79df50e182",
+                      "data":  {
+                                   "direction":  "90",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "guid":  "31eac06b-6b51-46be-9438-e33a7ea86193",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_EvenLeft_OutsideZoneSweep_RPO_P2",
+    "steps":  [
+                  {
+                      "guid":  "d19dfb89-dab3-4080-9bb1-1464bfcacba4",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "64",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "63"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "de9d46e4-c15e-4563-aa98-1e78b4ac0439",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_NORMAL",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "926bf63b-51fd-4d20-a590-d5c6746405da",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "d5e9ff06-b903-44ad-aa5c-9fac31e51b24",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

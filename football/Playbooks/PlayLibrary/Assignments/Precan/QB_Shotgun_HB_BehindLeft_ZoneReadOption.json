@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Shotgun_Read_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_BehindLeft_ZoneReadOption",
+    "steps":  [
+                  {
+                      "guid":  "656495e2-d66f-40fb-bc41-f85eb15c260e",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "28",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "22"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "c01a138a-0064-4066-b100-d413250f1e28",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_BEHIND",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "40771c7e-3832-4be2-933f-3998b5434f9f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "97c510f5-a6b5-428f-afcf-35a02b5286ee",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Kicker/FGKickFake",
+    "steps":  [
+                  {
+                      "guid":  "e3867cd6-c3ca-4c0b-a8f2-cb95ae124e2f",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_FGKICK",
+                                   "handoffAnim":  "0"
+                               },
+                      "type":  "FGKickAssignment"
+                  },
+                  {
+                      "guid":  "3b356c24-2207-47a7-83df-53da6a1ffec0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "4564dc4e-fb6b-4769-a08f-1ed3c9871974",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "8143ea3b-fe9e-49b1-9e2d-7bb1676b16ff",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_Hook",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run135for10_SmashLt_Delay.25",
+    "steps":  [
+                  {
+                      "guid":  "92126665-a6a5-494f-9595-8ddc2318d420",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "b1603947-cf49-44c9-9998-318e14ed1410",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "135",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "6f286c51-98ac-4b9d-aeae-132665cc079d",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "0fc5e65c-947d-4871-b5c3-dee86102ebae",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "1d681087-d041-4661-abd9-3a0babd94096",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "5b587590-1bcc-4ac4-b2cc-ffde02365217",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

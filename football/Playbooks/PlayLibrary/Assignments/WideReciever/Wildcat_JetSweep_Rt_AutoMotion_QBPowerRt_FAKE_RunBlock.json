@@ -1,0 +1,78 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Wildcat_JetSweep_Rt_AutoMotion_QBPowerRt_FAKE_RunBlock",
+    "steps":  [
+                  {
+                      "guid":  "e004d7f8-4aef-49fa-923c-221d2ffb66c1",
+                      "data":  {
+                                   "offsetY":  "-0.8",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-10",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "01adca48-87a4-40d2-876f-222d8c2bdf82",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "75",
+                                   "offsetY":  "-4",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "1a386f84-d6ca-4000-b600-194940254be5",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "75",
+                                   "offsetY":  "-4",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "45bd45e1-e48a-475a-b038-aef4b99bdacb",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "02211659-0710-452c-abbb-d61b2bcc3956",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "97978f75-2707-481a-9337-105b6982540e",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "0907199c-5698-41fc-82ee-c9833c62819f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_Pull_H4_Deep_LeadThruHole",
+    "steps":  [
+                  {
+                      "guid":  "fe6420f6-2dae-4107-88c2-54078c10ce51",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_POWER_PULL",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "b26bf5ac-1d4c-4762-8943-35af715aa39c",
+                      "data":  {
+                                   "blockingGap":  "C_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "221ba8ec-a554-4253-8a58-efd0c2b95b38",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

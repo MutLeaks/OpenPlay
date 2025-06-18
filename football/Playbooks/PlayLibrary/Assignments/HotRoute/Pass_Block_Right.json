@@ -1,0 +1,34 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/HotRoute/Pass_Block_Right",
+    "steps":  [
+                  {
+                      "guid":  "413a4003-64f1-4670-b463-ecb3a0e63460",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "45",
+                                   "distance":  "2.2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "4add51ac-fc99-4269-9333-a17fd687e9b9",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "9672c648-d6cd-42f4-b1c9-05ad874b8aed",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

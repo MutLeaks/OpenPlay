@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Tight_Y_Off/PA_Slot_Cross",
+                 "playName":  "PA Slot Cross",
+                 "playId":  "421835730",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "999b5574-b987-4e42-8899-f828e337ecbc",
+                 "offensePlayType":  "OffensePlayType_PassPlayAction",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Tight_Y_Off/Tight_Y_Off [cc9e007f-8630-4f51-98e6-3e1c82c2c622]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_BehindRight_PA_InsideZoneRead_Dropback",
+                            "guid":  "f6ee3fc7-dcd9-4768-b554-fcb7bcb7a4b4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H1_Backstep_Hand_Inside_Zone_PA_PassBlock",
+                            "guid":  "d753dffd-5dc5-474f-b4d5-99856cc6580d",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run60for08_Run25for20_SlotCrossRt",
+                            "guid":  "3534c2cd-57f3-448e-a880-77659ac76fd4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run105for12_CutR90_Run10for15",
+                            "guid":  "14d706d5-8f80-4161-abad-7be6926ff149",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run45for05_Run90for30",
+                            "guid":  "34d4f3cc-7a18-42b8-a150-cbacb730fdce",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_Block_ALL_FlatsRt",
+                            "guid":  "16fbf645-fff7-40a2-a64f-75f3610740b1",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

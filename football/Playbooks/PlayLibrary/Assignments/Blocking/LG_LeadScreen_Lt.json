@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_LeadScreen_Lt",
+    "steps":  [
+                  {
+                      "guid":  "3f5bf54a-c2e7-4e9a-82ed-ca461f796cca",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0.75"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "c1f06c8c-f406-474e-bf9f-9ed461027671",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "b094830a-439b-4fd9-ba66-c101c71f3d82",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "0f2f26c7-aef9-4ffd-9793-c4a782b9a84c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

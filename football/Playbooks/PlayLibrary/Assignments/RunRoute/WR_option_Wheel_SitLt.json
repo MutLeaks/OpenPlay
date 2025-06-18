@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_option_Wheel_SitLt",
+    "steps":  [
+                  {
+                      "guid":  "c3b65ec9-1602-41b8-a343-3b30b10f96de",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "150",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "9bbc720f-7d7f-4a05-815f-2d90e73a56ba",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "85c1203d-2132-4880-8087-bc57a5084509",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "98",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "29e31bc3-f0e4-4724-af7c-340dbb5eb5b1",
+                      "data":  {
+                                   "optionRoute2":  "9",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "13",
+                                   "optionRoute1":  "11"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "c2a77ddf-326c-4f00-aca5-c7e7940e9372",
+                      "data":  {
+                                   "optionRoute2":  "64",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "32",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "6e1479dd-d352-463d-9a88-3c146698a9ec",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "74b376fb-0afd-45bb-85dd-50992cd9eaea",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

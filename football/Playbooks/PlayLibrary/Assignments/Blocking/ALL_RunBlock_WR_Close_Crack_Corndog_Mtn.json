@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock_WR_Close_Crack_Corndog_Mtn",
+    "steps":  [
+                  {
+                      "guid":  "d285ff2f-0075-41f1-a213-a2721e4d83b0",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "15",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "cace1815-6255-4736-ad6f-74d7a0229e3b",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "8",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "85",
+                                   "offsetY":  "-2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "2938603f-8270-4219-a614-40ac200c32c2",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "6ad867e1-bfee-4b8e-84ac-1d9577fd63df",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_CRACK_BLOCK"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "0231e522-cb4d-4990-8079-ce3ec444627e",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "11ed7950-caf2-4e63-a8e8-c42098d2cde7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

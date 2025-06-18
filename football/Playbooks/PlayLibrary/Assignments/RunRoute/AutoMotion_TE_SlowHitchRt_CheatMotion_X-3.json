@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_TE_SlowHitchRt_CheatMotion_X-3",
+    "steps":  [
+                  {
+                      "guid":  "647967cf-86ce-4929-a0bb-94d140489200",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-3",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-3",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "15fa262c-894d-4f69-addd-b12b960525c5",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "f9b09ee2-06c0-426e-8bf0-7fe98cb7eee0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "95",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "7f24156f-f41b-43e3-8039-acf95c96079c",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH_QUICK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "6ff3e719-b202-4b34-b582-a3ca16bca210",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "83fe8fcf-d72a-45cb-8b51-ea425e66d41f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "41f5e7ec-35e4-4cf7-9b40-4b2695e17793",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

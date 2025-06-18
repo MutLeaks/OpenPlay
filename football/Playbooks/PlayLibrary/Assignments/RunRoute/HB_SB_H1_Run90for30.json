@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_H1_Run90for30",
+    "steps":  [
+                  {
+                      "guid":  "8c0906e1-841c-435c-9ddf-592550e5ef5d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "135",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "53efbd7c-4ea4-48fb-808f-737b658b6341",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e74eeaae-69d2-48d2-9681-3430758f22ce",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "41b5fabe-ee7f-42d1-9c9e-cf09da3fba62",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "ec632897-28a8-47b2-aa52-ba4df9268d76",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

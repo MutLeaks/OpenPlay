@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Receive",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OverrideFormPos/HB_SG2RB_HBonRight_Shovel_OptionLt_Tutorial",
+    "steps":  [
+                  {
+                      "guid":  "825f072a-f28e-4747-8f67-c5ca2909cd24",
+                      "data":  {
+                                   "offsetY":  "-6",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "2.9",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "a305bd6a-f0d8-4ac4-a43d-dc1614c6e81e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "ccee83b4-2716-460a-8bb8-c56c4bfebea2",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "602caf6a-0dab-45a7-a3c9-f77020421349",
+                      "data":  {
+                                   "offsetY":  "5",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "1"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "11276f3c-99d5-4ea5-8176-ae4538752ceb",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "ae601926-36ac-453f-8216-1d0ea0842a74",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

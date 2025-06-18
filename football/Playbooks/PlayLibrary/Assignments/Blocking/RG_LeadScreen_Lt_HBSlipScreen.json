@@ -1,0 +1,55 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RG_LeadScreen_Lt_HBSlipScreen",
+    "steps":  [
+                  {
+                      "guid":  "f1a074f8-d913-4ef8-9fc1-3b253d2771cc",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0.3"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "3b9d3175-1e4e-4f48-82ab-64be38c4fe05",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "1.55",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "7c591bae-77d3-4c7f-982b-f0c2bb428f29",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "175",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "0dbc062b-dfce-43d7-8481-36abdeaf8bd5",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "fe6ea534-9f3f-4413-a000-2a9d8b740156",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

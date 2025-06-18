@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Shotgun_Doubles_JetSweep_Touch_Pass",
+    "steps":  [
+                  {
+                      "guid":  "a34fa7a6-ce62-4f50-9ec2-4719f6677322",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "56",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "57"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "6c69ea04-cd04-4662-a14c-7e9a201f467d",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "6",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "c65de0b4-3148-49c5-a75f-c8a87e5c6760",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "b92b7b82-1962-46c9-a8c9-c230e4a10123",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "c8459f68-4a4d-4337-893d-f6b0bd44df0c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "30",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "534622e5-64f3-464c-b003-c186d72b9087",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "5b4a6c0a-74e1-4730-9ebf-5b99a42b996a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

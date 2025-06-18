@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Fake_Reverse",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_Fk_Reverse_HB_Shovel_Rt",
+    "steps":  [
+                  {
+                      "guid":  "050eca64-3dd6-4996-88bc-1862dfa7a3d1",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "108",
+                                   "playerNum":  "HandoffPlayerSlot_O2",
+                                   "flippedHandoffAnim":  "107"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "92f18b80-e3cf-46de-bb6c-e7b2d4f4d604",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "325",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "2b31d500-fe57-4618-8dbb-8335e102cd3d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "355",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "2714efc4-02d3-4bf7-990c-4a8b76ef1295",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "65f7ff94-a171-434f-99ec-9d2210e0901b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

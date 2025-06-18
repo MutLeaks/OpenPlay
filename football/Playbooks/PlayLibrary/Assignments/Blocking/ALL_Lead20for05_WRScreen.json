@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead20for05_WRScreen",
+    "steps":  [
+                  {
+                      "guid":  "7baf99f5-1c5a-4d99-9e3d-6df3f41d2316",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "20"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "7829b021-a3b0-4407-a47d-fcc5331ad115",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "20",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "f312e6a9-12b9-4441-8a9a-655513f3406e",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "b5bc1293-0e1e-4f06-bada-573f7babc549",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

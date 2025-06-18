@@ -1,0 +1,75 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_ExitLT_SlotBlockLT_No_OverrideUGA",
+    "steps":  [
+                  {
+                      "guid":  "1cd97fe7-f695-4414-bb5c-da534a03b8b6",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-6.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "99",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "f31bba68-066a-48f5-b6ad-a590282e67bc",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-9.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "40",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "547feba7-1a70-4527-8980-569121520f55",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "9ea01aff-55e2-4265-9a22-882a4bfe9a0f",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "170"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "ffe86d11-6820-49a4-957c-7453f781f61a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "121.0863",
+                                   "distance":  "6.682489",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "7d921eb3-4831-4779-897e-0f50566f5a9b",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "7fba0b2b-b5fb-4d03-989b-f38c402d8182",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

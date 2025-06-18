@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Empty_Trips_Speed/Mtn_Fk_Screen",
+                 "playName":  "Mtn Fk Screen",
+                 "playId":  "1481221167",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "83e8f04e-5e2e-469b-99d9-54c517528584",
+                 "offensePlayType":  "OffensePlayType_PassShotgun",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Empty_Trips_Speed/Empty_Trips_Speed [066be4fa-a61b-484f-bfa7-7d69507ecc94]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_Pump_Right",
+                            "guid":  "e5e79093-cecb-485f-b4d2-88e7aa3699df",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_NoBack_Screen_Rt",
+                            "guid":  "63dfba3c-c0ba-4530-8351-4d38456707c4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run65for11_Run75for30-SlotFade_RT",
+                            "guid":  "2748cecd-4793-4c24-9d16-5d91f34614cd",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_WR_RtWingWR_EmptySpeed_ScreenRt_Jamarr",
+                            "guid":  "0bd13906-97de-4501-802d-97fb63e527cb",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for03_CutL90_Run180for15_StutterUnder_OverrideFormPos_17.5_Onball",
+                            "guid":  "2414c669-8ee8-40ae-9718-5519bfa38671",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run135for04_Run84for25_LtSlotFade",
+                            "guid":  "a55761ec-0752-4e69-a896-fb09973654c7",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_AGGRESSIVE_3-Step",
+                            "guid":  "af91417e-9931-4dd5-a77d-22119e214b4c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_ForceCutBlock",
+                            "guid":  "914548b5-a9d8-46c4-9042-7dc7e5ed4f53",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

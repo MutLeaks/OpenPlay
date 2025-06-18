@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Drag",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_YARD_SlideUnderRt_Slot_OffBall_Deep",
+    "steps":  [
+                  {
+                      "guid":  "dec4c991-0391-4901-80d0-2ee2bdbadb0a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "325",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "c902310c-0c4d-46e3-bfd3-e46250f7ca62",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "18",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "85",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "467e7e8b-6e27-41b1-bbb7-289a799ca41d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "8e0e84a9-b6ae-4291-999a-c35bc6f192c5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "b68ab48b-dbf0-4f5a-9c9a-cb405d2fe0d9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

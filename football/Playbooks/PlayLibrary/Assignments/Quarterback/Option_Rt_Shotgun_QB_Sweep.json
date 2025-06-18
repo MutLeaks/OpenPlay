@@ -1,0 +1,30 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Rt_Shotgun_QB_Sweep",
+    "steps":  [
+                  {
+                      "guid":  "0ad4409f-e773-4f73-aa11-bbbf906edd48",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "11"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "281d418a-c5a8-48d5-8d7d-f1b54251fa7b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "c0b62e57-c85e-46dd-a08c-56dde92e119c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

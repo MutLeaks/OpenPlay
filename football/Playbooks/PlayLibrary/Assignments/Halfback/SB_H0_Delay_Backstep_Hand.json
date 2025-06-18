@@ -1,0 +1,62 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Draw",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H0_Delay_Backstep_Hand",
+    "steps":  [
+                  {
+                      "guid":  "03b0332f-6d05-4f69-87b8-d26b68dd61c3",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "21",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "22"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "932cd072-8050-4f2e-89a7-41b9d09c838d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "92324ccb-32f0-4e3a-89a5-765727f64dbb",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HOPSTEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "ba9daec4-bfa3-4be7-beb6-dd408ada31e0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "85",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "56a490d9-3667-4dcc-b3db-023de4dfb031",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "9c1f23d5-b209-4281-b51d-0d3e84848853",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,46 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RT_LeadScreenRt_PA_WRScreen",
+    "steps":  [
+                  {
+                      "guid":  "3966bd58-8549-4062-8816-b2a97cd6d13b",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "10",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "1377f18d-9934-495f-9cc0-d842f66d642a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "15",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "4b685ec6-de59-49be-b4ce-e34e51ef3749",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "2b6d48d0-3a66-4a1b-9472-181b363ce631",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

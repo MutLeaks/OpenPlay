@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Monster/Fk_WR_Screen",
+                 "playName":  "Fk WR Screen",
+                 "playId":  "12398",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "10ab6312-97fd-4f4e-a154-1193fbbed835",
+                 "offensePlayType":  "OffensePlayType_PassScreen",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Monster/Monster [dc4b4eab-df16-420c-a060-c608c83514e8]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_Pump_Left",
+                            "guid":  "481c6a93-1716-495a-aa3d-dde2df67600f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/HB_SB_PassBlockLt",
+                            "guid":  "7408d664-6db7-4538-96ec-23653c64064c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_EmoryHenry_Run90for04_ShortFadeLt",
+                            "guid":  "1907a6ad-c9d2-4145-95d8-d0f1f1fbaaa5",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_EmoryHenry_Screen_Rt",
+                            "guid":  "3b98b7b2-ef6c-4ab3-b58a-5728099d3f34",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_EmoryHenry_Lt",
+                            "guid":  "e0779df8-bcd4-4672-8729-881eeab07e28",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_EmoryHenry_Run90for04_ShortFadeRt",
+                            "guid":  "46f4f0a6-cc9a-4227-ab2f-9c0733165d80",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead170for02_WRScreen_SlotBlockLt",
+                            "guid":  "9624a68d-f6f0-404c-bd38-e55c80dc4cdb",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PABlock",
+                            "guid":  "e2bde3c8-fd13-4f0c-a4d7-222c86b4771f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead10for02_WRScreen_EmoryHenry",
+                            "guid":  "1f0fe502-7e52-4a19-a0fc-233c37cff6af",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

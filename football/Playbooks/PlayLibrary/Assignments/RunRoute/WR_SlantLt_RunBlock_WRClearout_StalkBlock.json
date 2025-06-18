@@ -1,0 +1,55 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_SlantLt_RunBlock_WRClearout_StalkBlock",
+    "steps":  [
+                  {
+                      "guid":  "f456b5b2-e829-4535-95e8-2e1f3a1cc947",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "94ff5fe0-c21e-4d69-bc4a-29b6889026cb",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "b1e85b63-8fde-4295-be07-36bd178ecd27",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "23",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "def2d630-f712-48e0-9f5c-a2976c269a70",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "3fa5dffe-0edd-45c0-8b95-4a89b1783f97",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_5Step_OLD_ChangedTo_5step_quick",
+    "steps":  [
+                  {
+                      "guid":  "3ec96969-a130-4d35-bc2b-c5da1c0029e2",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_QBDROP_5_STEP_BIG_QUICK"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "c0cb293c-22eb-42fb-8966-0fd3e406df9c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

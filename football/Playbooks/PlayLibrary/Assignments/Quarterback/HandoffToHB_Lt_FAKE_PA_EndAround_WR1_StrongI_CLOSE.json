@@ -1,0 +1,55 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Play_Action",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/HandoffToHB_Lt_FAKE_PA_EndAround_WR1_StrongI_CLOSE",
+    "steps":  [
+                  {
+                      "guid":  "53cbfc54-db6d-4ec6-b9ba-1292a9f93770",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "212",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "215"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "a5647a48-b2fe-43bf-b7c2-dfbf29656d3e",
+                      "data":  {
+                                   "speed":  "1",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_RIGHT",
+                                   "direction":  "155",
+                                   "BallHand":  "BALLHAND_RIGHT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "e42f98c9-b295-4cb6-b87e-2353b00980bd",
+                      "data":  {
+                                   "handoffRun":  "RUNTYPE_HANDIN",
+                                   "opCodeEX":  "ID_HANDOFF_FAKE",
+                                   "receiverPlayer":  "4",
+                                   "handoffExit":  "EXITTYPE_DROPBACK",
+                                   "pitchPlayer":  "0"
+                               },
+                      "type":  "HandoffFakeAssignment"
+                  },
+                  {
+                      "guid":  "b8bf686f-4d43-4742-9f60-dc71c056751c",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "b66974d9-5dec-4204-b5c6-e8e885d1836f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

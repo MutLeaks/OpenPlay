@@ -1,0 +1,37 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock_Force_Second_Level_Right",
+    "steps":  [
+                  {
+                      "guid":  "22ff8c3e-8eab-4e20-b31e-b2a92a84a3f6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "45",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "d7e1a37f-7800-4f4a-8822-d923b58a2ff3",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "2df2b59d-3c9c-4176-a11d-6cbc1fe0601d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

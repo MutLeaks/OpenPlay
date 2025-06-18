@@ -1,0 +1,75 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_HB_RightWR__Go",
+    "steps":  [
+                  {
+                      "guid":  "4f2b2b7a-3bc3-4a19-a224-b26876ffef30",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "3.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "45",
+                                   "offsetY":  "-3.75",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "623f739f-4a2d-4c12-966d-05aaf45bf66f",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "12",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "65",
+                                   "offsetY":  "-3.75",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "fe335cc4-a8d9-4ec3-8d39-c615a3deda6e",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "16",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "30",
+                                   "offsetY":  "3.75",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "f5c2029f-baff-4ea0-b17b-e75e39a7b840",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "51e7e8d8-a4f7-4eee-8d7d-3c72d624cb0e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "91990b5c-a4fa-437e-9f31-760c7aed28b6",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "6943dd8f-e0cb-414a-bb9e-d012cdd9c75d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

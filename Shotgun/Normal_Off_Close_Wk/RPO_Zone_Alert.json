@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Normal_Off_Close_Wk/RPO_Zone_Alert",
+                 "playName":  "RPO Zone Alert",
+                 "playId":  "29353",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "5caf420f-6c56-403c-ab9e-3738f0abb2d7",
+                 "offensePlayType":  "OffensePlayType_RPOAlert",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Normal_Off_Close_Wk/Normal_Off_Close_Wk [95d3d3d6-54aa-4ff8-bacc-22b67f796ce8]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/PowerOneBack [d97f3c25-5b42-47aa-9868-09715b280ae9]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_EvenLeft_InsideZoneRt_RPO",
+                            "guid":  "94988d7c-8148-498b-a8e0-ca585c4862b2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H6_Backstep_Hand_HB_Base",
+                            "guid":  "7080e1f6-8344-4641-92a5-eb63bf9a3542",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for05_HitchRt",
+                            "guid":  "e445a786-fed7-4de1-903e-cb1c82f83476",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Hitch_Fade_Lt",
+                            "guid":  "73a07ed4-cfc0-4ffa-aa72-9c8a1da196f3",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Speed_Out_Short_Right",
+                            "guid":  "8ab80367-7803-433e-982a-a88d1f8ea0e6",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RT_Lead_110for01",
+                            "guid":  "f24c2b5a-ada2-4510-8d71-e5b077f8f7e2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

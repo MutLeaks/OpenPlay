@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/HB_Shotgun_Philly_Special_Fake",
+    "steps":  [
+                  {
+                      "guid":  "88240e9b-30c3-4b98-aa56-0b34b5ddacee",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "202",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "203"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "1291b61a-38d2-43f1-9d64-4169ac1ccf3b",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "3",
+                                   "optionHandoffType":  "TYPE_WILDCAT_QB_OPPOSITE",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "e1388c3d-d035-46d4-90d9-d1c1685b103b",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "146",
+                                   "distance":  "2.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "9df5983c-8d1d-4e2c-ac64-cc9c68ed8b67",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "0093f21e-2470-4062-90f0-a125c7bf2b6d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

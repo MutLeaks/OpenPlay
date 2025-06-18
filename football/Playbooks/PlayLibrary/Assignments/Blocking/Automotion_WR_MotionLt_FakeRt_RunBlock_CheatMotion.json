@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_MotionLt_FakeRt_RunBlock_CheatMotion",
+    "steps":  [
+                  {
+                      "guid":  "90ef9243-bd0e-4b9f-8e18-903db967f7e9",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-4",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "090cbeb5-4b3c-49e7-9db3-e11a0895ae8e",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-4",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-4",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "f6790c47-247d-4696-8e57-488717f60927",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "8f0e0225-e7f5-49e3-af22-9dcd7f493298",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "7ce1ed47-fe5f-4546-890d-15aa414a0564",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

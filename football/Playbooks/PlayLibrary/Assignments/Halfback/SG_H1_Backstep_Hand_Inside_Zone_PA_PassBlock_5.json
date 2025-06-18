@@ -1,0 +1,64 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H1_Backstep_Hand_Inside_Zone_PA_PassBlock_5",
+    "steps":  [
+                  {
+                      "guid":  "330cfabe-c5bc-4901-ac96-df8e982e73e8",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "26",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "4"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "a1889fa7-e4d9-4dbd-af7d-616c9ff1ad90",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "3f1bb3a3-6127-4d4f-80d7-8f7a34456f2c",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "f13ddc10-82aa-4f58-a6b2-5a8eac4420ca",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "130",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "3a399fac-4802-467b-b774-c2b7d3d26299",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "b6ca94d7-66cd-4150-80bd-b5ef6e54d686",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

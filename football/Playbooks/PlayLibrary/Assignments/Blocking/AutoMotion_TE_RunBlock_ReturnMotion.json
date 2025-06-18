@@ -1,0 +1,65 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/AutoMotion_TE_RunBlock_ReturnMotion",
+    "steps":  [
+                  {
+                      "guid":  "cca8840e-631b-42f4-a7dc-ae835f4d248b",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "50",
+                                   "offsetY":  "-3",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "7b8d4b25-0861-475d-b40c-a97d613b31ae",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "3.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "50",
+                                   "offsetY":  "-3",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "acfb86a3-d1e6-49aa-9cb9-eaf5548f0468",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "1793048d-a2aa-45c8-b25e-4027c5904991",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "06ae8c42-6bcf-4fa0-8fba-3682742b15b9",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "56a092cc-aec4-4566-b2f1-a7a86650d882",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

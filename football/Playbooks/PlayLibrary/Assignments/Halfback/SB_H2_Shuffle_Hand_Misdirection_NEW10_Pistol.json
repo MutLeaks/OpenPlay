@@ -1,0 +1,62 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Counter",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H2_Shuffle_Hand_Misdirection_NEW10_Pistol",
+    "steps":  [
+                  {
+                      "guid":  "0bf22a88-fe4e-47bc-8c60-888602e8601f",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "104",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "102"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "5851889c-f119-4f27-88c4-c45e59b0f3b8",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.4",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "5891f020-0cea-405e-a082-055bf2e26cec",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "120"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "4fbc84f2-a723-45b2-828c-dd67f0005075",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "67.5",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "d86c4a29-3e3b-4b30-9d0c-b5185e77aa62",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "3f9fd133-dee2-4695-b939-acff1ecde0e6",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

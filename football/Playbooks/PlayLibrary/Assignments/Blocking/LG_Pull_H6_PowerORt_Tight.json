@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_Pull_H6_PowerORt_Tight",
+    "steps":  [
+                  {
+                      "guid":  "9ef01877-5606-45df-b932-638c849ad7e4",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_SKIP_PULL",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "1c083f92-c6ca-4f37-a763-696c6e004a3f",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "a25c520b-ea4c-4614-b35e-403024d4e278",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

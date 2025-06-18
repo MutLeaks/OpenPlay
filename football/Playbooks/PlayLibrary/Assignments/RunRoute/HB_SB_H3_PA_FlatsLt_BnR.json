@@ -1,0 +1,94 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_H3_PA_FlatsLt_BnR",
+    "steps":  [
+                  {
+                      "guid":  "94102cf1-2098-4a13-8d92-f605402e3726",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "46",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "50"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "cc918918-b7a7-4332-b9be-73468eaddc6a",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "125"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "488334e7-35ce-43d8-8d62-ef4cb0f8e6d3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "125",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "971e5dd9-01a4-4b16-a9b1-3762d9a83b9f",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "1"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "5e39316c-83cb-43b1-a4e7-edc2ab5e27f5",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "125",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "9b8bb12e-a903-4c0e-be5d-c76d5ad669ec",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "11cc3f7d-a917-4bc3-a46f-d485684795ff",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "c28f43ca-ed74-4093-b2f3-b71d246d8d61",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "238888a4-6ced-4119-96d2-c5ffb4e4a894",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

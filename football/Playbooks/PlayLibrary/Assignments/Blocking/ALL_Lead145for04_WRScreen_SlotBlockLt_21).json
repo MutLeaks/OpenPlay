@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead145for04_WRScreen_SlotBlockLt_21)",
+    "steps":  [
+                  {
+                      "guid":  "037a9ef6-b8ab-4293-9935-c812c8a3b524",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "155"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "8d5632eb-da04-42aa-9604-fcaef6deb477",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "155",
+                                   "distance":  "2.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "6467376a-ccc5-4e81-93b9-2a2ea82d95b6",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "779fd5e0-af0a-4be6-b8a3-6ada08efbf69",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

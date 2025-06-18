@@ -1,0 +1,92 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Comeback",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_Run90for22_ComebackLt_Deeper_CheatMotion",
+    "steps":  [
+                  {
+                      "guid":  "1642d029-0408-485e-a673-2e315222f9ef",
+                      "data":  {
+                                   "offsetY":  "-2.4",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-5",
+                                   "stance":  "TwoPointSquat"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "68122839-db30-4a80-87d0-1ebddb20d935",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-14",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-2.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "5261e5da-91c9-4f97-9444-06b9ac147296",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "d7f375b7-3a1f-46a8-9558-dc6aa5169167",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d615cc70-089e-419b-a7be-10027f5ba1a8",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_HITCH_COMEBACK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "50cb2592-998b-43f6-b542-e8ed54b126d3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "200",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "17edcd55-18c0-4c60-ac6b-a0f2bc96b34b",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "a3859556-0fb5-4a23-b707-ad54fb2676d1",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "906e7a7b-006b-42f7-a76d-436ae13b3520",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

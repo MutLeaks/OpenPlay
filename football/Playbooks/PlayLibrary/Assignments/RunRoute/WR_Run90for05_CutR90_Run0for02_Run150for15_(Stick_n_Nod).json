@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_N_Up",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for05_CutR90_Run0for02_Run150for15_(Stick_n_Nod)",
+    "steps":  [
+                  {
+                      "guid":  "fc38e1c3-68da-48ed-9854-ff936a5aff4a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "15",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "b7a359cf-a62f-4206-885b-6513fa75ae1a",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_STICKNOD",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "47190e59-b226-4f34-a4d8-950d305bb2da",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "150",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "6a0b3a8c-6647-4a90-adb7-0596fbbd4d0f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "9b2e59cf-6d91-430c-8a69-cdb6bad4cd81",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

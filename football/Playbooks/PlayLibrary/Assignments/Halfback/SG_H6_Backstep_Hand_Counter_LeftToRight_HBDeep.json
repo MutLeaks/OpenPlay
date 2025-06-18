@@ -1,0 +1,74 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Counter",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H6_Backstep_Hand_Counter_LeftToRight_HBDeep",
+    "steps":  [
+                  {
+                      "guid":  "b62aa2aa-f429-4088-b496-6178f434b665",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "44",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "42"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "68c099d0-e152-4939-928d-d251930700c0",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.112",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "107353e5-731a-4477-b48f-cf8bd85aab5e",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "135"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "26cd3202-7572-47ed-9b5d-9f6d5ec2fbd4",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "154",
+                                   "distance":  "0.75",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "041f4da7-e1c2-41d9-bb6e-9bfb8fef579e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "35",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "f57b5497-a33e-45f6-afa2-8311c7588b6b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "f5ee7aed-bb58-4ac0-80fb-3f851b8fedc6",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

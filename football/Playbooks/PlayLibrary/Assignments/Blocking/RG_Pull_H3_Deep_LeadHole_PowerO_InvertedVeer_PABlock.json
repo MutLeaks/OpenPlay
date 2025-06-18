@@ -1,0 +1,41 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RG_Pull_H3_Deep_LeadHole_PowerO_InvertedVeer_PABlock",
+    "steps":  [
+                  {
+                      "guid":  "dfbc44d4-624a-4f8d-8c1d-52cd09e0e977",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_SKIP_PULL",
+                                   "direction":  "181"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "51d3bb99-c509-4c5b-8a88-98e1e623a88d",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_WHAM"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "8a27a488-8bc4-47ca-9504-5892712f05ea",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "5a01e602-6630-4f7e-a850-88fe4ec05f60",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

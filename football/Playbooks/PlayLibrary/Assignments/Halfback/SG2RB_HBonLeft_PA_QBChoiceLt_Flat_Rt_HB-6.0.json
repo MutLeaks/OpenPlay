@@ -1,0 +1,84 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG2RB_HBonLeft_PA_QBChoiceLt_Flat_Rt_HB-6.0",
+    "steps":  [
+                  {
+                      "guid":  "b9b8cc7c-64cf-48d7-b018-d8c77717c1ef",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "86",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "88"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "14943c5c-f6cb-4996-bbd4-dd39695dc64c",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "536af7fb-f834-4196-b5a8-4ef75311712a",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "45"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "b94a72f9-5df3-4939-a26c-76b107bf6063",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "45",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "061f98a6-dfc5-4b6f-9452-d058e18de30c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "10",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "13402e34-c4cc-498a-ae42-af3ce130306e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "c9423620-2795-4eb0-af44-dad6616bf755",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "e44aa2fa-2901-4f11-9a49-d4f85e03d9c1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

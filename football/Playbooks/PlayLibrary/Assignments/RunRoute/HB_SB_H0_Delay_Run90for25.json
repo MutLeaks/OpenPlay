@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_H0_Delay_Run90for25",
+    "steps":  [
+                  {
+                      "guid":  "423e984f-f2f9-4eaa-811a-3bb7b3229467",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.35",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "57376c7b-e76f-46c9-95c9-0aa6573ce158",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "45",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "cf8f8699-dba9-498c-93e9-0460995fd21f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "3feeab5c-f49c-4c30-ad33-324ea1972e4e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "a6f2d737-ddfc-4c45-a52f-4a53951b8f07",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

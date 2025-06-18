@@ -1,0 +1,66 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SG_OnRight_FlatLt_Offset",
+    "steps":  [
+                  {
+                      "guid":  "c1aad97a-2737-4832-a0b5-b5bf8c74b02b",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "c0d511ce-dbe8-48eb-a7fb-843df5c2c057",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e04ce62b-ab5a-47f9-a20b-f48eb4c34228",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "df603a0d-c6b0-4ee8-b70f-7dc9f76349e0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "9d91893b-c2ca-4561-8e4e-9ac0c268ab40",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "bc295615-0bdd-424f-b928-bafcabe691ff",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

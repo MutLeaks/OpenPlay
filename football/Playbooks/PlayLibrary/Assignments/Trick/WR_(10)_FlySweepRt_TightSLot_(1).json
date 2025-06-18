@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_(10)_FlySweepRt_TightSLot_(1)",
+    "steps":  [
+                  {
+                      "guid":  "75cfd6c5-c17b-4130-bcfc-a4c6966c8f53",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "248",
+                                   "playerNum":  "HandoffPlayerSlot_O2",
+                                   "flippedHandoffAnim":  "249"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "7bffce9f-bf4c-490b-b1e4-d0c522a6f4f4",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "6",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "7cf87831-d7f3-4570-9fd5-6c6e694d3100",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "482c06e1-22a6-413f-b9bc-d14385c67a37",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "a46647de-4230-461e-a52c-bcf9303be3f7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "24",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "e9d8909e-63c0-4d07-8ee6-4471ea55d9ff",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "57bdfe6f-38e9-49aa-8209-00fb6bd53e60",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Corner_Post",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_Run115__Corner_Post",
+    "steps":  [
+                  {
+                      "guid":  "407c9f8d-c6b3-4639-9ac2-ae97f041ccfd",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "3d5b6667-65df-4b8c-983c-fedd06b128d3",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_POSTCORNER",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "e0abfd18-8f2b-4c9b-8632-996fd033963c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "120",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "3dccd1b9-e49a-4da5-a441-0df7c7fb449f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "7bb370ca-83a5-4c83-8a2f-581a70dab9ce",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

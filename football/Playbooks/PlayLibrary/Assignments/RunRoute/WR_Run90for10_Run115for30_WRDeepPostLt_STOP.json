@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Stop",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_Run115for30_WRDeepPostLt_STOP",
+    "steps":  [
+                  {
+                      "guid":  "cffcf5c8-6041-45dd-adde-b72311afdfdc",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "22159139-0ffc-49eb-9210-97d8d5fccd3a",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "738d1f2b-fde4-452b-a35a-eabeba845eb0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "140",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "eb781741-7ad7-4414-910e-fe503882f635",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "befd15dd-30a4-48b9-9339-150cd01c65ee",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "e8eb4781-9bef-4153-99cd-aaaf658d30d6",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "c839d31d-cdf8-4b1d-a3ae-490cdaaa13da",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,79 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_ALL_SwingLt_DBL_Pass",
+    "steps":  [
+                  {
+                      "guid":  "a2b3150e-ba1f-4baf-adf7-c910a139ce9d",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "200"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "74d9068e-d8a8-4872-a58a-27a6c5f03a17",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "200",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "473b32d8-f801-4f8f-aeab-b5cd6925d5c3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "185",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "40a97a9d-40a5-4b86-bdcc-90b5142b934d",
+                      "data":  {
+                                   "overrideFacingDirection":  "True",
+                                   "direction":  "180",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "2cf1a929-a8a2-4c1a-b744-bccaa157c454",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "80dff973-6df4-476d-b9f2-1fee7ef4d359",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "0c7f6615-97c1-4680-8e47-f92e56a03135",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

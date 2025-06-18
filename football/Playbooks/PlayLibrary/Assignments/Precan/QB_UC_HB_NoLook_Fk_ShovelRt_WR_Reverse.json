@@ -1,0 +1,31 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_NoLook_Fk_ShovelRt_WR_Reverse",
+    "steps":  [
+                  {
+                      "guid":  "7d5e2421-0712-4b8e-a1db-d57ea61e404a",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "110",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "109"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "aca68492-3d23-4fd6-91db-dc234e142925",
+                      "data":  {
+                                   "direction":  "180",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "guid":  "94d9c49e-bce1-432d-878a-ddee307f8ca6",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

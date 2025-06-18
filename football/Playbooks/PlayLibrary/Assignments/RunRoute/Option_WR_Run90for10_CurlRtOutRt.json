@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Curl_Dig",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for10_CurlRtOutRt",
+    "steps":  [
+                  {
+                      "guid":  "51bc39db-507e-481a-8d06-64b36917468e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d4e03d4b-ee46-41c5-ac48-8b0653eb7cac",
+                      "data":  {
+                                   "optionRoute2":  "9",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "1"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "b22eeb45-1e82-4ebf-baf8-4d4419d84d7f",
+                      "data":  {
+                                   "optionRoute2":  "15",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "32d20e05-55a5-4e63-a953-eb30c5868d82",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

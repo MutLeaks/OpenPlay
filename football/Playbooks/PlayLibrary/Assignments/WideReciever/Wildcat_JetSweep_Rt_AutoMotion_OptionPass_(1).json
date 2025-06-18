@@ -1,0 +1,66 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Wildcat_JetSweep_Rt_AutoMotion_OptionPass_(1)",
+    "steps":  [
+                  {
+                      "guid":  "f9779ad2-afd7-4377-b931-d22f3b10a9b5",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-7",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "60",
+                                   "offsetY":  "-4.65",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "2e706544-1a44-4a13-b34d-2fd7522d21dc",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "271b5d00-6fec-4242-86b2-e6a47e9e2691",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "cfa61fc7-f1e6-4090-bb82-076e2fa9df9a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "717cb26f-23e7-48a6-bc3d-b925217c2262",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "3df8ba57-7bce-4119-9244-9aa14beb8662",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

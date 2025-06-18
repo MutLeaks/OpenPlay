@@ -1,0 +1,38 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_3Step_Yard",
+    "steps":  [
+                  {
+                      "guid":  "8faf3190-1f9a-406c-a7de-288986a14842",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "134",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "134"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "37d1ac7e-0d01-4c58-8158-01d00c4065b0",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-0.6",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "8851187b-21d7-4144-944f-8c341db0fc00",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_QBDROP_SG_3_STEP"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  }
+              ]
+}

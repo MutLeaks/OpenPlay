@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_EvenLeft_InsideZoneRt_RPO_P3",
+    "steps":  [
+                  {
+                      "guid":  "2cc39cce-dff1-4a5d-a32a-8ad200f977a9",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "149",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "143"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "96704068-5252-459b-93a3-a78844cc0165",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_BEHIND",
+                                   "pitchPlayerNum":  "3"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "fd10982e-18cc-44ee-9ff7-052cce0945d2",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "0be3538c-3b7e-4885-a348-71e12c19081c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

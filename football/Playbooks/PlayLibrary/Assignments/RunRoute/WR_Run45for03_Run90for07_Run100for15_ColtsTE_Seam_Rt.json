@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run45for03_Run90for07_Run100for15_ColtsTE_Seam_Rt",
+    "steps":  [
+                  {
+                      "guid":  "aa7536c8-7298-4229-ba8e-058c6613a4ce",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "65",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "f01924c9-d86a-465b-9042-0b65be6ef7cf",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "4.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "69cd15a9-7a7f-4da5-a12c-8e1da69ec6bc",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "100",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "cc5e4d82-8384-4747-8438-3ea92b4990e3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "501a978b-62b8-4657-b4ba-b206ada8612d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

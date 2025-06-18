@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Play_Action",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_BehindLeft_PA_BehindRt_Dropback",
+    "steps":  [
+                  {
+                      "guid":  "963b7bc4-6f41-4ca2-82f3-6fdd539410d9",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "242",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "243"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "0ac4cab2-d3fb-4097-b855-87d6ec010687",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_NORMAL_PA_RIGHT",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "8cc396d8-2da4-49a9-88a8-3343a931f083",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "19876fb0-55b0-464a-8f3c-bace90a59b7f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

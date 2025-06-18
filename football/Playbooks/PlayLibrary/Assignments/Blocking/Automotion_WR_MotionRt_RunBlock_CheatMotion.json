@@ -1,0 +1,65 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_MotionRt_RunBlock_CheatMotion",
+    "steps":  [
+                  {
+                      "guid":  "92fceda0-23e3-401d-ad11-e79cf92aad20",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-1",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "90",
+                                   "offsetY":  "-6",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "83a300ca-0a8b-4c05-8331-f13a6e621219",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "64952774-b621-4bc4-a7e9-1ae4ba3d2fb9",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "190",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "e0b43c8c-d3cd-4f46-b67c-c1e07f20ec04",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "1af26c20-d9f9-4148-9fac-c9a265e17204",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "29c5f9e6-5b84-49df-932a-e6077253f824",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

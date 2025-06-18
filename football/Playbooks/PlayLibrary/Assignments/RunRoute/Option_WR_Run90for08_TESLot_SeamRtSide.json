@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Seam_Bender",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for08_TESLot_SeamRtSide",
+    "steps":  [
+                  {
+                      "guid":  "83109ff2-3a86-42df-a301-484c96e80e2f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "0b3a273b-9e66-46f8-9cbb-5309bb8a4ecc",
+                      "data":  {
+                                   "optionRoute2":  "3",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "8"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "c1e453da-5b49-4380-bf41-501fd111d540",
+                      "data":  {
+                                   "optionRoute2":  "21",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "1246f2c0-57c1-4e6d-bc76-77dd23991cae",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

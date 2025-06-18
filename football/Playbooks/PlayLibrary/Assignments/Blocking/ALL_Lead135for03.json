@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead135for03",
+    "steps":  [
+                  {
+                      "guid":  "febc47e0-94d6-4b4d-949f-3687c29145be",
+                      "data":  {
+                                   "blockingGap":  "B_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_HOLE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "c4ddff47-639c-41ce-b2cc-f2fd46ecea48",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

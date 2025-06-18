@@ -1,0 +1,38 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OptionRoute/7_Step_Optoin_Stem",
+    "steps":  [
+                  {
+                      "guid":  "22f993a1-1d53-4a99-99b7-a4f09ffa3d35",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "517237c8-154e-479b-9142-82515d93eafc",
+                      "data":  {
+                                   "optionRoute2":  "36",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "10"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "4da540f4-ed73-4e47-862a-8831de33fc46",
+                      "data":  {
+                                   "optionRoute2":  "64",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  }
+              ]
+}

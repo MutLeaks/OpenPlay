@@ -1,0 +1,124 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_ALL_SwingRt_Flatter",
+    "steps":  [
+                  {
+                      "guid":  "3e5bd5fc-28a7-452c-be2f-f86646105b2b",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "340"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "9e0c0b89-8d16-4b51-aef8-577cb7a7b031",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "340",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ad1480fa-7ac0-4e4b-ba5e-e215b73651b2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e3b9da08-3e60-4e71-9e0d-c9d48aeeba32",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "10",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "c829eace-45c4-498e-b01e-089e05fa781d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "20",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "824003f6-52c9-4397-9e22-b98058df4f0e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "50",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "94366df5-ab31-491c-ac2a-b5ed45964791",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "70",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "fa2b50ce-a1da-4d4d-8c6e-aa4b9135a359",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "80d193a4-5ba1-4661-a952-e9eb7489a822",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "ca1a05f8-1bb8-4d2a-9abd-03e440db207c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "98366696-8a68-427a-9e6c-c9214e226578",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

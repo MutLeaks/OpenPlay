@@ -1,0 +1,57 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Dig_Post",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for08_TERtPostDig_DivideSwap",
+    "steps":  [
+                  {
+                      "guid":  "5fef23a7-72a5-487e-94a1-439f833b2d53",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "129.155",
+                                   "distance":  "3.840466",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "51ce2ea8-4fd1-401f-96aa-c99058665870",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "11",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e3d708de-db55-4f37-af47-1c1fcf0e1a34",
+                      "data":  {
+                                   "optionRoute2":  "7",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "10",
+                                   "optionRoute1":  "3"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "fcc92c15-2e6e-41f5-9655-0e625c5db01b",
+                      "data":  {
+                                   "optionRoute2":  "21",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "64",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "4408822d-8b0f-4214-9e1a-0cda5d6c935d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_OptionLt_Wide",
+    "steps":  [
+                  {
+                      "guid":  "96c6a720-72c7-479f-9375-55728b7e5cb4",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "00639c71-4b4c-44aa-ab39-1724b6ae5f6d",
+                      "data":  {
+                                   "offsetY":  "-4",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-5"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "2f9ea7ea-a4c0-4e92-ad7b-f1625eb3e321",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,34 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead165for06_WRScreen_SlotBlockLt_noPA",
+    "steps":  [
+                  {
+                      "guid":  "8aa08809-6c33-40b6-b2e0-84f2af146cba",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "165",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "f215692d-e2d6-4729-9268-848639360534",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ProtectReceiver",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "f379a681-4296-4664-a0db-403e6f5f1979",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

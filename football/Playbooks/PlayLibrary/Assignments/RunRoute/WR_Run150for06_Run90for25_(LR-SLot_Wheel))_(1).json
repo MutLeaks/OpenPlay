@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run150for06_Run90for25_(LR-SLot_Wheel))_(1)",
+    "steps":  [
+                  {
+                      "guid":  "b8699886-8cd8-42a4-a990-95e9e6333188",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "145",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ba1c03d2-e70f-48c8-b7a2-b73c903e9a05",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "83877b30-d659-4550-872c-ca427ec78c85",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "100",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "9b06ebb4-3be1-4905-8fec-c9d9f08e733a",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "c040a6e4-b76e-44aa-bd8b-8d4245998f1f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

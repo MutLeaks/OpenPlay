@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_TwinTE_Left_StrongI_Lead_170for08_PassBlock",
+    "steps":  [
+                  {
+                      "guid":  "9da38231-3eb6-4265-b4ec-4073c4392441",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "1.75",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "35",
+                                   "offsetY":  "-2.4",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "44278a4a-6cc4-4306-ba85-6c996f20f175",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "2.9",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "25",
+                                   "offsetY":  "3.45",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "2bd08f49-84c2-4848-83a9-d62ba02cdb93",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "11861b30-7b74-40c5-8269-b5943b747539",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "bb6f3e14-c9e1-48c5-a20e-7f43b90fe617",
+                      "data":  {
+                                   "blockingGap":  "C_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "716ab23b-57ca-433a-b7ff-9d4d8644dafd",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

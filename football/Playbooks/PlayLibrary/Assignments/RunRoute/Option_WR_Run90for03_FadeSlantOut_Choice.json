@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Out_Fade_Slant",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for03_FadeSlantOut_Choice",
+    "steps":  [
+                  {
+                      "guid":  "7be4fd93-8209-41d2-b6fd-69df5e361fff",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "56e51537-f5cf-440c-a12e-f14e1f8d8490",
+                      "data":  {
+                                   "optionRoute2":  "5",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "6",
+                                   "optionRoute1":  "10"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "02fb34cd-792f-4688-9920-47009b3117b8",
+                      "data":  {
+                                   "optionRoute2":  "5",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "23",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "1c777511-c845-4f3f-9144-1a00d3795b5c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "2b6f7d71-6e75-4607-b4b5-3a610494676d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

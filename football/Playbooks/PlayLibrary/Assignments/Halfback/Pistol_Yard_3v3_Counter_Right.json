@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Counter",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/Pistol_Yard_3v3_Counter_Right",
+    "steps":  [
+                  {
+                      "guid":  "a09b7035-3992-4304-ab37-ff72f907284b",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "4",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "212"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "5c9d1b51-c86b-4872-ad25-24357851b983",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "120"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "01461f6d-da7d-43d1-8585-fa9eed32b6cc",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "120",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "84b79aa6-94e4-44c9-a473-499d8435b363",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Special/Punt/Punt_2",
+                 "playName":  "Punt 2",
+                 "playId":  "23758",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "bcc0b483-0fb4-4db6-8291-4ecc1b98e49f",
+                 "offensePlayType":  "OffensePlayType_Punt",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Special/Punt/Punt [77faedc1-c1fa-4f9d-ae10-d0d35d2ce27c]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Punter/Punt",
+                            "guid":  "213b9f6d-844b-49c8-b080-1698a1fa6e3a",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Punt",
+                            "guid":  "68728dbd-8c23-40bb-8fea-b9cb8b926964",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Punt",
+                            "guid":  "68728dbd-8c23-40bb-8fea-b9cb8b926964",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_ChaseBall",
+                            "guid":  "52d9d9f0-3547-4ec8-8511-1fb7a7a9c21c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_ChaseBall",
+                            "guid":  "52d9d9f0-3547-4ec8-8511-1fb7a7a9c21c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Punt",
+                            "guid":  "68728dbd-8c23-40bb-8fea-b9cb8b926964",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.8_ChaseBall_Line",
+                            "guid":  "2e6d289f-dd29-4bea-8de6-e4903c14f59c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.8_ChaseBall_Line",
+                            "guid":  "2e6d289f-dd29-4bea-8de6-e4903c14f59c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.8_ChaseBall_Line",
+                            "guid":  "2e6d289f-dd29-4bea-8de6-e4903c14f59c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.8_ChaseBall_Line",
+                            "guid":  "2e6d289f-dd29-4bea-8de6-e4903c14f59c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.8_ChaseBall_Line",
+                            "guid":  "2e6d289f-dd29-4bea-8de6-e4903c14f59c",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

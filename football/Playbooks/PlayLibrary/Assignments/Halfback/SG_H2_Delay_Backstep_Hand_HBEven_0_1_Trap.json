@@ -1,0 +1,62 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Dive",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H2_Delay_Backstep_Hand_HBEven_0_1_Trap",
+    "steps":  [
+                  {
+                      "guid":  "15647096-f6f4-4165-a2a7-237b08de0a7f",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "168",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "166"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "7b7e065d-6932-4cfa-b71d-c6ee7ca6b706",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.27",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "f0ec855b-dc9b-4e41-be51-e629ce350a77",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HOPSTEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "b3e2ff18-53aa-4447-936b-3a9141fde3fd",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "b336366a-5389-429d-9355-d244f2b09d9b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "501b2fef-8209-457b-92d8-1aa7a4fc1c5b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Slot_Rt_FAKE_Double_Pass_AutoMotion_FromSlotRt_toSlotLt",
+    "steps":  [
+                  {
+                      "guid":  "493c1373-45a3-4a04-aa84-acd6be5f6d32",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-10",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "85",
+                                   "offsetY":  "-5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "f2dcdd1d-0ab5-4917-bbd8-e2f61a0a99d9",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-13.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "50",
+                                   "offsetY":  "7",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "cb05fa4b-d6ce-41d8-b702-f7ca42a94ab4",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "8a927654-76b2-499a-a4cf-01d95818f2d6",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "940b30fd-8008-4254-9226-0958760ca9a7",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "f12da5f8-1667-4242-abab-144aed389dad",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "819e3acc-d94e-49da-9575-464bafcaf46d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

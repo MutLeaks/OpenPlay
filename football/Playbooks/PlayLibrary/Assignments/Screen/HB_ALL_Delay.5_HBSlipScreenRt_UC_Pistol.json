@@ -1,0 +1,74 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Screen_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/HB_ALL_Delay.5_HBSlipScreenRt_UC_Pistol",
+    "steps":  [
+                  {
+                      "guid":  "55e43184-33ca-4ed4-afeb-8909c0f41dfe",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "b5136951-17f9-41e5-9196-1467ee21a193",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "40",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "41",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "e5e47183-5f2c-424c-adb4-b5f12c3f8e95",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.1",
+                                   "timeNGPM":  "0.1"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "5d73ddb6-6f82-40b6-8ed4-02283828df71",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d495eedd-c41c-4223-adfd-e79b2f870d7a",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "1e20825d-c889-4a05-a79d-7d77006aef36",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "fca7d414-dad9-453f-9dc2-8273a99143fc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Comeback_Fade",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for12_WR_Rt_Streak_Comeback",
+    "steps":  [
+                  {
+                      "guid":  "18768a3e-8f27-4a87-af51-e19a204182bf",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "92b55306-04d3-4649-9cda-b11c8c37d714",
+                      "data":  {
+                                   "optionRoute2":  "13",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "8"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "a14080b7-3679-4e28-bdd6-9d441ac8b6a4",
+                      "data":  {
+                                   "optionRoute2":  "76",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "d718c99f-c8b3-48f8-9fe1-f26ad4647a2a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

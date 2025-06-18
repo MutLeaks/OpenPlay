@@ -1,0 +1,87 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_MotionLt_WheelLt_MoveDir_CheatMotion",
+    "steps":  [
+                  {
+                      "guid":  "fdaa590c-df39-46a9-9c18-4171dfcfb073",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "6.9",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-3.25",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "4bd25759-925c-4e38-862c-17f4110fe03f",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-10",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "95506ace-5106-4b6e-8ae0-ebde155ffd1c",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "9b488938-af41-41c1-9156-616f08b0c93e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "150",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "4e5af383-351c-4f18-94e9-4098522a5c42",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "6345c56c-a6ce-48ef-b2b0-fae9d0c0d91d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "6d5a882e-7866-49ed-9c98-30ab0b1dfc33",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "db5370b6-7b66-4640-ade5-20359157bc5b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

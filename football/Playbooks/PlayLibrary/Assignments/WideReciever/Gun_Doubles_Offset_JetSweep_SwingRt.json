@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Gun_Doubles_Offset_JetSweep_SwingRt",
+    "steps":  [
+                  {
+                      "guid":  "fbec851a-e264-4c43-88af-13f90d883e5e",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "52",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "53"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "413a45bc-a9f3-4bb5-be5b-49943e574137",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-5.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "65",
+                                   "offsetY":  "-4.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "eb0c60e9-5e38-46ed-b725-5241e8aa1149",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "de814d3b-2bbd-4988-abec-f3fe5986674f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "14",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "b64961c5-958a-41e7-8682-fe43dbf4dc99",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "3",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e233dabd-d84f-4d34-b7d3-3b315bb34134",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "f026b79d-5b51-4d7c-9ab0-906fcb4cfafd",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

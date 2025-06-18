@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run150for06_Run90for25_(LR-SLot_Wheel))_BroncosRubWheel",
+    "steps":  [
+                  {
+                      "guid":  "c4f64a51-ffa1-4581-b4c0-030f3ea4d914",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "155",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "0b451d20-2544-40d2-98f3-41b3f1bc6dad",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "100",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5de4edef-fff3-4c60-9cb1-3ef66ada6ea5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "c29ea32b-4b95-4bf0-8819-94b50bd4467d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

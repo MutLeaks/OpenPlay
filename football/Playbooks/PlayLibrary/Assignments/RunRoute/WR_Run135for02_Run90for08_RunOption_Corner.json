@@ -1,0 +1,64 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run135for02_Run90for08_RunOption_Corner",
+    "steps":  [
+                  {
+                      "guid":  "9fa568e5-1499-4334-b0fe-d72c5f446859",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "125",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5657552b-b92a-4488-9d4a-0d5940e5323d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "75b98617-2ea0-4bbb-b62f-9d8f6500e12a",
+                      "data":  {
+                                   "optionRoute2":  "2",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "8"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "b6650a2d-9b26-4660-9264-f927f526d702",
+                      "data":  {
+                                   "optionRoute2":  "126",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "33"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "909d7da4-e597-436d-b080-8efd5c552d8f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "80325823-402e-4487-815b-4f403c8643fa",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

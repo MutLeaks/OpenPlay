@@ -1,0 +1,102 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_Fk_Reverse_Fk_Shovel_Rt",
+    "steps":  [
+                  {
+                      "guid":  "f47c6fbf-b8a9-4314-be0c-50365e52b255",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "110",
+                                   "playerNum":  "HandoffPlayerSlot_O2",
+                                   "flippedHandoffAnim":  "109"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "f9c764a6-9d05-4603-a84b-0cd23e286ccb",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "325",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "cae36758-b702-467f-96e9-a7b8a5c05d89",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "355",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "ec8d247a-3d10-446c-872b-15e3d17c9784",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "15",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "86b7d764-c3c9-4fb0-b2d5-4d491f1c0216",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "35",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d4ff8936-68de-413a-bf19-823b4b0ce946",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "65",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "8999826f-3eb5-4e2c-bf44-956149f4fdaa",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "95",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "618b07f5-f7c3-4f35-a2a7-cfdfa54e07f8",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "b8ebbd57-4e40-4db9-aa59-d0b8c1d5f1e8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

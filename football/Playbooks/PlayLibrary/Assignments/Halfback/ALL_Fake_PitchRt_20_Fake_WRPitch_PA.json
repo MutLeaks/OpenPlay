@@ -1,0 +1,86 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/ALL_Fake_PitchRt_20_Fake_WRPitch_PA",
+    "steps":  [
+                  {
+                      "guid":  "c652bdd0-4f75-43cd-b6b3-0eb5572311a2",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "116",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "115"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "4c579fec-6676-4d00-bf98-f2ef2ed80f76",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HBRECPITCH",
+                                   "direction":  "15"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "dfcc3c36-a0ce-43f5-ad47-51c714c95520",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "10",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "45",
+                                   "opCodeEX":  "ID_RECPITCH"
+                               },
+                      "type":  "RecievePitchAssignment"
+                  },
+                  {
+                      "guid":  "2f9bf25b-4772-44a7-8605-f0fa4d3ab68c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "35",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "48a26aab-4023-4f9a-8583-f65da7632cc7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "10",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "86c3a1fb-504c-49a4-a139-f03d0efc1e1e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "fdca765e-c713-434a-be68-b5f821905e8e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "118466ab-acd2-4f6e-a6ac-cb2165507b62",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

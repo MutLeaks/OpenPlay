@@ -1,0 +1,39 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OptionRoute/HitchRight",
+    "steps":  [
+                  {
+                      "guid":  "fb8f047c-9d45-4893-9994-7e1fd995833e",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH_QUICK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "dea25b9f-59fd-4e0e-ba80-4aa7e24b7768",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "24659b7d-877d-4b86-82c8-bc1a37aead14",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "6dcd3e95-3b6d-47aa-a5d2-a5f62efcdfd5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

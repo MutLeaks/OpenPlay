@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_Fade",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_DeepReadLt_OffBall_Straight",
+    "steps":  [
+                  {
+                      "guid":  "407a5600-b4ec-45e6-b7d1-812a2771c87d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "b6b80ab9-fe6b-4059-97b3-4105fdbccdde",
+                      "data":  {
+                                   "optionRoute2":  "8",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "900f686a-4799-4516-8ae4-6e48c9619d84",
+                      "data":  {
+                                   "optionRoute2":  "192",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "e1739c00-f2db-4d0e-8357-377caa1dbe85",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "9ea23452-851d-4ac6-93fc-1ee7a51abf94",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

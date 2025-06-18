@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Curl_Dig",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for12_CurlRtOutRt",
+    "steps":  [
+                  {
+                      "guid":  "66639c08-f85e-46b1-be0e-4f3727c76ac3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "f93b49d1-7317-4161-8803-f41cb915f678",
+                      "data":  {
+                                   "optionRoute2":  "9",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "1"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "9a05874b-782f-4be2-b23b-213452a6a198",
+                      "data":  {
+                                   "optionRoute2":  "15",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "b9369d8a-9cfd-4b8a-9dfa-9bf7c430a0db",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

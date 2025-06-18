@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_Fade",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_DeepReadLt_OffBall",
+    "steps":  [
+                  {
+                      "guid":  "874765df-bb84-49e9-9a94-a1b9b8a6b59d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "95",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "f7bf1e7f-098e-474d-9909-cf0422fca43b",
+                      "data":  {
+                                   "optionRoute2":  "8",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "5b660fe2-989f-4651-bdb1-ce652961155f",
+                      "data":  {
+                                   "optionRoute2":  "192",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "ec479fbe-c6c4-4e79-a799-28c6df3ec06f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "ac37c939-3c47-40bf-902e-1b4532df6308",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

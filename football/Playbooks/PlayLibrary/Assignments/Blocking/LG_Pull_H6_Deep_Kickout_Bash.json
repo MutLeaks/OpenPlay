@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_Pull_H6_Deep_Kickout_Bash",
+    "steps":  [
+                  {
+                      "guid":  "51465d2a-a07b-4bf4-bb24-05c79ccbaf0c",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_TRAP_PULL",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "4d122713-89f6-408c-a4d8-fcb71152c6d9",
+                      "data":  {
+                                   "blockingGap":  "D_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_KICKOUT"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "16c143bb-35eb-4fce-ba6b-0f70f7d5e03e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

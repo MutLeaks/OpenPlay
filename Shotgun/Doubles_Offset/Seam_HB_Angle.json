@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Doubles_Offset/Seam_HB_Angle",
+                 "playName":  "Seam HB Angle",
+                 "playId":  "27511",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "699314b5-b770-4711-b17e-741f8c2953ad",
+                 "offensePlayType":  "OffensePlayType_PassShotgun",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Doubles_Offset/Doubles_Offset [c810a502-e511-4c23-a94f-cbacbe214499]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_3Step",
+                            "guid":  "8acdff98-3876-4349-af74-4a1a5da8bd4f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run45for05_CutL90_Run135for15_SplitBacks_AngleLt",
+                            "guid":  "c8c6d7fb-5f45-4f53-a140-53cbad89810b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_CurlRt",
+                            "guid":  "14e2c245-014b-4fac-b8c5-dfb7e9c4e927",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_CurlRt",
+                            "guid":  "14e2c245-014b-4fac-b8c5-dfb7e9c4e927",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90For04_WRStreakRt_OutsideRelease15",
+                            "guid":  "20f23955-c66e-4af3-8d76-08a910860df8",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for08_TESLot_SeamRtSide",
+                            "guid":  "84428aab-fe93-4088-9d06-3f35b347c9e0",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Pinch",
+                            "guid":  "f0cecad5-6a58-4ce4-aaff-d234376f1578",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Pinch",
+                            "guid":  "f0cecad5-6a58-4ce4-aaff-d234376f1578",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Pinch",
+                            "guid":  "f0cecad5-6a58-4ce4-aaff-d234376f1578",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Pinch",
+                            "guid":  "f0cecad5-6a58-4ce4-aaff-d234376f1578",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Pinch",
+                            "guid":  "f0cecad5-6a58-4ce4-aaff-d234376f1578",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

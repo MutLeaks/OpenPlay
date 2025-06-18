@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_In_Short",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for01_Run30for15_StutterUnderRt",
+    "steps":  [
+                  {
+                      "guid":  "c850ad27-2e40-462c-99dd-015ae995963f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "82ce7a5e-17e5-4353-a8ef-bfdb188f1435",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90_INSIDE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "ad2b3e40-6424-49fa-8993-76a6b16c79c2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "5",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5277ce76-c344-459b-8a1f-3f253593dada",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "cdc59304-fd0d-454c-acc8-ea548410ed5f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

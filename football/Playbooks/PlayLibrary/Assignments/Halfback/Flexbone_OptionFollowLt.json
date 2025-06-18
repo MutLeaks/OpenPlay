@@ -1,0 +1,34 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/Flexbone_OptionFollowLt",
+    "steps":  [
+                  {
+                      "guid":  "e41b24d9-a281-4ac7-93aa-feb9bb321c01",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "220",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "fd6fbd5c-69fb-497e-a0a0-9f97535a469d",
+                      "data":  {
+                                   "offsetY":  "-4",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-5.5"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "1eaa85ee-bb0e-4575-b99e-92b3e47d3c4e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

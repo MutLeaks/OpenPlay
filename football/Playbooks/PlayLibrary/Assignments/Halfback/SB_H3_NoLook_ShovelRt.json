@@ -1,0 +1,64 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H3_NoLook_ShovelRt",
+    "steps":  [
+                  {
+                      "guid":  "05107f5b-e0d6-45db-a56c-beea663adb96",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "108",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "107"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "14d5272d-329c-4ffa-9ef6-1d9c9fb997fe",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "106"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "76cdaa70-ec3f-4b50-919f-8dfe162aad91",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "106",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "fffcfb53-d40e-4a62-aeb1-b650e4b0ee2e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "310",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "2",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "b73a948c-7038-483d-aebc-73124e48c760",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "d40e45fa-dc77-4dbd-8bcb-3f5ee30d112a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

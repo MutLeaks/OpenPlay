@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_Shotgun_H3_RunBlock_AutomotionLeft_Backside_Cutoff",
+    "steps":  [
+                  {
+                      "guid":  "fcf89a21-1ca0-42b1-9556-807cc4d68ea5",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "50",
+                                   "offsetY":  "-3.125",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "dacdff4e-3f2f-41d0-9163-52f410c22971",
+                      "data":  {
+                                   "shouldStopAtTarget":  "True",
+                                   "offsetX":  "-2.9",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "30",
+                                   "offsetY":  "3.5",
+                                   "stanceAtTarget":  "StanceType_2pt"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "058edf65-fe09-440e-b41b-27ccd34bf605",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "4ab965f3-52e5-460c-8a0d-7a7eb9f2ff42",
+                      "data":  {
+                                   "blockingGap":  "C_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "b8e9bd74-0fd5-4ac1-8814-0d9543db6787",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/AAA_DRILLS_Delay7",
+    "steps":  [
+                  {
+                      "guid":  "cee52bd6-100c-4174-927c-f3dbaaaefe4b",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "6.9",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "71a7afbb-5b3f-4091-98c4-5c08abbf273d",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  }
+              ]
+}

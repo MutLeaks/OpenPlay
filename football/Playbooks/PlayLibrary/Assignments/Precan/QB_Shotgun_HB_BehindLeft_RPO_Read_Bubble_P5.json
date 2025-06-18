@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_BehindLeft_RPO_Read_Bubble_P5",
+    "steps":  [
+                  {
+                      "guid":  "deb3c4f6-a7ef-4c1e-861f-f9ee02d010b4",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "28",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "22"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "896ad84d-82d9-4a5c-8437-c61f851ea702",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_BEHIND",
+                                   "pitchPlayerNum":  "5"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "a34dcc8b-e200-4199-8805-2a58bd3343a3",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "06474b3e-35cf-45b4-b294-cc13b1c38ae8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

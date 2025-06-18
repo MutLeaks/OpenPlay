@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Small_Sided/6_on_6_Empty_Trips/Trips_DBL_PASS_CPU_HB1",
+                 "playName":  "Trips DBL PASS CPU HB1",
+                 "playId":  "27050",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "90cbaf20-d0a9-4625-85c2-c08962a92672",
+                 "offensePlayType":  "OffensePlayType_DoublePass",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Small_Sided/6_on_6_Empty_Trips/6_on_6_Empty_Trips [ca7c3499-2450-4f47-ac22-032675d57446]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run60for08_Run25for20_SlotCrossRt_Flatter_YARD",
+                            "guid":  "49e8e52e-5418-4617-b6bf-0b33fea6daf8",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Run260for02_YARD_DBL_PASS",
+                            "guid":  "b35cd22f-ae49-481e-a384-3083c0c48ed7",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run150for06_Run90for25_(LR-SLot_Wheel))_(1)",
+                            "guid":  "d299694e-507c-4ecc-901e-03da6306e053",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_CutR45_Run45for15_Flatter",
+                            "guid":  "976d6789-1948-4ee4-847f-734c0a14e7f0",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for03_CutR90_Run0for15",
+                            "guid":  "8f99e3b0-7ffb-4b7c-a4c0-2181fd4255b2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_CutR90_Run0for15_NewFakeCut_Shorter",
+                            "guid":  "f203d76c-54d6-4125-b365-4f18e338dd76",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/All/DIsabled_Tutorial_Mode",
+                            "guid":  "de160619-77b6-4388-a58b-09c612b389fe",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/All/DIsabled_Tutorial_Mode",
+                            "guid":  "de160619-77b6-4388-a58b-09c612b389fe",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/All/DIsabled_Tutorial_Mode",
+                            "guid":  "de160619-77b6-4388-a58b-09c612b389fe",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/All/DIsabled_Tutorial_Mode",
+                            "guid":  "de160619-77b6-4388-a58b-09c612b389fe",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

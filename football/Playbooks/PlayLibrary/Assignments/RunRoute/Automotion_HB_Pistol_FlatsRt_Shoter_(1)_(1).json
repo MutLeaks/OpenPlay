@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_HB_Pistol_FlatsRt_Shoter_(1)_(1)",
+    "steps":  [
+                  {
+                      "guid":  "62e67fd9-5b6b-454f-93fb-b709dd14d80e",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "6.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "65",
+                                   "offsetY":  "-5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "8b0b7720-5fa8-43d8-aac5-be7c241b7c04",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "1ca45d0d-2801-4509-86ed-304dfd1cb2a3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "31",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "4f2c8d81-1fcf-4613-833a-324a7b53cfc9",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "be657fe0-9300-4242-9292-b1f0db31faaa",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "9",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "3d10073c-f0d1-455c-8cfd-8d6642e7dde7",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "61693c3b-f856-4686-858c-695cf98b40be",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

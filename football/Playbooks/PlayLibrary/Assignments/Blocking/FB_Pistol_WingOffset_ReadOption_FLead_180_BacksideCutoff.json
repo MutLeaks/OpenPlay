@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_Pistol_WingOffset_ReadOption_FLead_180_BacksideCutoff",
+    "steps":  [
+                  {
+                      "guid":  "5630c866-fb46-4579-bac9-9be5dc0b3e14",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "bc40fc84-2892-4c3a-8d6b-1b6d7503dc20",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "932afe29-b87a-4e34-9db9-0f4542562cec",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

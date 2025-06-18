@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run20for15_Run10for20_SlantFlatterRt",
+    "steps":  [
+                  {
+                      "guid":  "ddda1063-75a9-4567-ab3e-f8be46a16648",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "cd1ebf2b-3327-40e3-9b40-a5a776cd49d5",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "15",
+                                   "distance":  "28",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "1447bddd-1498-4eb1-8188-d912ac0553cd",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "2addff48-a2dc-4350-8128-5391f85404c5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

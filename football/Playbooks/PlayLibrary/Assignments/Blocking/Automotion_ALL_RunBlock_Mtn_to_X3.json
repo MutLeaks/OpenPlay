@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_ALL_RunBlock_Mtn_to_X3",
+    "steps":  [
+                  {
+                      "guid":  "7a344936-19c6-471b-a797-775d25c5db6f",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "5.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "30",
+                                   "offsetY":  "-3",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "6fd726f3-f988-4856-8e0d-19977ace6f89",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "4",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "25",
+                                   "offsetY":  "3",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "ac3c5e3f-aa34-4ff6-9f2a-929d2e56642a",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "58302fd8-456b-426b-9499-dc9830a61cc4",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "724e453e-8388-4a1b-8d3b-903567298d15",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

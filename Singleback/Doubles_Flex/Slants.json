@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Singleback/Doubles_Flex/Slants",
+                 "playName":  "Slants",
+                 "playId":  "8591",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "37e199db-5800-40be-8bef-61769f59b37f",
+                 "offensePlayType":  "OffensePlayType_Pass3Step",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Singleback/Doubles_Flex/Doubles_Flex [a7271608-4aca-4b05-af7f-455ac7a0d8a8]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_3Step_Big",
+                            "guid":  "38bc8c7b-3adc-4c86-9356-d7aa200832b7",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/HB_SB_PassBlockRt",
+                            "guid":  "c342b2f6-a7fd-4d0c-8d40-487fa31eb905",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/RR_WR_All_SlotFlatsLt",
+                            "guid":  "071535a7-58e0-45f9-98fd-db15708dbde8",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for03_CutR45_Run45for20_Slant90_05",
+                            "guid":  "ec7984ad-0f76-4211-ab59-b739b81fc083",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for03_CutL45_Run135for20_(1)",
+                            "guid":  "1180842a-2fdc-4646-b03d-2fb2a194bee6",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_FlatsRt",
+                            "guid":  "13304b03-b8ee-463b-b8d5-70c7180e4538",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_ForceCutBlock",
+                            "guid":  "914548b5-a9d8-46c4-9042-7dc7e5ed4f53",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_AGGRESSIVE_3-Step",
+                            "guid":  "af91417e-9931-4dd5-a77d-22119e214b4c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_AGGRESSIVE_3-Step",
+                            "guid":  "af91417e-9931-4dd5-a77d-22119e214b4c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_AGGRESSIVE_3-Step",
+                            "guid":  "af91417e-9931-4dd5-a77d-22119e214b4c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_ForceCutBlock",
+                            "guid":  "914548b5-a9d8-46c4-9042-7dc7e5ed4f53",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

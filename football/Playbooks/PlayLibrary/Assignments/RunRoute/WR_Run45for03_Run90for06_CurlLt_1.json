@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_Medium",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run45for03_Run90for06_CurlLt_1",
+    "steps":  [
+                  {
+                      "guid":  "a5a44186-02c3-4a06-9838-9e0447588104",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "38.43678",
+                                   "distance":  "4.42547",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "82755437-efcc-4322-85a9-5da186ba5155",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "76.62796",
+                                   "distance":  "6.31637",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "aa853013-3716-4960-b150-ee56143dae04",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "a615cf9d-76f5-43b3-bb03-bdf4547552ef",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH_QUICK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "4dc7e5fd-6b2e-4e12-b738-ceee961653d3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "1ce51522-0023-40be-a103-6174278e553e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

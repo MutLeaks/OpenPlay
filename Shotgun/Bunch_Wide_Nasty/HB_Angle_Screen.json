@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Bunch_Wide_Nasty/HB_Angle_Screen",
+                 "playName":  "HB Angle Screen",
+                 "playId":  "1541524502",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "72adeece-55f7-46bc-b3b5-c9a1b060e6c8",
+                 "offensePlayType":  "OffensePlayType_PassScreen",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Bunch_Wide_Nasty/Bunch_Wide_Nasty [6711ca21-4a80-40f0-ad91-d9407d88605a]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_Screen_Left",
+                            "guid":  "5bbae994-7df8-462d-a6eb-b59d370bff26",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_Run125for07_CutR90_Run45for15_TexasRt",
+                            "guid":  "30a871fd-7296-4ba3-8868-fa65fb7a409e",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead90for04_WRScreen_OUTSIDE",
+                            "guid":  "590d3d8e-70b8-4c0f-9aa5-89ece6017a00",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_SlantLt_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "a6285e43-fc0d-44b4-9ade-47a8bb8a4e92",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead90for04_WRScreen_OUTSIDE",
+                            "guid":  "590d3d8e-70b8-4c0f-9aa5-89ece6017a00",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_FlatsRt",
+                            "guid":  "13304b03-b8ee-463b-b8d5-70c7180e4538",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Slide_Right",
+                            "guid":  "a4e40778-a331-4ff6-83f6-0fe2361f220f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_Take_H0",
+                            "guid":  "c2d82acc-d1df-49ea-a795-b6a4b7c319ea",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/C_LeadScreen_Lt_Dolphins_Angle_Screen",
+                            "guid":  "bcaa4368-1130-4a3c-a248-7998505e5d5b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RG_LeadScreen_Lt_HBSlipScreen",
+                            "guid":  "377f0bc2-6898-48c0-8206-a1320235ac95",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

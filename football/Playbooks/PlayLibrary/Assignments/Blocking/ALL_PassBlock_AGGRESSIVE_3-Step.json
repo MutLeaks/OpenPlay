@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_AGGRESSIVE_3-Step",
+    "steps":  [
+                  {
+                      "guid":  "65898d71-df32-4ae7-bea7-e598058f1f6f",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "fb05c81d-a78f-47dc-a265-aa3f47d51bd3",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

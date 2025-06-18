@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Trey/HB_Delay",
+                 "playName":  "HB Delay",
+                 "playId":  "12934",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "f0dc5e46-a392-40da-8511-cdb99d05749a",
+                 "offensePlayType":  "OffensePlayType_RunDraw",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Trey/Trey [fab4bd03-c87d-4b9c-ad07-45a6b7cb8997]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_EvenRight_HBDraw_DropBack_3Steps_LowSnap",
+                            "guid":  "b9da37d6-f744-4907-b599-7843783fc545",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H2_Delay_Backstep_Hand",
+                            "guid":  "31a52c9c-3099-48d7-b84c-11f6147fc3f6",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_MovDirDis",
+                            "guid":  "68dabae5-448c-4f2c-a89b-fca5b67d419e",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlockLong",
+                            "guid":  "97072068-eccb-4580-a996-9fa24e72305d",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlockShort",
+                            "guid":  "8603f6f1-6d42-4fd9-a981-ef9708b41f0f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlockShort",
+                            "guid":  "8603f6f1-6d42-4fd9-a981-ef9708b41f0f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlockShort",
+                            "guid":  "8603f6f1-6d42-4fd9-a981-ef9708b41f0f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlockLong",
+                            "guid":  "97072068-eccb-4580-a996-9fa24e72305d",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

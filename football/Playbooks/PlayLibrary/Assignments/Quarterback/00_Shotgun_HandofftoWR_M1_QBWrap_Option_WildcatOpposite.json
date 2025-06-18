@@ -1,0 +1,30 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Option_Give",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/00_Shotgun_HandofftoWR_M1_QBWrap_Option_WildcatOpposite",
+    "steps":  [
+                  {
+                      "guid":  "afbc93ab-044f-427e-b3ce-ac1f27df5ff3",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "67",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "68"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "b28e1445-cdc1-4897-b759-cca2ff1bc1bb",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "b3273fd6-3058-4f75-9cc3-bb10dfaaf2e5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

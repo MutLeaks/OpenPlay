@@ -1,0 +1,31 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_FG_Fake_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/FGSpotFake_Pass",
+    "steps":  [
+                  {
+                      "guid":  "8ba7e2e9-3003-482b-aa11-949fcbb9b783",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_FGSPOT"
+                               },
+                      "type":  "FGSpotAssignment"
+                  },
+                  {
+                      "guid":  "492f16c6-46dd-4858-94f5-ce0c553006da",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "189a0a13-bc1a-4490-b6fe-038ffb87804d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

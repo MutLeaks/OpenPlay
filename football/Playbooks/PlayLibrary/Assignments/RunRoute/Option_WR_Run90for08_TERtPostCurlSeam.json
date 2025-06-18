@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Curl_Post_Seam",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for08_TERtPostCurlSeam",
+    "steps":  [
+                  {
+                      "guid":  "e533f54a-e9e2-4524-8898-5e6a298ebd7c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ebbf66e5-ce04-4597-a0e7-8459d5dee479",
+                      "data":  {
+                                   "optionRoute2":  "3",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "8",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "4db91a7b-eade-4227-8804-a1195ddb68a1",
+                      "data":  {
+                                   "optionRoute2":  "20",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "40",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "b7fefb54-1f1f-4987-92e2-4d11fa4cc91b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

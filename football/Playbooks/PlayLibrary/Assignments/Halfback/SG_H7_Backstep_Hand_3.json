@@ -1,0 +1,64 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Sweep",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H7_Backstep_Hand_3",
+    "steps":  [
+                  {
+                      "guid":  "ee7e40b7-c972-4da5-b0dd-bf7131c1419b",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "22",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "28"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "84d11968-0e8a-4011-9ada-d8c7c96c4e24",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "86658adf-27bd-44ae-b47c-6ed48227b66b",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "ea23aa86-6220-48fc-bd41-307a61520192",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "130",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "1ede9641-655c-4cc6-8c53-d0e0d891d0ff",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "0b995668-7935-4f9f-a7b7-58355e3ec854",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

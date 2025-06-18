@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_WingTE_RightWing_Lead_45for04_Shorter",
+    "steps":  [
+                  {
+                      "guid":  "be5435f5-679d-40b7-93a3-2eae6b8ca0a1",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "0",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "55",
+                                   "offsetY":  "-2.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "3ed7c9fe-cf36-4994-9d87-d51688bbe586",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "3",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "55",
+                                   "offsetY":  "2.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "5f7812c8-a1c6-4574-99e9-7c393513819f",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "4bdfb6ff-8471-46f2-9eb8-d6cb91b44a55",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "38"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "f241df3a-426b-465a-bedb-0ae100474c5d",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "851371aa-4787-459e-bdb1-efed86416ab7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,94 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_HB_RightWR_HitchLt",
+    "steps":  [
+                  {
+                      "guid":  "0519bc66-550f-49b8-950f-13f2b8fa5fa7",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "3.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "45",
+                                   "offsetY":  "-3.75",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "a91ba616-9b3e-438a-b6e8-c2d1d9dd2cfe",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "12",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "65",
+                                   "offsetY":  "-3.75",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "36eaf5d7-d5b1-43be-aa7e-bb4dd9370604",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "16",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "30",
+                                   "offsetY":  "3.75",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "e76ce80e-6f51-4ab1-a395-755e35a0e5d6",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "ad6b6df7-0d0c-4aa6-a073-6d24749f0974",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "0152e38d-0e13-4f69-956d-da7157ec8891",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "7792293e-9b19-4b54-91e7-2e7384af5efb",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "1479e219-eee0-452e-bef2-dae5fb3a4c9d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "9c11eefc-1d2b-451d-9a9a-f32e07a27e83",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

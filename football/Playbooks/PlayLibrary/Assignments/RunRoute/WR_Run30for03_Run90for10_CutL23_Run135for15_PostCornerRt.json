@@ -1,0 +1,74 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Corner_Post",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run30for03_Run90for10_CutL23_Run135for15_PostCornerRt",
+    "steps":  [
+                  {
+                      "guid":  "e37f9add-8090-4f40-a757-7ee6078298c7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "45",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "12d92496-0e2f-41f5-a3ae-293d953500f4",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "3f5b2e9b-29db-4ec1-a5d2-c014d9a54a69",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "db2cef5c-7c90-4c0d-a93f-d500b9c901e5",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_POSTCORNER",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "e8999775-1f80-4a6e-a9e0-9e4173f76c46",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "139",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "45a6bc5e-27b3-4bf2-89bc-9ebf4f9fba69",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "71a73dc7-cbb4-46e4-9b9b-2035f2350835",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_MotionToTE_Rt_WheelRT_Cheat",
+    "steps":  [
+                  {
+                      "guid":  "5dd88f5b-4a75-48e9-b686-bab063450973",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-2.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "a5266a45-f4b0-4c7b-bfb9-2752ac27b899",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "fc2ad302-0e9b-4ef8-83a3-147e2e4ab94a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "30",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "b69a1cba-187a-4475-9637-0a6c426d8061",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "75",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "b794f394-63ca-4cf5-b8da-b16d47dad02d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "814a011b-550d-4c35-b6f6-a810d0cb80b9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

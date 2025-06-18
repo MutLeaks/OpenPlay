@@ -1,0 +1,41 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Bubble_Right_Trips_Middle",
+    "steps":  [
+                  {
+                      "guid":  "e36b9bc5-3e7a-4fff-8405-29d92219fa4b",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_BUBBLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "96c8b6c1-90a9-433f-aeef-a816be62d8d5",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "40",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "1719fd83-5888-4b70-b216-036c65c6f308",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "5e27d33c-2075-48a3-9aa7-1281252a289c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

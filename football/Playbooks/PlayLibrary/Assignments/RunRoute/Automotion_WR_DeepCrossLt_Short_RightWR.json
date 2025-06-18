@@ -1,0 +1,75 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Cross",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_DeepCrossLt_Short_RightWR",
+    "steps":  [
+                  {
+                      "guid":  "e777629a-5d01-498c-b442-4657305f5d36",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "12.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "50",
+                                   "offsetY":  "2.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "61a0e463-b3cd-42a0-9339-c654bca2c2ba",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "60bd6831-9984-4c2c-b25e-e4578a75c2aa",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "121.293",
+                                   "distance":  "14.74041",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "399463cf-b1b5-4a0f-9efe-a26496ca0071",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "130",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e581523d-db97-4e48-9c8c-a155f62e05b4",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "47b68da8-12ed-4baa-b97f-613df0349a34",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "5b394268-2edc-4a70-95b4-cafcb6bfec5a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/U_Off_Trips/Counter",
+                 "playName":  "Counter",
+                 "playId":  "4199592531",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "9234169a-dbed-40bd-83bd-4789bd613b8d",
+                 "offensePlayType":  "OffensePlayType_QBRun",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/U_Off_Trips/U_Off_Trips [e369dd8c-c9b5-438e-a465-a3ae59e281d5]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/StrongCounter [6bde732e-0da3-454d-bb72-2a6cbb50133e]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/00_Shotgun_HandofftoWR_M1_QBWrap_Option_WildcatOpposite_(1)",
+                            "guid":  "2463eea5-da85-4d09-a8d1-92e9142a8cb6",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/HB_ShotgunOffset_H5_Lead_QBCounterLt",
+                            "guid":  "fdf71092-f3ca-4cec-b8dc-7ae895006aa3",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_Shotgun_H5_Lead",
+                            "guid":  "cf484e5a-7e80-4366-922a-2e6e708083fc",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlockFwd",
+                            "guid":  "5a84e89b-609c-41f4-b417-f6a2507f1fa2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Wildcat_JetSweep_Rt_AutoMotion(4)_OFP_X-10_OnBall",
+                            "guid":  "a0013e42-c192-4ccc-8611-4fe406f71cf4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RG_Pull_H7_Deep_CounterWk_Cntr_Kickout",
+                            "guid":  "c52918ed-4449-4756-b99b-a6833f199a88",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

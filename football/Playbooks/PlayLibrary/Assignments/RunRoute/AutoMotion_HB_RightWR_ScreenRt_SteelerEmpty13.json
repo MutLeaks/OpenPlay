@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_HB_RightWR_ScreenRt_SteelerEmpty13",
+    "steps":  [
+                  {
+                      "guid":  "4ead7d62-1c9f-49a3-a2df-3f59854d1d77",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "11",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "65",
+                                   "offsetY":  "-4.25",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "1267f698-0324-4a87-b24f-4d6779f60f04",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "14",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "50",
+                                   "offsetY":  "4.25",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "ce2b2a26-a01a-4349-9c86-11484f2c67b7",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "36510c7e-ca85-4e57-975a-c221f5fb199d",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "2c1b0faa-a734-4843-abef-cfae9fbf44b1",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "9dd41144-c9c7-4e7b-ace1-1d2ece42050c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "708a05e7-63ee-42e0-9505-6b2e449e0ab1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

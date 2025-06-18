@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Draw",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H2_Delay_Backstep_Hand_DRAWtest",
+    "steps":  [
+                  {
+                      "guid":  "4fe98696-036d-4fd2-ae58-170f1a386f86",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "aa98886a-d45f-4118-b594-aea67e284c84",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HOPSTEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "37ba8a36-9bd6-4ebf-a617-ee7eb9c7c4b1",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "85",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "fa4c69b8-2088-4d7a-8a5c-8fc24b11094c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "57c1b520-3957-4c8e-ade0-7d17d8c1b9d7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

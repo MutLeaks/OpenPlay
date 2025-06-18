@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Screen_Lt_OnBall_Delay_Comeback",
+    "steps":  [
+                  {
+                      "guid":  "f78b7af9-f991-4d11-bde5-ea99fb00f0e2",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "46052cc6-5b9b-439d-93e5-bdd49018bfe9",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "270",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "76",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d8ac68d7-031a-4278-bfd2-9ea7a6184163",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "c0745262-599f-466b-b2d9-e1a3e5234410",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "4d043338-2a65-47f7-907c-a139dfada994",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

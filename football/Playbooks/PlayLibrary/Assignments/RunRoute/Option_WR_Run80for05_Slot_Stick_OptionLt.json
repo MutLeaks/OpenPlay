@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_Out",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run80for05_Slot_Stick_OptionLt",
+    "steps":  [
+                  {
+                      "guid":  "3850b6aa-2b03-4fb3-8228-a35f2af197a8",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "80",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "9356bdec-f54b-46e3-afe5-55d41efdfc25",
+                      "data":  {
+                                   "optionRoute2":  "10",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "12"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "a2738112-6a00-4ca5-b4c1-ad9317653763",
+                      "data":  {
+                                   "optionRoute2":  "15",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "16",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "b05e8233-7ec0-43ac-a2dd-b7aeb854de94",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "3a87066a-3f17-4e0f-943a-9e98a31a9e08",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

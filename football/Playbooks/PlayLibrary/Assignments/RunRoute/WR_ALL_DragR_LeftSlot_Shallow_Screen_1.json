@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Drag",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_ALL_DragR_LeftSlot_Shallow_Screen_1",
+    "steps":  [
+                  {
+                      "guid":  "e3caeab1-5c81-431c-b989-82b0e2d8fdc4",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "30.96375",
+                                   "distance":  "1.606708",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "88eae33e-a2a8-4a55-8926-f66d942bc8c7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "22",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "87de190d-293f-4f53-a5bc-7a1c9bf894c4",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "b130577b-b33d-4645-9718-d76d800f3c45",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Run260for02_YARD_DBL_PASS",
+    "steps":  [
+                  {
+                      "guid":  "be72a2eb-f011-4fde-8254-842293a603d2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "260",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "4ecb9d63-27d5-4677-a7c4-c90ca645f9c8",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "716ae786-afe0-45f3-811b-f5f663276cae",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "984a616f-4e42-41c0-a806-2906ba39564a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

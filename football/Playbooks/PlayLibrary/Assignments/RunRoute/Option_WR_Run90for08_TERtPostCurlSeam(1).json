@@ -1,0 +1,57 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Curl_Post_Seam",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for08_TERtPostCurlSeam(1)",
+    "steps":  [
+                  {
+                      "guid":  "90bce878-c81c-4c54-ad41-4b135dc1b6eb",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e4b4597b-d6ac-462f-b8a2-df036afe44b9",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "80",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d0028f83-4cb1-4ea0-a30d-331885fc8eb6",
+                      "data":  {
+                                   "optionRoute2":  "8",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "10",
+                                   "optionRoute1":  "3"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "6083d957-7f21-485e-bdeb-5dba98ed8e5f",
+                      "data":  {
+                                   "optionRoute2":  "32",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "2",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "ef28b708-52cd-4a1a-9bc8-4535aa13763d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

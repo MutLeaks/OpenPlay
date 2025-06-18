@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead30for05_MoveDirDist_Lead",
+    "steps":  [
+                  {
+                      "guid":  "6ca6c408-3b7d-4180-9fc1-d2efcd437452",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "35"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "07619fb8-d00d-490d-b260-9c8667a1da6d",
+                      "data":  {
+                                   "blockingGap":  "B_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_HOLE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "a8bfaf69-ebff-4175-99a9-b19ed7d25966",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

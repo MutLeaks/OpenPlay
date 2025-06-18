@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Y_Off_Trips/Counter_GT_Alert_Smoke",
+                 "playName":  "Counter GT Alert Smoke",
+                 "playId":  "26163",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "98a96726-e143-428d-a822-9d24303d7c20",
+                 "offensePlayType":  "OffensePlayType_RPOAlert",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Y_Off_Trips/Y_Off_Trips [fdc14def-203c-4ca7-ae76-127d81692dd5]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/BTCounter [209a7808-cb93-4a85-9889-16b867118e97]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Pistol_05_RBCounterLt_Dropback_RPO",
+                            "guid":  "1b151ae3-5a3c-45dc-b04e-2576a0f8e98e",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H5_Counter_Hand_PISTOL_RPO",
+                            "guid":  "4d9ce625-4474-42e8-873a-0e063e4a6e09",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_NoBack_Screen_Rt",
+                            "guid":  "63dfba3c-c0ba-4530-8351-4d38456707c4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RG_Pull_H7_Deep_CounterWk_Cntr_Kickout",
+                            "guid":  "c52918ed-4449-4756-b99b-a6833f199a88",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RT_Pull_H7_Deep_Lead_CounterWk",
+                            "guid":  "bd8ed881-1904-48dc-b406-6e187beb0b68",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

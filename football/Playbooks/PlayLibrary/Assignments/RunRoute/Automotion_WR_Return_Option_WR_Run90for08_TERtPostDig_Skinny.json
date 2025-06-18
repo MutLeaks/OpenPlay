@@ -1,0 +1,88 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Dig_Post",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_Return_Option_WR_Run90for08_TERtPostDig_Skinny",
+    "steps":  [
+                  {
+                      "guid":  "bdf1abcf-931f-4479-b8a8-e26d670aac7d",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-2",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "ec0514ad-e511-4117-a848-0b6f689ea942",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "6",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "80",
+                                   "offsetY":  "-2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "a8237610-61d0-4b9d-86b0-077d614fef40",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "f9c42e00-1437-43ce-ba3a-d4d2dfef77d2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "60",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "0cd4a664-c58f-4d2b-8c69-b36de525f660",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "a6f8404f-ed8f-403d-a325-b61d5b4d5ece",
+                      "data":  {
+                                   "optionRoute2":  "14",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "10"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "6cfec6a2-8478-4d19-9d12-86df24e5d2fe",
+                      "data":  {
+                                   "optionRoute2":  "21",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "6838454a-4cbd-4c6d-924e-ad227c6b3dac",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

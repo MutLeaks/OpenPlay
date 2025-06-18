@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Juke",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Juke__Route",
+    "steps":  [
+                  {
+                      "guid":  "a9db4b8e-b0d3-46f8-a7cc-b70d7d434213",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "125",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "6d9b7883-4dbb-437c-9e9f-72f9820d1e0f",
+                      "data":  {
+                                   "optionRoute2":  "18",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "9",
+                                   "optionRoute1":  "15"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "44015c0a-bee0-4ea9-b123-251e2c76ec8c",
+                      "data":  {
+                                   "optionRoute2":  "112",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "14",
+                                   "optionRoute1":  "129"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "030b330d-ddb2-44b6-8027-efcd452c17b0",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "dff7c8ea-d464-4b7b-92e7-ba2356034e66",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

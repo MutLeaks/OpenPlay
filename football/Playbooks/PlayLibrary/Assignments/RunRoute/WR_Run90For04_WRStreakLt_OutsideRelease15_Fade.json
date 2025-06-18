@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Fade",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90For04_WRStreakLt_OutsideRelease15_Fade",
+    "steps":  [
+                  {
+                      "guid":  "a270f2f3-3f9e-4cc8-a687-213d8c1a1e67",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e3c325f1-957c-4b16-b26f-7d4062fa7d78",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "97",
+                                   "distance":  "31",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "2eb5dbf6-6dff-4fcc-ae47-4bc9055fa8ea",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "97",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e1e94a91-a022-408f-85fb-826929f07a8b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "95365ccb-0943-4bbb-be46-386738ee6b16",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

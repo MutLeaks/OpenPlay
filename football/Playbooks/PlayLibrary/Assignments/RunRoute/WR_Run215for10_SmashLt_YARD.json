@@ -1,0 +1,51 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_Hook",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run215for10_SmashLt_YARD",
+    "steps":  [
+                  {
+                      "guid":  "6b41253e-ff58-40f8-9594-7dc4aef5cc71",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "200",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "96d89ded-6f91-4171-85ea-14aee9cbecf5",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "82fc4fed-e71f-406d-90cd-d5082fad5fbd",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "5191479e-14b6-4bbc-ae28-717027ea9a90",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "7e5adf39-26db-4116-912b-eebfa5723fd5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

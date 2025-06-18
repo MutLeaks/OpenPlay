@@ -1,0 +1,62 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_ALL_FlatsRt2_Shotgun_ReadSlide",
+    "steps":  [
+                  {
+                      "guid":  "ad4b0ce7-fc42-4fcf-b271-a91a0c3aaa9f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "31.63833",
+                                   "distance":  "6.876749",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5d1d2935-8f6f-430f-b4ac-a9c0e6ddaf74",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "71afcc7e-c8a9-4a60-a9b3-f97b3813dc70",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0.3847001",
+                                   "distance":  "14.62171",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "86b52be3-81ee-48e9-b7c2-913761130e89",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_DRAG_STOP",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "289699ba-7be7-48e8-adc2-69b29951c87e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "6c9e0bbe-8523-4a32-99f6-05f709b8b6b7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

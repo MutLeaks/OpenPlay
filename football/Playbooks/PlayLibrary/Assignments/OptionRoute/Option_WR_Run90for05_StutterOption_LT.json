@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OptionRoute/Option_WR_Run90for05_StutterOption_LT",
+    "steps":  [
+                  {
+                      "guid":  "6379def7-dfa7-41ae-9320-246a273f7edb",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "0.75",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "85",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "65521ff4-407c-4eed-a89b-7b7e06727804",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_STUTTER",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "f4b640e0-2cb0-4d4d-bde4-7091448e6d51",
+                      "data":  {
+                                   "optionRoute2":  "10",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "9",
+                                   "optionRoute1":  "1"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "6b2e7da7-130f-4816-a4ef-ad161844071f",
+                      "data":  {
+                                   "optionRoute2":  "143",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "16",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "203a3f16-7b8e-40dc-83a6-2a20e0e4af57",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "27b7a852-a02a-4c47-b658-f7b72efc6a40",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

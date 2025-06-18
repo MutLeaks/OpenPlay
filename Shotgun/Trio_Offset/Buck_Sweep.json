@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Trio_Offset/Buck_Sweep",
+                 "playName":  "Buck Sweep",
+                 "playId":  "24743",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "78612ab8-8f53-4b7f-ac02-111df01cdc09",
+                 "offensePlayType":  "OffensePlayType_RunOutsideTackle",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Shotgun/Trio_Offset/Trio_Offset [bcb54128-2cda-42e4-856a-6d66f26e8684]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/PinPull [80c5b23a-7f9b-4a1f-8825-7156c8d07583]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Shotgun_HB_BehindRight_BuckSweep_Opposite",
+                            "guid":  "d323dc46-ab71-4e50-8014-4bfa2145faf5",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H6_Backstep_Hand_Counter_LeftToRight_HBDeep_1",
+                            "guid":  "c49c4e0e-93ee-403c-9fe4-65feaa24f2ef",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_Shorter",
+                            "guid":  "0877a416-26f4-4588-8c12-79555141cfe2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_Shorter",
+                            "guid":  "0877a416-26f4-4588-8c12-79555141cfe2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_Shorter",
+                            "guid":  "0877a416-26f4-4588-8c12-79555141cfe2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_Pull_H6_Deep_SG_BuckSweep",
+                            "guid":  "365db7f2-b13e-4931-88a1-7648a8146b5b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RG_Pull_H8_Deep_SG_BuckSweep",
+                            "guid":  "5ff2e0ae-3e7f-4893-9c44-c5e9fa57e1a1",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

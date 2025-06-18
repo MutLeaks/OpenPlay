@@ -1,0 +1,76 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_Bunch_FAKE_EndAroundLt_Swing_Lt_(1)",
+    "steps":  [
+                  {
+                      "guid":  "bed46037-15e9-440c-a33a-3aa424254cb5",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "212",
+                                   "playerNum":  "HandoffPlayerSlot_O2",
+                                   "flippedHandoffAnim":  "215"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "4d61695b-6672-4749-99d6-1c7991b27ed6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "210",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ca2c883d-49c6-41b6-9698-1878440833e6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "175",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "be6fc6f0-28a0-4ec4-84a7-dba001ced5a4",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "155",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "f8a60348-a705-4381-85f6-d887ae6f16e4",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "d37057f2-c978-4256-a671-949eeb064582",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "d8a34c9a-5f18-480a-ab89-dab0b914d464",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_ALL_SlotFlatsRt_A_delay",
+    "steps":  [
+                  {
+                      "guid":  "9b4749cc-2f1d-4685-a6fc-b57be212772e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "9d2a5ff2-0b99-415f-8c3d-a438fc71255b",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "33",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "61997b62-b401-4b57-bb15-6362a525252e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "18",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "55",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "b758bbe8-228a-4a83-a321-2e9a21ec9eab",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "08cfc732-170e-46d2-ab58-529629986dd5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

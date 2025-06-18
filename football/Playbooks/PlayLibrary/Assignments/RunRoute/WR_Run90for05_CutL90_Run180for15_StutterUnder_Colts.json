@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_In_Short",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for05_CutL90_Run180for15_StutterUnder_Colts",
+    "steps":  [
+                  {
+                      "guid":  "0a735ba3-dfcf-47b6-9d31-22f0fbb6826e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "221389c2-ffcb-47c3-a639-1b853f54c765",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90_INSIDE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "d763c3cf-a7f0-463d-9f1f-d86d49acbde0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "af7205c3-b778-4681-a0b9-6431f23e0844",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "53e6aa10-4255-47e4-97a3-a5fac6e37871",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

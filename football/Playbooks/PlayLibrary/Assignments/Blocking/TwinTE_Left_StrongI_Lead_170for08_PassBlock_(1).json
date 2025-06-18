@@ -1,0 +1,42 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/TwinTE_Left_StrongI_Lead_170for08_PassBlock_(1)",
+    "steps":  [
+                  {
+                      "guid":  "838c7634-f1b7-4621-a8bc-7adaa923d33b",
+                      "data":  {
+                                   "offsetY":  "-4.5",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "3",
+                                   "stance":  "ThreePoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "4e95fef5-4898-4465-a679-539b6bea5228",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "1db0b3d6-007f-493f-9dfa-05c6e6af8aaa",
+                      "data":  {
+                                   "blockingGap":  "B_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_HOLE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "2613e76d-7a7c-446c-bd7e-37e22b766f65",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Block1.5_FlatsLt(FB_2Back_S_Flatter_(1)",
+    "steps":  [
+                  {
+                      "guid":  "f30a50d1-8fa2-45a7-9ded-3aa9a98a0e5e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "175",
+                                   "distance":  "7.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "57f7c098-90a6-4cb8-9beb-73f5d7fcac08",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "170",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "bbd3a509-fccf-4f24-9c08-a1871c24c539",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "840eb2e8-29d0-43bf-9282-8e79873387f5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "06735ea8-3e64-4bf3-9a0d-8ce6e7edd2ec",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Dig_Post",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_RNS_SlotRTSeamRead",
+    "steps":  [
+                  {
+                      "guid":  "7a98102b-fed7-402b-8dc8-ace2897f2bb0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "13",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "1fedac8a-4bcd-4112-9557-a2974f80cac2",
+                      "data":  {
+                                   "optionRoute2":  "11",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "8",
+                                   "optionRoute1":  "10"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "6688dc87-1ecb-4d6b-ab1a-edef7e0719e5",
+                      "data":  {
+                                   "optionRoute2":  "16",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "1",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "aa1d1d12-f938-4587-9b3c-440ea460399e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

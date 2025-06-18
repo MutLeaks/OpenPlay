@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Deep",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_option_RNS_FL_Switch",
+    "steps":  [
+                  {
+                      "guid":  "0e405626-c8d5-4bbf-9c7b-4668f7e3a3d6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "45",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ee1b8ab7-1213-4bad-af69-4bdf39da941b",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "ce41c7f7-ce54-4419-b8fc-e997ca1b6d59",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "4e7a45dd-63a9-4889-8491-56d2cb9caaf7",
+                      "data":  {
+                                   "optionRoute2":  "2",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "-1",
+                                   "optionRoute1":  "9"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "d9ec84fd-9a68-459c-9326-e85ced882847",
+                      "data":  {
+                                   "optionRoute2":  "16",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "5254c23f-5e2a-49a5-bdf4-b4baa7a407de",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "56690e67-d76b-40ff-83cd-3ab359929825",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Slant_Snag_LT",
+    "steps":  [
+                  {
+                      "guid":  "8c0fac73-c88c-40bd-8ae6-d0b1ce439596",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5f625210-82df-449c-9dfd-abf10f5f032e",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "b4cba454-5e00-48d8-b5e8-77254131c140",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "160",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "8bf6579a-b49e-4cfc-8b11-70cf3acbadd5",
+                      "data":  {
+                                   "optionRoute2":  "7",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "255",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "b71b25eb-1331-4b63-889b-50cfdce1082d",
+                      "data":  {
+                                   "optionRoute2":  "143",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "0",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "8443fe8f-e515-425d-8ecc-4b1f129ae49e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "296f1beb-bb8a-4354-a127-3bd19c27a4b5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

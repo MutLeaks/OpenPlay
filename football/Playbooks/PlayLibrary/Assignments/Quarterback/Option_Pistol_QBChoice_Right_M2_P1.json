@@ -1,0 +1,62 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Shotgun_Read_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Pistol_QBChoice_Right_M2_P1",
+    "steps":  [
+                  {
+                      "guid":  "6f653e2a-667a-452b-960c-8e8a792dbc9e",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "150",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "144"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "82e04bdc-752a-43ad-98b2-b5c698e6d431",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "2",
+                                   "optionHandoffType":  "TYPE_WALL_GIVE",
+                                   "pitchPlayerNum":  "1"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "ebd6efeb-ce43-4804-ac02-e61d314ae527",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "1"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "d24a5c2b-203c-4550-9723-5492d35c057f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "e40622ec-4bf6-4c01-80cc-dcfe34a28564",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "dcdb7d36-60a7-4bd1-b834-f2c856618b4f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

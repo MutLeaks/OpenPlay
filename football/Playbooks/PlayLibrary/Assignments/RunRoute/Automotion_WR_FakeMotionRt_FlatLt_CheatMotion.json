@@ -1,0 +1,82 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_FakeMotionRt_FlatLt_CheatMotion",
+    "steps":  [
+                  {
+                      "guid":  "79670113-e8aa-48a3-a9a5-8ceafed84d76",
+                      "data":  {
+                                   "shouldStopAtTarget":  "True",
+                                   "offsetX":  "2.8",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "75",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "247f0127-5101-4f2a-a300-8490287f8cd8",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-1",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "70",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "562ebdfe-bce9-422e-808f-42e0ce0cf58b",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "00fce130-c6b3-41ac-b539-b96572da9799",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "190",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "1b050b2f-f8e0-4855-b17b-69960c9c8674",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "86cf73cb-8157-4457-a16e-e78a49f5929d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "0d6b48d9-e8e0-4f68-8d2d-060e35378064",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "e43f007f-b9d5-4763-8e70-ea434a6ea6df",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

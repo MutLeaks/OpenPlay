@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_ALL_SlotFlatsRt",
+    "steps":  [
+                  {
+                      "guid":  "b8856816-3d38-4a24-81d3-de3a9a846fd2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "33",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d4d6c9ff-04f9-478e-a9a9-ff8d5f2715b2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "18",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "55",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d7330162-5bd1-4e40-8ba2-6139d40b9526",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "38bf05ea-519a-4973-add9-3dd7bf086e90",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_ForceCutBlock",
+    "steps":  [
+                  {
+                      "guid":  "421c3843-2c37-4f4a-a984-81032ca818cc",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ForceCutBlock",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "dbc588c6-8097-453f-a3fd-3ab90ca547c5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

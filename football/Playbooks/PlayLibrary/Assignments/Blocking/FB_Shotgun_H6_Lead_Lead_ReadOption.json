@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_Shotgun_H6_Lead_Lead_ReadOption",
+    "steps":  [
+                  {
+                      "guid":  "fe781d1e-d980-4b66-9e48-28a2c760d88b",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "20"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "25e8986e-4c24-4194-b37a-972bcc28adf0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "20",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "84a01d9a-762d-4cc4-bd97-995e7442ca50",
+                      "data":  {
+                                   "blockingGap":  "D_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_OUTSIDE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "18a9396f-cb39-4afa-a7b9-38cb42af7718",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

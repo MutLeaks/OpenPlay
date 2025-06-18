@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run30for04_Run90for30_OverrideFormPos_X8",
+    "steps":  [
+                  {
+                      "guid":  "ff789d21-405c-4547-8785-f1ba94c5bbe8",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "30",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "df25177f-e2ee-45b2-85ff-ee81a4af5d4b",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "87",
+                                   "distance":  "29",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ddfff245-835e-4770-80cf-932b049737e3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "316f3f39-f9a3-4625-8bfb-c11950583ca6",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

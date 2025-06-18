@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_Reverse_Fk_Shovel_Rt",
+    "steps":  [
+                  {
+                      "guid":  "064411e5-84d4-43df-a4e8-9bc1dffc2a1a",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "110",
+                                   "playerNum":  "HandoffPlayerSlot_O2",
+                                   "flippedHandoffAnim":  "109"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "34398175-8166-49b7-b17f-887f2b7f9c3e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "325",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "6761b42a-0d8f-4653-b2b7-3ff87aa7357c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "355",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "bbe82c9a-dc67-4360-94a4-1c24f1bc6a60",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "68f54662-1d92-403b-aca1-3b5cf4e2a7b8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

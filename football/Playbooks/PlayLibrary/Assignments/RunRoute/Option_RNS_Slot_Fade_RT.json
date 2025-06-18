@@ -1,0 +1,57 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Curl_Fade",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_RNS_Slot_Fade_RT",
+    "steps":  [
+                  {
+                      "guid":  "ebf39b39-064e-4fb2-85c3-d27b5fe4065c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "a958e268-0247-4dc3-9188-3872545af0cc",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "83",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ded9e827-692d-4140-a040-07b3a2fd7c29",
+                      "data":  {
+                                   "optionRoute2":  "3",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "11",
+                                   "optionRoute1":  "22"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "46ecda2c-06fc-4f8c-82fd-b2eef2db43a4",
+                      "data":  {
+                                   "optionRoute2":  "93",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "32",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "9198aef1-e04e-4b99-b09c-5c2babcac3b5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

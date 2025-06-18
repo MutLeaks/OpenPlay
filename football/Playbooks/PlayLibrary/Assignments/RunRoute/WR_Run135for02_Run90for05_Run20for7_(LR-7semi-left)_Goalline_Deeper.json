@@ -1,0 +1,65 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Middle",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run135for02_Run90for05_Run20for7_(LR-7semi-left)_Goalline_Deeper",
+    "steps":  [
+                  {
+                      "guid":  "f0051981-99c1-4b6d-83eb-647778720ef6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "95",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "90",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "850b54d7-6c9a-408a-a639-ad91b9fbf40c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "80",
+                                   "distance":  "7.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "0ae60d6d-1395-4e0d-87bd-0d6eea906bdd",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "3db7bfb8-f4fa-4a06-b7ad-17fb8c14891c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "172",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5106bbe4-978e-4e47-852d-3a66c557838d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "a8ad5903-bdcd-4f9e-8f73-e1cc0c4fa0ab",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

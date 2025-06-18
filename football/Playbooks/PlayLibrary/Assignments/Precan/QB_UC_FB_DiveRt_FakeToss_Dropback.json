@@ -1,0 +1,76 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_UC_FB_DiveRt_FakeToss_Dropback",
+    "steps":  [
+                  {
+                      "guid":  "4963165e-bfc4-4550-a93e-49d1cddbaa5a",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "184",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "183"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "b428d51f-f769-4cf5-8dbc-9b9afca4ce9c",
+                      "data":  {
+                                   "speed":  "1",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_RIGHT",
+                                   "direction":  "145",
+                                   "BallHand":  "BALLHAND_LEFT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "f938fa6f-c217-4e96-995b-274f5c274e2b",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_DROPBACK",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "2",
+                                   "handoffRun":  "RUNTYPE_HANDOUT"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "guid":  "542f7fad-dfec-4d4e-a19d-d495ce3f5306",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "174",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "1a04f67e-5397-42fd-a892-d1b29369f492",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "135",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "75bfd16f-9e93-4648-9e7e-4a68912e245f",
+                      "data":  {
+                                   "direction":  "65",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "guid":  "467c9fa3-6647-450d-8e11-199440e6dd60",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

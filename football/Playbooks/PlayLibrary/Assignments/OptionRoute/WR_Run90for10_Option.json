@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OptionRoute/WR_Run90for10_Option",
+    "steps":  [
+                  {
+                      "guid":  "234963c5-d471-4628-9728-b02c92d5bcdd",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d21856fe-9569-4b35-adeb-804d67977618",
+                      "data":  {
+                                   "optionRoute2":  "2",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "3",
+                                   "optionRoute1":  "1"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "01fafd65-75e5-43ed-a1c9-7c4a62649b6b",
+                      "data":  {
+                                   "optionRoute2":  "20",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "3",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "96726010-0791-49b5-9fca-354aa4f0bfcc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_FlatsRt_Longer",
+    "steps":  [
+                  {
+                      "guid":  "667298a9-4249-47ad-97e2-8f2e79147b01",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "18",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "50d05806-7fc7-4609-b65d-e0048bc0d544",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "16",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "40b3883e-b7e1-4556-8355-02d7755aa2bf",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "12",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "122ec285-89d2-43ed-ae06-d098db03089f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "cb61fefc-adee-446a-827c-149ae63e69ac",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

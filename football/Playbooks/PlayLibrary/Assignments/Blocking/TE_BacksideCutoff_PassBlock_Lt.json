@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/TE_BacksideCutoff_PassBlock_Lt",
+    "steps":  [
+                  {
+                      "guid":  "cae96613-df81-4b66-b059-7e81bdd0f67e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0",
+                                   "timeNGPM":  "0.25"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "c97ebf22-efdb-4acc-a077-4aecb7fc8462",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_TRAP_PULL",
+                                   "direction":  "175"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "50816009-0aaa-4ed2-af42-0f2a1817284e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "175",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "31fce454-021d-407b-b6ef-8efcf58fc5cd",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "89fcc493-9649-4b1c-8442-a676704b6b73",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

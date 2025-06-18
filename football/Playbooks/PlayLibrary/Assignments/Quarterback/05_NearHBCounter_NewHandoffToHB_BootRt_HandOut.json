@@ -1,0 +1,66 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/05_NearHBCounter_NewHandoffToHB_BootRt_HandOut",
+    "steps":  [
+                  {
+                      "guid":  "e4768ae2-9782-43d0-91bf-af06c97756b9",
+                      "data":  {
+                                   "speed":  "1.25",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_RIGHT",
+                                   "direction":  "160",
+                                   "BallHand":  "BALLHAND_RIGHT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "4d235011-1180-4197-9736-937b02a6547d",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_DROPBACK",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "1",
+                                   "handoffRun":  "RUNTYPE_HANDOUT"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "guid":  "3c41b615-065e-4cb3-8ff3-6b3108ce6538",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "174",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "300b0a68-7af3-4d34-99a7-416fd2f4cd07",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "135",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "c06d3791-a2ac-4cd1-b210-720f26c8bddc",
+                      "data":  {
+                                   "direction":  "65",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "guid":  "979f5cfd-00d7-4906-b611-0b8943b0e644",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

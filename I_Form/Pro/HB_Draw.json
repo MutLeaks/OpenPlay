@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/I_Form/Pro/HB_Draw",
+                 "playName":  "HB Draw",
+                 "playId":  "688",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "3af0f500-228a-4bf9-b8ec-8442bf3c13e4",
+                 "offensePlayType":  "OffensePlayType_RunDraw",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/I_Form/Pro/Pro [e00b1abf-fc90-4a06-b4a6-b2acc816cf50]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_DrawRt_Dropback",
+                            "guid":  "d6a4b060-d2b1-4967-89d8-63d68585968a",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H0_Delay_Backstep_Hand",
+                            "guid":  "41b5ecf7-0845-49b5-9a5a-d47465010212",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead135for03",
+                            "guid":  "f97a75b6-a4dc-468d-b373-99cd2c75b072",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_RunBlock_WRClearout_StalkBlock",
+                            "guid":  "c883faef-aee0-4cf9-9f17-f4504e63c847",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlock",
+                            "guid":  "2011c9cd-8d5a-434c-ad7f-adff4db7c4c2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlock",
+                            "guid":  "2011c9cd-8d5a-434c-ad7f-adff4db7c4c2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlock",
+                            "guid":  "2011c9cd-8d5a-434c-ad7f-adff4db7c4c2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlock",
+                            "guid":  "2011c9cd-8d5a-434c-ad7f-adff4db7c4c2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlock",
+                            "guid":  "2011c9cd-8d5a-434c-ad7f-adff4db7c4c2",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_DrawRunBlock",
+                            "guid":  "2011c9cd-8d5a-434c-ad7f-adff4db7c4c2",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

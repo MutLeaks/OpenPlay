@@ -1,0 +1,42 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Run260for02_YARD",
+    "steps":  [
+                  {
+                      "guid":  "bf78406c-3aaa-463b-a71d-87c0a9174c12",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "260",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "eb72dc00-9961-4dfc-8483-09137d68f718",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "edbda425-cf4d-4b18-8ef4-d79e4c2841ee",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "6d6d1f96-cb1d-4dce-ba09-5188f59b9741",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

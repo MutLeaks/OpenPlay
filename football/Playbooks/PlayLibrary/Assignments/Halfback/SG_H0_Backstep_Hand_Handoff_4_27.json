@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Stretch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H0_Backstep_Hand_Handoff_4_27",
+    "steps":  [
+                  {
+                      "guid":  "37c008a7-775e-4b89-8500-c7ae9cbacec4",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "4",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "27"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "c04197f5-9c7c-47f0-9c20-0a1067a96a95",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "10"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "89c59b78-ba5d-45b2-83d3-9b2653a167b7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "55",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "78785243-03f8-4ae1-a253-c4cf6ce37ed2",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "e4d56f0c-24bb-439a-9e6e-8569db07816b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Weak_Slot/Roll_Out_Smash",
+                 "playName":  "Roll Out Smash",
+                 "playId":  "20006",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "afd845b9-ee2b-48db-8441-70e3b534fb39",
+                 "offensePlayType":  "OffensePlayType_PassRollout",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Weak_Slot/Weak_Slot [5ffb9a14-d06e-44fa-b3c0-9d9f20da33af]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_Rollout_Left",
+                            "guid":  "bed44682-a29a-43cb-9e5b-a82ed24b6792",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/HB_SB_PassBlockRt",
+                            "guid":  "c342b2f6-a7fd-4d0c-8d40-487fa31eb905",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_WeakI_PassBlockLt",
+                            "guid":  "16080ff5-546e-418e-a093-08aaa4a4e14c",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run135for05_HitchRt_new",
+                            "guid":  "858b13f3-5131-44d3-bf35-ee422aeda61f",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_CutL45_Run135for15_Shorter_(1)",
+                            "guid":  "9ed47658-f793-4e45-bca0-85af8d164895",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for12_CutL45_Run135for15",
+                            "guid":  "446f84d2-7703-4a05-ac93-752210d14c49",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Slide_Left",
+                            "guid":  "882028bc-87cb-49dd-a92a-3c28ecb9f532",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Slide_Left",
+                            "guid":  "882028bc-87cb-49dd-a92a-3c28ecb9f532",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Slide_Left",
+                            "guid":  "882028bc-87cb-49dd-a92a-3c28ecb9f532",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Slide_Left",
+                            "guid":  "882028bc-87cb-49dd-a92a-3c28ecb9f532",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock_Slide_Left",
+                            "guid":  "882028bc-87cb-49dd-a92a-3c28ecb9f532",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

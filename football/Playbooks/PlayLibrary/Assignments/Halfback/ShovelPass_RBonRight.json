@@ -1,0 +1,42 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Fake_Punt_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/ShovelPass_RBonRight",
+    "steps":  [
+                  {
+                      "guid":  "9e9ce686-5239-4ce9-81fc-c70c3ac282f2",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "5f2d859f-40ea-4bc3-a8b8-8b3f83ad448e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RECPITCH"
+                               },
+                      "type":  "RecievePitchAssignment"
+                  },
+                  {
+                      "guid":  "43019f6f-4e34-4bad-b4ff-ca33886f3d00",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "ba983448-724a-4539-a56d-e6564742aaed",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

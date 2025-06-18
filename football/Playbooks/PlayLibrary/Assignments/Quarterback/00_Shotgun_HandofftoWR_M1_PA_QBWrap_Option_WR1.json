@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Option_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/00_Shotgun_HandofftoWR_M1_PA_QBWrap_Option_WR1",
+    "steps":  [
+                  {
+                      "guid":  "f5c9c274-a240-44b3-a83a-0aac4e95ab4b",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "222",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "223"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "c048cc02-deb3-4c8f-bb6d-3d5de607527d",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_BEHIND_PA_RIGHT",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "c944c3a4-8d51-4465-86e8-6a5728a33ed2",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "f27aada8-725b-4b90-a5bd-7d6bc2bd4147",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

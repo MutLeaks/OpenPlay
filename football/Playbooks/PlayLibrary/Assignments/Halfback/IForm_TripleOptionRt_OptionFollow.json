@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/IForm_TripleOptionRt_OptionFollow",
+    "steps":  [
+                  {
+                      "guid":  "34ddc23a-5c06-4074-ada4-195fa3d43202",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "2f9c236f-bd91-4358-b36c-dac9c6c5b1a3",
+                      "data":  {
+                                   "offsetY":  "-4",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "5"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "429ba1b4-2aa7-4fa7-b9da-c80936df3e65",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

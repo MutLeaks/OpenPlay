@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/HB_SG_H8_Lead_QB_Sweep",
+    "steps":  [
+                  {
+                      "guid":  "4979e23d-9d0d-4080-a8d5-11a896a00a28",
+                      "data":  {
+                                   "blockingGap":  "E_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_INVALID"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "c2f7c13b-cec0-486e-ad95-586e4872560d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

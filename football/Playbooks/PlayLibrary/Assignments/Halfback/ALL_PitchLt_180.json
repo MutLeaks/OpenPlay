@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Sweep",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/ALL_PitchLt_180",
+    "steps":  [
+                  {
+                      "guid":  "beff71c5-a478-4a3b-8941-182ca73dd105",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "8",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "6"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "f5570390-a332-47a2-bfc0-ec76ef4e913c",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HBRECPITCH",
+                                   "direction":  "165"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "adfbedb8-6b89-4e18-8ee5-54f9b8d2343f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "165",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "45",
+                                   "opCodeEX":  "ID_RECPITCH"
+                               },
+                      "type":  "RecievePitchAssignment"
+                  },
+                  {
+                      "guid":  "e468f5d2-e047-41a4-b979-09ee108d961a",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "34a466e5-4c19-4511-b7e4-f684c5fd3605",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

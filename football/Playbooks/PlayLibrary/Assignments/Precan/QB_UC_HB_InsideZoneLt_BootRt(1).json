@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_InsideZoneLt_BootRt(1)",
+    "steps":  [
+                  {
+                      "guid":  "123fb920-29e5-4482-9f2c-7a39f7cd143d",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "43",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "41"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "aefff2ce-8a94-469e-ac2a-3556c98e37c1",
+                      "data":  {
+                                   "speed":  "1.25",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_LEFT",
+                                   "direction":  "155",
+                                   "BallHand":  "BALLHAND_RIGHT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "3b670758-3c52-4d5e-b7df-62105f3aea9e",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_ROLLRIGHT",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "1",
+                                   "handoffRun":  "RUNTYPE_HANDIN"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "guid":  "021dcc6f-3016-48ec-b975-7ebd44c0fa09",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

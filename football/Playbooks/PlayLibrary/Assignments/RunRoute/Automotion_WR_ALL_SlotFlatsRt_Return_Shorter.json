@@ -1,0 +1,106 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_ALL_SlotFlatsRt_Return_Shorter",
+    "steps":  [
+                  {
+                      "guid":  "1e2c0502-0f8a-4ea4-b807-a1fdd21fb7d4",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "1",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "75",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "ce90f3fd-37eb-4278-aec5-765545e3e0eb",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-3.75",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "100",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "144ef8bb-9448-4f10-bf9e-b3b9f063c876",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "3.85",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "70",
+                                   "offsetY":  "-3.5",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "b1f4228b-dd8d-4512-b902-3190eb296990",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "1dfbf803-f916-445d-9773-9c9abd8a5b1b",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "3.459232",
+                                   "distance":  "4.991378",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "67",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "8eac2aca-e31a-4b1b-aa3c-f78fb8b65cfc",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "8.00473",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d4419431-7e43-4ce9-b2ad-3c247529a347",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_CURL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "1417fbfc-f192-4f45-ba1a-01e5c95fb4d7",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "af46f634-0107-4411-8338-849c8cff02e5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "78a1d3ed-7844-4f3d-a06a-d1b94c20b2af",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

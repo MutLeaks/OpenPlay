@@ -1,0 +1,23 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_Rollout_Lt",
+    "steps":  [
+                  {
+                      "guid":  "3d4f1807-a9af-4c6b-8938-e313bf239003",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "180",
+                                   "distance":  "10",
+                                   "dropBackType":  "DROP_TYPEENUM_QBDROP_UC_ROLLOUT_LT"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "2c16df79-d02c-44b1-a6e9-72753b6fa0fb",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

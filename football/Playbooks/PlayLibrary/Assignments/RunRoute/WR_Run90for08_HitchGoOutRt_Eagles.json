@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_Medium",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for08_HitchGoOutRt_Eagles",
+    "steps":  [
+                  {
+                      "guid":  "076efe06-d3aa-4cdf-b9f2-0c76a02d3093",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "6.8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "8ad7e5a8-68e1-43cb-9cd8-fcb3b39e24ff",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_HITCH_GO_INSIDE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "95496392-ff46-4e35-b5e2-f0c82de5b093",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "01ca2137-ed73-48ac-9239-d5f54ca54f19",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "388684d0-d3b6-4c8a-903d-2efae1a60b1b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

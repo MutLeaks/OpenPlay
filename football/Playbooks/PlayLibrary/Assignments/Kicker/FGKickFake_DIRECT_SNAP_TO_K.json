@@ -1,0 +1,29 @@
+﻿{
+    "routeType":  "AssignRouteType_K_FG_Fake",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Kicker/FGKickFake_DIRECT_SNAP_TO_K",
+    "steps":  [
+                  {
+                      "guid":  "361e2ec8-c696-4eaa-9430-12bbcd58ef6c",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_FGKICK",
+                                   "handoffAnim":  "12"
+                               },
+                      "type":  "FGKickAssignment"
+                  },
+                  {
+                      "guid":  "89818487-883b-499c-be59-5c86020e38a7",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "942e5e50-878e-47bb-a08a-d68467aa914d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

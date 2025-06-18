@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Special/Tight_Max_Protect/Tight_Punt",
+                 "playName":  "Tight Punt",
+                 "playId":  "6022",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "484bc6df-5aa6-41b9-8bd5-f23a28c792e1",
+                 "offensePlayType":  "OffensePlayType_Punt",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Special/Tight_Max_Protect/Tight_Max_Protect [220ba0fb-c4c3-43f3-886c-730dc90921ed]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Punter/Punt",
+                            "guid":  "213b9f6d-844b-49c8-b080-1698a1fa6e3a",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall",
+                            "guid":  "96db976c-93e7-4505-b6e4-971a94f2dcb3",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay1.0_ChaseBall",
+                            "guid":  "7dc6e1a5-8793-41a8-9930-b223995285f1",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall",
+                            "guid":  "96db976c-93e7-4505-b6e4-971a94f2dcb3",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay1.5_ChaseBall",
+                            "guid":  "8c5e6a34-8db9-4941-a683-9bd2846de7db",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay1.0_ChaseBall",
+                            "guid":  "7dc6e1a5-8793-41a8-9930-b223995285f1",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall_Line_LT",
+                            "guid":  "e1d3fe0d-b522-4b8f-8880-b81a3480b97b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall_Line_LG",
+                            "guid":  "71e4e6e9-638c-46c0-9e9b-76fcfe96b87d",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall_Line",
+                            "guid":  "9249fa74-6f99-43a7-aa14-349d0a5b3012",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall_Line_RG",
+                            "guid":  "cd829a06-ce0e-4a38-8a4d-402612ea60ea",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/Punt_Delay2.0_ChaseBall_Line_RT",
+                            "guid":  "1afb138c-2b34-4373-a4de-1f3bbadcfc08",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

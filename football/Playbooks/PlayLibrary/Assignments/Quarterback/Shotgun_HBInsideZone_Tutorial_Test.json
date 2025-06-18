@@ -1,0 +1,50 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Shotgun_Read_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Shotgun_HBInsideZone_Tutorial_Test",
+    "steps":  [
+                  {
+                      "guid":  "cf8966bb-9a5d-4e9f-b045-3a81ef443c20",
+                      "data":  {
+                                   "offsetY":  "-6",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "0",
+                                   "stance":  "QB"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "0fe51dd6-8744-4f16-a1f5-bfedad886373",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_ZONE_READ_BEHIND",
+                                   "pitchPlayerNum":  "1"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "2bcc1386-889a-495b-8d93-4227320d44a2",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "2"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "a0eb9f2b-a4e5-4181-9bf6-a12b30a34e60",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "21190b78-ba91-4610-a201-06f0140d0724",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

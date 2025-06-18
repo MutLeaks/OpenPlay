@@ -1,0 +1,20 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Sneak",
+    "steps":  [
+                  {
+                      "guid":  "804409a2-1f05-4bea-bd74-021a8474b2ca",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "9ed541fa-7de2-4590-9641-b7b9fd1b414e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

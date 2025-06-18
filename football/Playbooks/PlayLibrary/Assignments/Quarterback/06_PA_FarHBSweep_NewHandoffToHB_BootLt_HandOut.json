@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Play_Action",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/06_PA_FarHBSweep_NewHandoffToHB_BootLt_HandOut",
+    "steps":  [
+                  {
+                      "guid":  "8e93c0f1-5f11-4d4b-9d1e-73d268d040a7",
+                      "data":  {
+                                   "speed":  "1",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_LEFT",
+                                   "direction":  "180",
+                                   "BallHand":  "BALLHAND_LEFT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "f1b3279b-bc01-4ebe-9f79-261d6f54728f",
+                      "data":  {
+                                   "handoffRun":  "RUNTYPE_HANDOUT",
+                                   "opCodeEX":  "ID_HANDOFF_FAKE",
+                                   "receiverPlayer":  "1",
+                                   "handoffExit":  "EXITTYPE_FIRST_PD_TYPE",
+                                   "pitchPlayer":  "0"
+                               },
+                      "type":  "HandoffFakeAssignment"
+                  },
+                  {
+                      "guid":  "8b2c3291-f9ef-4eaa-be43-90b80f080ba6",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "b58dfa66-37c2-47e3-88ab-912a19686dd2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

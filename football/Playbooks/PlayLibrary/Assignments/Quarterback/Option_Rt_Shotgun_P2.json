@@ -1,0 +1,30 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Speed_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Rt_Shotgun_P2",
+    "steps":  [
+                  {
+                      "guid":  "9d2486b1-068e-42ad-8cdf-7a97b5a3a072",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "2"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "35446374-678a-436e-9ea9-f79b175c20c6",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "9ab1a4bb-1fd9-480b-8eec-564fc716ed7f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

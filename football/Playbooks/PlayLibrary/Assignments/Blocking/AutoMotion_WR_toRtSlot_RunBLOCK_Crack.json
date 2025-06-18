@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/AutoMotion_WR_toRtSlot_RunBLOCK_Crack",
+    "steps":  [
+                  {
+                      "guid":  "99c5da6a-ba82-411f-88e6-9788082a15c1",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "12",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "65",
+                                   "offsetY":  "-2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "4567b0ed-6a0f-4743-9af9-29089e6d4f01",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "9.5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "39",
+                                   "offsetY":  "2.2",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "7339471a-8af3-4d23-bb8e-45da5640a05a",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "81a1abcf-5a2b-4a19-916f-5105f3aee93b",
+                      "data":  {
+                                   "blockingGap":  "OUTSIDE_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_CRACK_BLOCK"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "87e741be-4a01-4e58-88b7-ce972e4ce90d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

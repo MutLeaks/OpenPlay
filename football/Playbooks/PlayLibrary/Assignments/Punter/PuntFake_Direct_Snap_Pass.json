@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Punter/PuntFake_Direct_Snap_Pass",
+    "steps":  [
+                  {
+                      "guid":  "b53a0497-afbd-4889-b8a3-6aef2f68f061",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_PUNT",
+                                   "handoffAnim":  "1"
+                               },
+                      "type":  "PuntAssignment"
+                  },
+                  {
+                      "guid":  "2127748d-cec4-455e-a273-ee3fa6103bce",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

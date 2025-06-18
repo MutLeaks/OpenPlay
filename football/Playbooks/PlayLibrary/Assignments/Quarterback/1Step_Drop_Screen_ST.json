@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Screen_Left",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/1Step_Drop_Screen_ST",
+    "steps":  [
+                  {
+                      "guid":  "7b3f3f72-dc72-4a7c-a01c-cb31ee388e0c",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "3",
+                                   "optionHandoffType":  "TYPE_WILDCAT_QB_OPPOSITE",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "5ac56c06-c18e-4db9-97c5-82be24b13fd7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "178",
+                                   "distance":  "0.13",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "2e1de44c-9e93-4f09-93c3-f0659b106cca",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "185",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "fb150765-d2e5-46f6-bcda-eb2a041893d1",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "9c9599e9-f975-43bc-92cf-1f6d5df81a13",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "57da8483-c4e7-40c0-bb3a-338bd6735a01",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "61c8a70e-5e7a-4f61-a371-65e77730c749",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

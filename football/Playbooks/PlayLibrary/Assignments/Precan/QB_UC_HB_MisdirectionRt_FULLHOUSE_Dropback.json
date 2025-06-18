@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_MisdirectionRt_FULLHOUSE_Dropback",
+    "steps":  [
+                  {
+                      "guid":  "8ef19c8f-8b5c-49ed-87b8-284cb4982bb0",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "102",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "103"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "1c31257a-66bb-4262-a8f8-e167bed9fc74",
+                      "data":  {
+                                   "speed":  "1.25",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_LEFT",
+                                   "direction":  "180",
+                                   "BallHand":  "BALLHAND_RIGHT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "guid":  "6d9fe6ec-0abf-48c7-ab01-ed6eecea3da5",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_LAST_PD_TYPE",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "4",
+                                   "handoffRun":  "RUNTYPE_HANDOUT"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "guid":  "bc00b7a8-4672-4342-a257-7fca3f9f0147",
+                      "data":  {
+                                   "direction":  "65",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "guid":  "feed70e3-149b-434b-9364-128c31ba913f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

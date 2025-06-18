@@ -1,0 +1,38 @@
+﻿{
+    "routeType":  "AssignRouteType_K_FG_Fake",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Kicker/FGKickFake_PRECAN_SHOVEL_PASS_FRONTSIDE",
+    "steps":  [
+                  {
+                      "guid":  "44f52b96-0898-47b3-881e-fc8e8ebafc39",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_FGKICK",
+                                   "handoffAnim":  "8"
+                               },
+                      "type":  "FGKickAssignment"
+                  },
+                  {
+                      "guid":  "420ae0e6-0d89-4f70-8c57-5cd476a4cdf4",
+                      "data":  {
+                                   "offsetY":  "-4",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "4"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "2717681d-b0aa-499b-878f-fe27b758e306",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "71090dd3-7278-4d96-abf4-f0a4d3a7ec6e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Fake_Spike",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/FakeStopClock_5_Step",
+    "steps":  [
+                  {
+                      "guid":  "8732a40b-69a7-423d-be0b-66b8f33faf21",
+                      "data":  {
+                                   "FakeSpikeAnim":  "FAKESPIKETYPE_FAKESPIKE_3STEP",
+                                   "opCodeEX":  "ID_STOPCLOCK",
+                                   "fake":  "True"
+                               },
+                      "type":  "StopClockAssignment"
+                  },
+                  {
+                      "guid":  "6160f5df-acb8-4a00-818d-6b693945f4a6",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "36d7a9b8-4be7-48c2-9c21-6516a2e7b65f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Shotgun_Read_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_Pistol_01_ReadOption_Left_",
+    "steps":  [
+                  {
+                      "guid":  "f79fa6ef-400b-48ea-bde3-a4247da533ee",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "144",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "150"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "35fedd18-7480-473e-bd23-b24ec0cddc05",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_WALL_GIVE",
+                                   "pitchPlayerNum":  "2"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "1b350437-bf45-47d2-a3b5-ab7b6ecb7eef",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "b966b6a8-0cb8-44c5-80bc-e3ca6302d6bc",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "6acba2a9-9a12-4955-802a-4ac18df47aef",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

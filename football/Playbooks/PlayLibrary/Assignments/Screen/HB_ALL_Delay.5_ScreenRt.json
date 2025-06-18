@@ -1,0 +1,42 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Screen_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Screen/HB_ALL_Delay.5_ScreenRt",
+    "steps":  [
+                  {
+                      "guid":  "7babb95c-235b-4e4c-9c0e-643cb1001dee",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "6",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "80",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "9dc5846a-3867-4c4b-bef1-02baaa1bafd0",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "22b6b80e-0cdd-4853-9460-26b3e9f630b5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "2d20977c-5923-4142-89a9-d9f0205b7d12",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

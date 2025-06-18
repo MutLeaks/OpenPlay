@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_In_Out",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_X-5_Option_WR_Choice_In_or_Out_Left_Slot_OverrideFormPos_X8",
+    "steps":  [
+                  {
+                      "guid":  "ead2a36a-71de-43e2-8da2-acb5eec945d8",
+                      "data":  {
+                                   "offsetY":  "-2.8",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "8",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "f79cf824-8288-4ebd-833c-23d79a6bd116",
+                      "data":  {
+                                   "shouldStopAtTarget":  "False",
+                                   "offsetX":  "-5",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "speed":  "85",
+                                   "offsetY":  "-2.8",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "8183e210-88fb-4c00-abe9-6ae3a6a98845",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "c5983d38-8399-4456-b4ef-f665ee3549fd",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "110",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5e4514e5-1f7c-4eeb-a72c-466dc8e1a50e",
+                      "data":  {
+                                   "optionRoute2":  "10",
+                                   "opCodeEX":  "ID_OPTIONROUTE",
+                                   "optionRoute3":  "5",
+                                   "optionRoute1":  "13"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "3b97b3a2-d325-4c1b-8d2a-ef0a5e2d2f3f",
+                      "data":  {
+                                   "optionRoute2":  "64",
+                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
+                                   "optionRoute3":  "143",
+                                   "optionRoute1":  "0"
+                               },
+                      "type":  "OptionRouteExtraInfoAssignment"
+                  },
+                  {
+                      "guid":  "d81e41b9-093f-4e65-b581-60f8a8a212b2",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "7127e103-9ce9-4f3b-9bc5-6dd48ec2e34e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

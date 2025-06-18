@@ -1,0 +1,41 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OverrideFormPos/SCREEN_WR_Bubble_Lt_Trips",
+    "steps":  [
+                  {
+                      "guid":  "b3da0534-8746-4258-a8ff-b807a2a7009c",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_BUBBLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "a1087d27-74ee-4983-ac3d-20aac169df66",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "125",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "f1fd8e46-c545-4e96-916d-ec5026890f39",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "fff9f8aa-df95-4b9a-86fb-3cacf9a5f850",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

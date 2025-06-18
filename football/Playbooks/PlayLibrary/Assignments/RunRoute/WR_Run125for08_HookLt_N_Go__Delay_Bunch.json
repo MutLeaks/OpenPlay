@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_n_Go",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run125for08_HookLt_N_Go__Delay_Bunch",
+    "steps":  [
+                  {
+                      "guid":  "28984ccf-50bb-4d34-b41d-094af0df0978",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "123",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "78461297-f30d-4061-8c24-b58a94867a44",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_HITCH_GO_INSIDE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "f8ae4ae6-467a-4f1b-b942-770ddae06fce",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "105",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "be947677-66bf-444f-bcf1-41c08261e593",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "b9389e8c-1bbb-46ad-9233-8d08c21d7aab",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

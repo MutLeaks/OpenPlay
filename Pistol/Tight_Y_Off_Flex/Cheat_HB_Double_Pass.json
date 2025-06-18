@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Tight_Y_Off_Flex/Cheat_HB_Double_Pass",
+                 "playName":  "Cheat HB Double Pass",
+                 "playId":  "3802473967",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "fbd3b8cf-cc95-4e4f-86f1-6d3c4cd8aa6d",
+                 "offensePlayType":  "OffensePlayType_DoublePass",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Tight_Y_Off_Flex/Tight_Y_Off_Flex [ce028d29-00c0-42c8-aac8-4cb7e5533b76]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/CODE_DETERMINE [755851b5-333e-4e90-97d0-30fbad88a312]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_SG_NoStep_SetUp",
+                            "guid":  "9c292fce-0c92-4051-8169-db3d2a3a9155",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_ALL_SwingLt_DBL_Pass",
+                            "guid":  "529db629-dd8b-48cb-bf78-87aacd53a0d4",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for05_CutR45_Run45for04_CutL90_Run180for15_Deeper_(1)",
+                            "guid":  "2fdcfa1a-3ab7-4668-9593-c9a3944e9494",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run80for15_CutL45_135for20_DeepCorner",
+                            "guid":  "02093e15-7b93-48e8-8ed5-989f16bf137b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Screen/WR_Screen_Lt_OnBall_Delay_Comeback",
+                            "guid":  "921beea4-bd57-44c8-8eac-2efcd14d0c3a",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_TE_Wrap_Around_Block_CheatMotion",
+                            "guid":  "cfd248a3-1876-42d8-9bf6-e7c404804c30",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_PassBlock",
+                            "guid":  "9e2c0960-1ac1-4b5b-96e0-217e2e4c9477",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/RT_LeadScreen_Rt",
+                            "guid":  "02ab2952-8571-4b84-a7f2-75c8e60a412c",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

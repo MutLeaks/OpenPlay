@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>OpenPlay Beta (XXV)</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+    background-color: #121212;
+    color: #e0e0e0;
+    user-select: none;
+  }
+
+  h2 {
+    color: #90caf9;
+    margin-bottom: 1px;
+    text-shadow: 0 0 5px #3f51b5;
+  }
+
+  /* New styles for horizontal dropdowns and assignment box */
+  .dropdown-container {
+    display: flex;
+    gap: 20px; /* Space between dropdown groups and assignment box */
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 20px;
+  }
+
+  .dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin: 4px 0;
+    display: block;
+    color: #bbdefb;
+    font-weight: 600;
+  }
+
+  select {
+    width: 100%;
+    max-width: 200px; /* Adjust max-width as needed for dropdowns */
+    padding: 8px 10px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1.5px solid #3949ab;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  select:focus {
+    border-color: #82b1ff;
+    outline: none;
+    box-shadow: 0 0 6px #82b1ff;
+  }
+
+  /* Container for the play image and its overlay */
+  #playArtContainer {
+    position: relative; /* Needed for absolute positioning of blockingSchemeDisplay */
+  }
+
+  #blockingSchemeDisplay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: 700;
+    color: #a5d6a7;
+    font-size: 16px;
+    font-family: monospace;
+    letter-spacing: 0.06em;
+    text-shadow: 0 0 5px #000; /* Darker shadow for better readability over image */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 5px 8px;
+    border-radius: 4px;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+
+  #visualizerContainer {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  #playImage {
+    max-width: 480px;
+    max-height: 422px;
+    border: 1.5px solid #3949ab;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(25, 118, 210, 0.5);
+    display: none; /* Hidden by default until a play is selected */
+    object-fit: contain;
+  }
+
+  #assignmentStepsBox {
+    background: #1e1e1e;
+    border: 1.5px solid #3949ab;
+    border-radius: 8px;
+    padding: 10px;
+    max-height: 200px; /* Adjust max-height as needed for assignment steps */
+    overflow-y: auto;
+    font-size: 13px;
+    width: 350px; /* Adjust width as needed for assignment steps */
+    margin-top: 26px; /* Align with the top of the select elements */
+  }
+
+  #assignmentStepsBox h4 {
+    margin-top: 0;
+    color: #82b1ff;
+  }
+
+  svg, #routeRenderCanvas {
+    background-color: #212121;
+    border: 1.5px solid #3949ab;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.6);
+  }
+
+  svg {
+    width: 528px;
+    height: 264px;
+  }
+
+  #routeRenderCanvas {
+    width: 264px;
+    height: 264px;
+  }
+
+  .player {
+    fill: #7986cb;
+    stroke: #c5cae9;
+    stroke-width: 1.5px;
+    cursor: pointer;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+  }
+
+  .player:hover {
+    fill: #e3f2fd;
+    stroke: #64b5f6;
+    stroke-width: 2.5px;
+  }
+
+  .player.selected {
+    fill: #ffeb3b;
+    stroke: #fbc02d;
+    stroke-width: 3px;
+  }
+
+  svg text {
+    fill: #e3f2fd;
+    font-size: 9px;
+    font-weight: 600;
+    pointer-events: none;
+    text-shadow: 0 0 3px #000;
+  }
+
+  .tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px 12px;
+    background: #263238;
+    border: 1px solid #90caf9;
+    color: #bbdefb;
+    font-size: 13px;
+    border-radius: 6px;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow: 0 3px 8px rgba(33, 150, 243, 0.7);
+    transition: opacity 0.2s ease;
+    max-width: 220px;
+    z-index: 9999;
+  }
+</style>
+</head>
+<body>
+
+<h2>OpenPlay Beta (XXV)</h2>
+
+<div class="dropdown-container">
+  <div class="dropdown-wrapper">
+    <label for="formationSelect">Select Formation:</label>
+    <select id="formationSelect"><option>Loading...</option></select>
+  </div>
+  <div class="dropdown-wrapper">
+    <label for="playSelect">Select Play:</label>
+    <select id="playSelect" disabled><option>Select formation first</option></select>
+  </div>
+  <div id="assignmentStepsBox"><h4>Assignment Steps</h4><div>(click a player)</div></div>
+</div>
+
+<div id="visualizerContainer">
+  <div id="playArtContainer">
+    <img id="playImage" alt="Play Diagram" />
+    <div id="blockingSchemeDisplay">Blocking Scheme: (none)</div>
+  </div>
+  <svg width="528" height="264"></svg>
+  <canvas id="routeRenderCanvas" width="264" height="264"></canvas>
+</div>
+
+<div class="tooltip"></div>
+
+<script>
+let formationData = null;
+let assignmentData = null;
+let manifest = {};
+let stepPoints = [];
+let selectedPlayerCircle = null;
+
+const formationSelect = document.getElementById('formationSelect');
+const playSelect = document.getElementById('playSelect');
+const tooltip = d3.select(".tooltip");
+const svg = d3.select("svg");
+const playImage = document.getElementById('playImage');
+const blockingSchemeDisplay = document.getElementById('blockingSchemeDisplay'); // Get reference to the blocking scheme div
+const assignmentStepsBox = document.getElementById('assignmentStepsBox'); // Get reference to assignment steps box
+const routeCanvas = document.getElementById("routeRenderCanvas");
+const routeCtx = routeCanvas.getContext("2d");
+
+fetch('manifest.json')
+  .then(res => res.json())
+  .then(data => {
+    manifest = data;
+    populateFormationDropdown();
+  })
+  .catch(error => {
+    console.error('Error fetching manifest.json:', error);
+    formationSelect.innerHTML = '<option>Error loading formations</option>';
+  });
+
+function populateFormationDropdown() {
+  formationSelect.innerHTML = '<option value="">-- Select Formation --</option>';
+  const formations = Object.keys(manifest).sort();
+  formations.forEach(formation => {
+    formationSelect.innerHTML += `<option value="${formation}">${formation}</option>`;
+  });
+  playSelect.innerHTML = '<option>Select formation first</option>';
+  playSelect.disabled = true;
+  blockingSchemeDisplay.textContent = 'Blocking Scheme: (none)'; // Set initial text for blocking scheme
+  playImage.style.display = "none";
+}
+
+formationSelect.addEventListener('change', () => {
+  const selectedFormation = formationSelect.value;
+  if (!selectedFormation) {
+    playSelect.innerHTML = '<option>Select formation first</option>';
+    playSelect.disabled = true;
+    blockingSchemeDisplay.textContent = 'Blocking Scheme: (none)'; // Reset blocking scheme text
+    svg.html("");
+    playImage.style.display = "none";
+    assignmentStepsBox.innerHTML = `<h4>Assignment Steps</h4><div>(click a player)</div>`; // Clear assignment steps
+    routeCtx.clearRect(0, 0, routeCanvas.width, routeCanvas.height); // Clear route canvas
+    selectedPlayerCircle = null;
+    return;
+  }
+  populatePlayDropdown(selectedFormation);
+  svg.html("");
+  blockingSchemeDisplay.textContent = 'Blocking Scheme: (none)'; // Reset blocking scheme text
+  playImage.style.display = "none";
+  assignmentStepsBox.innerHTML = `<h4>Assignment Steps</h4><div>(click a player)</div>`; // Clear assignment steps
+  routeCtx.clearRect(0, 0, routeCanvas.width, routeCanvas.height); // Clear route canvas
+  selectedPlayerCircle = null;
+});
+
+function populatePlayDropdown(formation) {
+  playSelect.disabled = false;
+  playSelect.innerHTML = '<option value="">-- Select Play --</option>';
+  const plays = manifest[formation].sort();
+  plays.forEach(play => {
+    playSelect.innerHTML += `<option value="${play}">${play.replace('.json','')}</option>`;
+  });
+}
+
+playSelect.addEventListener('change', () => {
+  const formation = formationSelect.value;
+  const play = playSelect.value;
+  if (!formation || !play) return;
+
+  const formationJsonPath = `${formation}/${formation.split('/').pop()}.json`;
+  const playJsonPath = `${formation}/${play}`;
+
+  Promise.all([
+    fetch(formationJsonPath).then(r => r.json()),
+    fetch(playJsonPath).then(r => r.json())
+  ]).then(([formData, assignData]) => {
+    formationData = formData;
+    assignmentData = assignData;
+
+    if (assignmentData.play?.blockingScheme) {
+      const rawScheme = assignmentData.play.blockingScheme;
+      const match = rawScheme.match(/Blocking\/([^ ]+)/);
+      // Prepend "Blocking Scheme: " to the extracted scheme
+      blockingSchemeDisplay.textContent = "Blocking Scheme: " + (match ? match[1].replace(/_/g, ' ') : rawScheme);
+    } else {
+      blockingSchemeDisplay.textContent = 'Blocking Scheme: (none)'; // Ensure it always says "Blocking Scheme: "
+    }
+
+    // 🧼 Clear previous assignment visuals
+    assignmentStepsBox.innerHTML = `<h4>Assignment Steps</h4><div>(click a player)</div>`;
+    routeCtx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
+    selectedPlayerCircle = null;
+
+    const playName = play.replace(/\.json$/i, "");
+    const formationUnderscore = formation.replace(/\//g, '_');
+    playImage.src = `art/${formationUnderscore}_${playName}.png`;
+    playImage.style.display = "block"; // Show the image
+
+    tryRender();
+  })
+  .catch(error => {
+    console.error('Error fetching formation or play data:', error);
+    blockingSchemeDisplay.textContent = 'Blocking Scheme: Error loading';
+    svg.html("");
+    playImage.style.display = "none";
+    assignmentStepsBox.innerHTML = `<h4>Assignment Steps</h4><div>Error loading data</div>`;
+    routeCtx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
+    selectedPlayerCircle = null;
+  });
+});
+
+
+
+function tryRender() {
+  if (!formationData || !assignmentData) return;
+
+  svg.html("");
+  const players = formationData.firstPreSnapMovementPositions;
+  const assignments = assignmentData.assignments;
+
+  const fieldScale = d3.scaleLinear().domain([-25, 25]).range([0, 528]);
+  const yScale = d3.scaleLinear().domain([-10, 0]).range([231, 37]);
+
+  svg.selectAll("circle")
+    .data(players)
+    .enter()
+    .append("circle")
+    .attr("class", "player")
+    .attr("r", 9)
+    .attr("cx", d => fieldScale(d.XPos))
+    .attr("cy", d => yScale(d.YPos))
+    .each(function(d, i) { d._index = i; })
+    .on("mouseover", function(event, d) {
+      const assignment = assignments[d._index];
+      tooltip.transition().duration(200).style("opacity", .95);
+      tooltip.html(
+        `<strong>${d.depthPosition.replace("POSITION_", "")}</strong><br>` +
+        `Assignment: ${assignment?.path.split("/").pop() || "Unknown"}`
+      )
+      .style("left", (event.pageX + 10) + "px")
+      .style("top", (event.pageY - 30) + "px");
+    })
+    .on("mouseout", () => tooltip.transition().duration(300).style("opacity", 0))
+    .on("click", function(event, d) {
+      const assignment = assignments[d._index];
+      if (!assignment || !assignment.path) {
+        assignmentStepsBox.innerHTML = `<h4>Assignment Steps</h4><div>No assignment data for this player.</div>`;
+        routeCtx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
+        if (selectedPlayerCircle) {
+            selectedPlayerCircle.classList.remove("selected");
+        }
+        selectedPlayerCircle = null;
+        return;
+      }
+
+      if (selectedPlayerCircle) {
+        selectedPlayerCircle.classList.remove("selected");
+      }
+      this.classList.add("selected");
+      selectedPlayerCircle = this;
+
+      fetch(`${assignment.path}.json`)
+        .then(r => {
+            if (!r.ok) {
+                throw new Error(`HTTP error! status: ${r.status}`);
+            }
+            return r.json();
+        })
+        .then(assign => {
+          const assignmentName = assignment.path.split("/").pop();
+          renderAssignmentSteps(assign.steps, assignmentName);
+          drawRoute(assign.steps);
+        })
+        .catch(error => {
+            console.error(`Error fetching assignment details for ${assignment.path}:`, error);
+            assignmentStepsBox.innerHTML = `<h4>Assignment Steps</h4><div>Error loading details for this player.</div>`;
+            routeCtx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
+        });
+    });
+
+  svg.selectAll("text")
+    .data(players)
+    .enter()
+    .append("text")
+    .text(d => d.depthPosition.replace("POSITION_", ""))
+    .attr("x", d => fieldScale(d.XPos))
+    .attr("y", d => yScale(d.YPos) + 3)
+    .attr("text-anchor", "middle");
+}
+
+function renderAssignmentSteps(steps, assignmentName = "") {
+  const container = document.getElementById("assignmentStepsBox");
+  container.innerHTML = `<h4>Assignment Steps: ${assignmentName}</h4>`;
+
+  steps.forEach((step, idx) => {
+    const {
+      direction = "", cutType = "", distance = "", speed = "",
+      time = "", anim = "", blockingTechnique = "",
+      blockingGap = "", receiverBlockType = "", dropBackType = "",
+      handoffAnim = "", flippedHandoffAnim = "",
+      TurnDirection = "", BallHand = ""
+    } = step.data || {};
+
+    const descParts = [];
+
+    if (direction) descParts.push(`Dir: ${direction}°`);
+    if (cutType) descParts.push(`Cut: ${cutType}`);
+    if (distance) descParts.push(`${distance}yd`);
+    if (speed) descParts.push(`@${speed}%`);
+    if (time && parseFloat(time) > 0) descParts.push(`⏱️ ${time}s`);
+    if (anim) descParts.push(`Anim: ${anim}`);
+    if (handoffAnim) descParts.push(`Handoff: ${handoffAnim}`);
+    if (flippedHandoffAnim) descParts.push(`FlipHandoff: ${flippedHandoffAnim}`);
+    if (TurnDirection) descParts.push(`TurnDir: ${TurnDirection}`);
+    if (BallHand) descParts.push(`BallHand: ${BallHand}`);
+    if (blockingTechnique) descParts.push(`Tech: ${blockingTechnique}`);
+    if (blockingGap) descParts.push(`Gap: ${blockingGap}`);
+    if (receiverBlockType && receiverBlockType !== "RECEIVERBLOCKTYPE_NORMAL") {
+      descParts.push(`Block: ${receiverBlockType}`);
+    }
+    if (dropBackType) {
+      descParts.push(`Dropback: ${dropBackType}`);
+    }
+
+    const desc = descParts.length > 0
+      ? `${step.type} → ${descParts.join(' | ')}`
+      : step.type;
+
+    const div = document.createElement("div");
+    div.textContent = `${idx + 1}. ${desc}`;
+    container.appendChild(div);
+  });
+}
+
+function drawRoute(steps) {
+  const ctx = routeCtx;
+  ctx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
+  stepPoints = [];
+
+  const startX = 132, startY = 200;
+  let x = startX, y = startY;
+
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+
+  steps.forEach((step, i) => {
+    if (step.data?.direction && step.data?.distance) {
+      const angle = parseFloat(step.data.direction) * (Math.PI / 180);
+      const dist = parseFloat(step.data.distance) * 4;
+      x += Math.cos(angle) * dist;
+      y -= Math.sin(angle) * dist;
+      ctx.lineTo(x, y);
+      stepPoints.push({ x, y, index: i, step });
+    } else if (step.data?.opCodeEX === "ID_RECGETOPEN") {
+      stepPoints.push({ x, y, index: i, step });
+    }
+  });
+
+  ctx.strokeStyle = "#90caf9";
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  stepPoints.forEach(({ x, y }) => {
+    ctx.beginPath();
+    ctx.arc(x, y, 3, 0, 2 * Math.PI);
+    ctx.fillStyle = "#bbdefb";
+    ctx.fill();
+  });
+}
+
+
+routeCanvas.addEventListener("click", function (e) {
+  const rect = routeCanvas.getBoundingClientRect();
+  const mouseX = e.clientX - rect.left;
+  const mouseY = e.clientY - rect.top;
+
+  for (const { x, y, step, index } of stepPoints) {
+    const dx = mouseX - x;
+    const dy = mouseY - y;
+    if (dx * dx + dy * dy < 10 * 10) { // Check if click is within 10px radius
+      const parts = [];
+      if (step.type) parts.push(`Type: ${step.type}`);
+      if (step.data?.direction) parts.push(`Direction: ${step.data.direction}°`);
+      if (step.data?.distance) parts.push(`Distance: ${step.data.distance} yd`);
+      if (step.data?.speed) parts.push(`Speed: ${step.data.speed}%`);
+      if (step.data?.opCodeEX) parts.push(`Logic: ${step.data.opCodeEX.replace("ID_", "")}`);
+      if (step.data?.cutType) parts.push(`Cut: ${step.data.cutType}`);
+
+      tooltip
+        .html(`<strong>Step ${index + 1}</strong><br>${parts.join("<br>")}`)
+        .style("left", (e.pageX + 12) + "px")
+        .style("top", (e.pageY - 30) + "px")
+        .transition().duration(150)
+        .style("opacity", 0.95);
+      return;
+    }
+  }
+
+  tooltip.transition().duration(200).style("opacity", 0);
+});
+</script>
+</body>
+</html>

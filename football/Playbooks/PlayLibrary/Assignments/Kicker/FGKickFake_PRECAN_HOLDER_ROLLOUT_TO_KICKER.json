@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_K_FG_Fake",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Kicker/FGKickFake_PRECAN_HOLDER_ROLLOUT_TO_KICKER",
+    "steps":  [
+                  {
+                      "guid":  "00b7dcdf-a2f7-4c25-a773-b0492d95cf32",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_FGKICK",
+                                   "handoffAnim":  "11"
+                               },
+                      "type":  "FGKickAssignment"
+                  },
+                  {
+                      "guid":  "9daf460e-a102-46e4-9d6e-f3d207c4fb6f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

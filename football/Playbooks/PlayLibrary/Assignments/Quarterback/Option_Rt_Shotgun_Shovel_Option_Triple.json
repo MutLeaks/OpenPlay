@@ -1,0 +1,30 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Speed_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Rt_Shotgun_Shovel_Option_Triple",
+    "steps":  [
+                  {
+                      "guid":  "5737d94b-304c-4019-a721-01720a4bbb02",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "1",
+                                   "pitchMan1":  "2"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "6bcd5c29-bc52-4d71-8ca9-715db87d612b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "2f512fce-03f2-4b09-b198-a9b9240efb9b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

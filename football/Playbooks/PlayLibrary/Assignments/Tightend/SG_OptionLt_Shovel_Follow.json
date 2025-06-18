@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Tightend/SG_OptionLt_Shovel_Follow",
+    "steps":  [
+                  {
+                      "guid":  "cb3c3756-e796-4a5d-a312-2846b41a6b5e",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_SCREEN_PULL",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "7c92dd5f-9f37-4c63-b26b-830d5c0d9977",
+                      "data":  {
+                                   "offsetY":  "4",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "2"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "c304218c-9a3c-490d-90cc-e140c3ca05d7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

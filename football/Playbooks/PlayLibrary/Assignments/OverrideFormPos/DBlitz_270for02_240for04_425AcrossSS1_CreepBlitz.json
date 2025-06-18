@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_DefBlitz",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/OverrideFormPos/DBlitz_270for02_240for04_425AcrossSS1_CreepBlitz",
+    "steps":  [
+                  {
+                      "guid":  "89d32c17-26f8-459f-af5a-83846310507b",
+                      "data":  {
+                                   "offsetY":  "2",
+                                   "opCodeEX":  "ID_DEFMOVEMENT",
+                                   "percentage":  "100",
+                                   "offsetX":  "9"
+                               },
+                      "type":  "DefMovementAssignment"
+                  },
+                  {
+                      "guid":  "25f3de4c-16e0-4b34-be47-e9fec35ec9d3",
+                      "data":  {
+                                   "opCodeEX":  "ID_PASSRUSH",
+                                   "direction":  "270",
+                                   "gap":  "RUSH_GAP_INVALID",
+                                   "distance":  "2"
+                               },
+                      "type":  "PassRushAssignment"
+                  },
+                  {
+                      "guid":  "d645e574-913f-4c36-90c0-aa7adb5546cf",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "guid":  "16102891-99ad-4312-883d-051923d14953",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_Long",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for15_HitchRt",
+    "steps":  [
+                  {
+                      "guid":  "4fd05ebd-428b-4594-9d0b-89560ebb836d",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "13",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "16161190-b736-4634-9eff-6aac97e47c0d",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH_QUICK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "3d976c99-be73-4fe7-8337-00df874c5558",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "315",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "7b342d22-74db-48f1-9ed9-625fdd3b71ed",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "1572b7f2-8f9e-45ad-bdd3-146aa387e9d0",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "6fbe551a-cde1-464b-b478-e5b27b47880f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

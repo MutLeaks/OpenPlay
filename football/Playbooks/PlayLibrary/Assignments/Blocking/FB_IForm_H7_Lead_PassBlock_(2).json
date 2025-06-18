@@ -1,0 +1,34 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_IForm_H7_Lead_PassBlock_(2)",
+    "steps":  [
+                  {
+                      "guid":  "2f703460-6bf9-4b05-b0fc-1b6d30bff665",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "145",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "35",
+                                   "opCodeEX":  "ID_MOVEDIRDISTCONST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "6f33c003-f875-4c27-9213-05be4040b1b2",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ForceCutBlock",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "d750bc3b-0a8d-48aa-9d35-f44f7365ffef",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

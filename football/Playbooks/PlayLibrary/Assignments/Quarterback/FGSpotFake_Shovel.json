@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Fake_FG_Pitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/FGSpotFake_Shovel",
+    "steps":  [
+                  {
+                      "guid":  "e20a4f7c-566c-4981-acf1-7d5826dae201",
+                      "data":  {
+                                   "opCodeEX":  "ID_PITCH",
+                                   "playerNum":  "4",
+                                   "speed":  "0",
+                                   "pitchType":  "FG_SPOTTER_FLIP"
+                               },
+                      "type":  "PitchBallAssignment"
+                  },
+                  {
+                      "guid":  "14c3a3a6-cd27-4833-be2f-ca9b4ca26df9",
+                      "data":  {
+                                   "direction":  "90",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "guid":  "23e67420-a1ff-4fce-b6c9-5d944eaad6e9",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "faa5009d-0d86-4d5d-8ce3-75ae68b38600",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

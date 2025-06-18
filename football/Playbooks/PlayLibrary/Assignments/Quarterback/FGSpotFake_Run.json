@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Fake_FG_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/FGSpotFake_Run",
+    "steps":  [
+                  {
+                      "guid":  "4521421f-63b5-472f-817b-e082c88021b0",
+                      "data":  {
+                                   "fake":  "True",
+                                   "opCodeEX":  "ID_FGSPOT"
+                               },
+                      "type":  "FGSpotAssignment"
+                  },
+                  {
+                      "guid":  "c41e3214-b605-4ed4-82bf-4c2ff38538d4",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "25",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "cb568ff3-0ab0-484c-af55-7fe6acc015ea",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "517dd587-e0e2-4832-8292-7d291cf16d2d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

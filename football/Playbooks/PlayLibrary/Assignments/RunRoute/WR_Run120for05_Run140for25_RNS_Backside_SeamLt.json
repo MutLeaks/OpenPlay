@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Cross",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run120for05_Run140for25_RNS_Backside_SeamLt",
+    "steps":  [
+                  {
+                      "guid":  "d80fe470-e6d2-4ebe-b126-90f39b703ab2",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "bf0e4d8a-45d9-462f-a185-bb3e7b4bf0ea",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "134.8214",
+                                   "distance":  "5.825397",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "4d96eefb-955e-4993-b0b6-6f75f2006b42",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "169.992",
+                                   "distance":  "8.962054",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "7a314537-c8f8-4889-a46c-100f9ab1c773",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "135",
+                                   "distance":  "3.671002",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "16073a30-a8d5-4283-810e-47b9aaa279d9",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "96.34019",
+                                   "distance":  "9.402349",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "434959f7-a822-4b8e-97ba-a954d36e8ec8",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "b8a5fa17-a5b1-43c3-a80a-2c34a28d1a98",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

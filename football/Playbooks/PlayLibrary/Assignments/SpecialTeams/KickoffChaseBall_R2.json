@@ -1,0 +1,42 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Cover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KickoffChaseBall_R2",
+    "steps":  [
+                  {
+                      "guid":  "e532e98f-8654-4d34-8434-b0f92cfcce53",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "687d1e51-e1d0-4107-86cc-7ba045666e16",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "60936809-08ac-45cb-93c0-8d4d6759f308",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "guid":  "7db8052c-947d-4e61-b67e-9ea177de771a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

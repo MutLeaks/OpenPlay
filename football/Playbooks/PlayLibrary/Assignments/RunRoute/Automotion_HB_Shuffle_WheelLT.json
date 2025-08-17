@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_HB_Shuffle_WheelLT",
+    "steps":  [
+                  {
+                      "guid":  "9bf1217e-54bf-45b5-8d83-16608ad24c83",
+                      "data":  {
+                                   "waypoints":  "-7-605590AUTOMOTIONLOCOSTYLE_STRAFEFalse",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "962c0f52-26bd-4930-bf7a-cc4913cb0aba",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "163",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "dadb565c-b07b-43ec-bc0f-419a92bcf03f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "150",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "ec2c63fc-dca4-4a79-b990-ffc44cc511c0",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "2af1ceeb-35a6-4e23-89af-4067232afd40",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "98",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e8f8e528-01e7-4431-8b54-5b1dc11a1134",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "13e88edb-b401-4e18-8296-14ee83ca1750",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

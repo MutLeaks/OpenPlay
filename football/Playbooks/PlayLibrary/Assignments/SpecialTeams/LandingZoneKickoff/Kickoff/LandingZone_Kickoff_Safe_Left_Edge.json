@@ -1,0 +1,42 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Cover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/LandingZoneKickoff/Kickoff/LandingZone_Kickoff_Safe_Left_Edge",
+    "steps":  [
+                  {
+                      "guid":  "e33ab7fa-5d3a-4308-b41f-70751dc59752",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "True",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "6",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "7ce5e0a8-f423-47cd-bfcf-d5e5e5f848bc",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "300",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "90228273-0df3-428c-900d-d74fbdf4d732",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "guid":  "1825c30e-13f8-47dc-bd3e-80db11ddd3dd",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

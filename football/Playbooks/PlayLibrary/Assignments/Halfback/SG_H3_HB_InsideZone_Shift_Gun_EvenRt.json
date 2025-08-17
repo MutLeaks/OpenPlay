@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Dive",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H3_HB_InsideZone_Shift_Gun_EvenRt",
+    "steps":  [
+                  {
+                      "guid":  "1e8deb19-7c0e-4dac-abfa-a7b07600648f",
+                      "data":  {
+                                   "waypoints":  "2.9-616590AUTOMOTIONLOCOSTYLE_NORMALTrue",
+                                   "shouldStopAtTarget":  "True",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0.5",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_2pt_HB"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "59b67ccd-730c-4c57-9eb8-dec04a5f7d5c",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "27",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "4"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "a8976629-e0c6-4a89-aef4-1031f0107322",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "130",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "0881b72d-8b28-4124-b0eb-1f8fa525c4c5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "618e0972-797a-4be5-8da9-ed654d419428",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

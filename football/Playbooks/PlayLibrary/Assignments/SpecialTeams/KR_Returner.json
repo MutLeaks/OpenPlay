@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Return",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KR_Returner",
+    "steps":  [
+                  {
+                      "guid":  "e50dc849-731a-4111-8d73-c211eee11a59",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "b706ed98-c354-406e-858e-bbc8969a1ee4",
+                      "data":  {
+                                   "offsetY":  "10",
+                                   "opCodeEX":  "ID_WEDGEBLOCK",
+                                   "direction":  "270",
+                                   "offsetX":  "5"
+                               },
+                      "type":  "WedgeBlockAssignment"
+                  },
+                  {
+                      "guid":  "12c3c1c0-6364-4d66-bb10-cb7818e9d99c",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "68a20cc1-ff13-4962-972d-4e7db4190a69",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_Boomerang_WR_X-1_Y8_SwingRt_CLearout",
+    "steps":  [
+                  {
+                      "guid":  "78d17859-2b97-4730-9a7e-3fe8fb640cb8",
+                      "data":  {
+                                   "waypoints":  "4-30750AUTOMOTIONLOCOSTYLE_NORMALTrue4-804590AUTOMOTIONLOCOSTYLE_STRAFEFalse1-80450AUTOMOTIONLOCOSTYLE_NORMALTrue",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "b084c1b6-13ab-41f5-90cd-a6b2caa0764e",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "0",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "429baf59-15a8-4a7a-85b7-a14369b0826b",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "69ca2379-1e23-4e2b-8145-666c5e72c36b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -5,69 +5,18 @@
                   {
                       "guid":  "d31595a4-ac6a-40ac-bb62-e3664f005aa5",
                       "data":  {
+                                   "waypoints":  "9-30400AUTOMOTIONLOCOSTYLE_NORMALTrue11-302590AUTOMOTIONLOCOSTYLE_STRAFEFalse9-50500AUTOMOTIONLOCOSTYLE_NORMALTrue3-901000AUTOMOTIONLOCOSTYLE_NORMALTrue-3-1001000AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "9",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "40",
-                                   "offsetY":  "-3",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "f53b1110-3f4f-445f-8b69-4cddbc9ee7fe",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "11",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "25",
-                                   "offsetY":  "3",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "99219418-d383-4961-aa42-4df929706171",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "9",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "-5",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "42c1b38c-26c1-427b-bfc6-a2b0d17d448e",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "3",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "100",
-                                   "offsetY":  "-9",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "d600bb41-8690-4272-8610-7ee82c53fd5e",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-3",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "100",
-                                   "offsetY":  "-10",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "91bbbf78-4beb-4008-bd23-e8dd5ef25d99",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "5ed0ad0c-b685-4e35-b65e-ff0e7a36286d",
@@ -97,7 +46,7 @@
                                    "opCodeEX":  "ID_SCRAMBLE",
                                    "direction":  "0",
                                    "distance":  "0",
-                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                                   "dropBackType":  "DROP_TYPEENUM_NONEVALUE"
                                },
                       "type":  "QBScrambleAssignment"
                   },

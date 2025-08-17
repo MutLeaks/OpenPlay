@@ -7,21 +7,12 @@
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "67",
-                                   "distance":  "3.5",
+                                   "distance":  "5",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"
-                  },
-                  {
-                      "guid":  "9de7693b-1ae0-449f-ac2b-8c050b91f47a",
-                      "data":  {
-                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
-                                   "opCodeEX":  "ID_RECCUT",
-                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
-                               },
-                      "type":  "ReceiverCutAssignment"
                   },
                   {
                       "guid":  "a7ba5187-e56d-4c1c-a370-adcc0aea9a96",
@@ -38,22 +29,10 @@
                   {
                       "guid":  "7bfb3f62-93b1-401c-a86b-a6f9641747a4",
                       "data":  {
-                                   "optionRoute2":  "17",
-                                   "opCodeEX":  "ID_OPTIONROUTE",
-                                   "optionRoute3":  "255",
-                                   "optionRoute1":  "16"
+                                   "optionRouteInfo":  "69625784-8e0f-45fc-a2d8-c64c56f09e50OptionRouteCoverage_Defaultd6862ce3-a68c-4223-8878-79e425ba9a824800000000-0000-0000-0000-000000000000OptionRouteCoverage_Default",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
                                },
                       "type":  "OptionRouteAssignment"
-                  },
-                  {
-                      "guid":  "369a90c7-a51f-4a42-b549-40458d0847cc",
-                      "data":  {
-                                   "optionRoute2":  "48",
-                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
-                                   "optionRoute3":  "0",
-                                   "optionRoute1":  "0"
-                               },
-                      "type":  "OptionRouteExtraInfoAssignment"
                   },
                   {
                       "guid":  "3bfc667d-dda2-4052-b180-945bb66420dc",

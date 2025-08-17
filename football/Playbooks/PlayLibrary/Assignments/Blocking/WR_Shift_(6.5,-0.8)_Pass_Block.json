@@ -1,0 +1,38 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/WR_Shift_(6.5,-0.8)_Pass_Block",
+    "steps":  [
+                  {
+                      "guid":  "b08bdf7f-bcad-4790-b13c-6e6e50033142",
+                      "data":  {
+                                   "waypoints":  "6.5-0.8210090AUTOMOTIONLOCOSTYLE_STRAFETrue",
+                                   "shouldStopAtTarget":  "True",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0.5",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_2pt"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "02ebf7ab-3d89-4417-ba3c-dfd54d2f8fa1",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "guid":  "6c8cf23d-8625-45c4-9606-72242e2c37ba",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

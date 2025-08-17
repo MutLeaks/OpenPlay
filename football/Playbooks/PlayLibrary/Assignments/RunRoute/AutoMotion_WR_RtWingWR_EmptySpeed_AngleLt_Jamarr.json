@@ -15,33 +15,18 @@
                   {
                       "guid":  "0f208f20-61de-461d-8f7e-396570369cda",
                       "data":  {
+                                   "waypoints":  "3-50350AUTOMOTIONLOCOSTYLE_NORMALTrue5-50350AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "3",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "35",
-                                   "offsetY":  "-5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "ecc098d6-284c-431d-b889-9c6711d5b4f4",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "35",
-                                   "offsetY":  "-5",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "0e75e9fb-be40-42f3-a34d-bc5c2c804e08",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "e7e7b41d-7313-4075-86fd-de51667a3dc5",

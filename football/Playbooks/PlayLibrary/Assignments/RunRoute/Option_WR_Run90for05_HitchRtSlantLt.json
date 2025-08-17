@@ -1,0 +1,33 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for05_HitchRtSlantLt",
+    "steps":  [
+                  {
+                      "guid":  "4aefb892-f57f-4e4b-898c-f8e0063fe8bd",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "1.6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "3465b437-5fd1-4e21-943b-a925ae7b4eb8",
+                      "data":  {
+                                   "optionRouteInfo":  "8645442e-e275-4720-93db-ecd57b2bf680OptionRouteCoverage_Defaulte581ee8e-c3d6-405c-8ac2-f181d79eb87511200000000-0000-0000-0000-000000000000OptionRouteCoverage_Default",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "95c86c84-a7ad-49de-8c30-07dc85451c23",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

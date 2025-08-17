@@ -3,11 +3,11 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/HotRoute/MUTSpeedOut_Right",
     "steps":  [
                   {
-                      "guid":  "d40be81f-f5fe-40fa-adf7-b35f18a71a0e",
+                      "guid":  "175ac834-05e6-4fdf-9d20-0d76c219e762",
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "90",
-                                   "distance":  "3.5",
+                                   "distance":  "3",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
@@ -15,10 +15,19 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "b3856cdc-ae7d-49e0-a84d-ff3bb0dfecaa",
+                      "guid":  "c547484c-aba0-4a55-9626-e8039706903a",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "b0304b46-f746-4ce8-b81c-b5dd8733634f",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "60",
+                                   "direction":  "35",
                                    "distance":  "2",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
@@ -27,22 +36,10 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "f1785c89-3161-4019-a942-7cfb7c1d176e",
+                      "guid":  "62764bb4-e8ce-420e-921a-265eba79dd8f",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "30",
-                                   "distance":  "2",
-                                   "facingDirectionOverride":  "0",
-                                   "speed":  "100",
-                                   "opCodeEX":  "ID_RUNROUTE"
-                               },
-                      "type":  "RunRouteAssignment"
-                  },
-                  {
-                      "guid":  "ddfe0537-2506-4e39-ab90-2abc0eecd822",
-                      "data":  {
-                                   "overrideFacingDirection":  "False",
-                                   "direction":  "0",
+                                   "direction":  "360",
                                    "distance":  "15",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
@@ -51,14 +48,14 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "d534d38d-bbec-463f-9228-20b58992f2eb",
+                      "guid":  "e60e8dcf-4303-4375-a57f-24d33f93f24c",
                       "data":  {
                                    "opCodeEX":  "ID_RECGETOPEN"
                                },
                       "type":  "GetOpenAssignment"
                   },
                   {
-                      "guid":  "65c5e353-86a6-4467-a3c8-c41a7517d9df",
+                      "guid":  "49751f59-e2af-4bdc-8367-268643852825",
                       "data":  {
                                    "opCodeEX":  "ID_NONE"
                                },

@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Triple_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Triple_Rt_WishboneHB2",
+    "steps":  [
+                  {
+                      "guid":  "830222ac-1536-4a35-a82a-3c050faa7d44",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "194",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "195"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "cfc2bb5d-4cbd-4f71-a850-23c35c1dfde9",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "4"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "4e4b05a4-f440-4073-926d-e856f65c8995",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "040f35e5-ecfb-4131-9ba7-d263a85cc035",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -3,30 +3,37 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/WR_Automotion_Pistol_JetRT",
     "steps":  [
                   {
+                      "guid":  "3a654ee6-b5c5-4b94-aacb-e7025483c8e9",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-10",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
                       "guid":  "53f61f7b-b7e4-4600-9c83-edfe96793f7d",
                       "data":  {
+                                   "waypoints":  "-4.9-2.70650AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-4.9",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "65",
-                                   "offsetY":  "-2.7",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "b8a20b3e-7ba0-47aa-8431-71f13ec24d23",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "6c4a8c93-0c0b-40ab-8281-b054910df6e3",
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "0",
-                                   "distance":  "15",
+                                   "distance":  "12",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "65",
                                    "opCodeEX":  "ID_RUNROUTE"

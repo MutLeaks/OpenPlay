@@ -1,37 +1,22 @@
 ﻿{
-    "routeType":  "AssignRouteType_RR_Post_Middle",
+    "routeType":  "AssignRouteType_RR_Out_Short",
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_AutoMotion_X-10_Run90for05_OutLt",
     "steps":  [
                   {
                       "guid":  "f0b151f7-27a5-4b85-b0f9-421a4ed498ec",
                       "data":  {
+                                   "waypoints":  "-7-2.50500AUTOMOTIONLOCOSTYLE_NORMALTrue-9.5-2.502590AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-7",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "-2.5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "e15a1d1b-f007-4664-add3-a77b13d7def7",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-9.5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "25",
-                                   "offsetY":  "2.5",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "70fa186b-fe74-4de7-94a1-bd2036d096cc",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "fdfc958b-c0a1-4df6-a388-11bd9496c894",

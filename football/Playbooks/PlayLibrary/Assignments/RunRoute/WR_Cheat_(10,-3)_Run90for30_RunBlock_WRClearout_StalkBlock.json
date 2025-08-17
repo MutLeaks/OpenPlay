@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Cheat_(10,-3)_Run90for30_RunBlock_WRClearout_StalkBlock",
+    "steps":  [
+                  {
+                      "guid":  "6496198b-9138-4609-9617-872998d272e0",
+                      "data":  {
+                                   "offsetY":  "-2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-10",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "cc727714-dfee-4a1f-b1d4-a4d5582b0121",
+                      "data":  {
+                                   "waypoints":  "5-2.5110090AUTOMOTIONLOCOSTYLE_NORMALTrue8-2.5110090AUTOMOTIONLOCOSTYLE_NORMALFalse",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "3",
+                                   "automotionOrderTransitID":  "2",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0.2",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "1ea9983d-8658-4182-a179-af461867281f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "be066f2b-d660-40a3-b19f-d0552dcc64bb",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_STALK_BLOCK"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "3ceb39b9-295d-4275-9dfe-3b8581a8da30",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "1632b79c-15b9-474c-90c8-6a5e25120fae",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

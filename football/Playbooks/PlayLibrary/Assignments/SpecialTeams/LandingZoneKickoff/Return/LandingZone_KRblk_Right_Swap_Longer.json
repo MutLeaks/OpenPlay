@@ -1,0 +1,47 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Block",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/LandingZoneKickoff/Return/LandingZone_KRblk_Right_Swap_Longer",
+    "steps":  [
+                  {
+                      "guid":  "ed49fe40-673f-41cf-ae4c-dcacebc4fb58",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "True",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "6",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "bad7fbfe-583a-4dc9-a182-575f9a732146",
+                      "data":  {
+                                   "overrideFacingDirection":  "True",
+                                   "direction":  "0",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "270",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "f91081ad-fcd4-4dda-9c3a-9e46045c164c",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "a937ce6b-ff4f-4623-89ba-b66d61423b67",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

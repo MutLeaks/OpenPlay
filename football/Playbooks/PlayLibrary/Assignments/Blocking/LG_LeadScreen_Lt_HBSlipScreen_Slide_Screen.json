@@ -3,23 +3,11 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/LG_LeadScreen_Lt_HBSlipScreen_Slide_Screen",
     "steps":  [
                   {
-                      "guid":  "4d592c1d-46c6-4460-9cdf-04cd336dccc8",
-                      "data":  {
-                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
-                                   "flags":  "RunBlockFlags_None",
-                                   "time":  "0",
-                                   "slamDuration":  "0",
-                                   "stalkDistance":  "0",
-                                   "opCodeEX":  "ID_RUNBLOCK"
-                               },
-                      "type":  "RunBlockAssignment"
-                  },
-                  {
                       "guid":  "bddefbc0-3f1c-4351-8069-61a59cc3822b",
                       "data":  {
                                    "flags":  "PassBlockFlags_None",
                                    "opCodeEX":  "ID_PASSBLOCK",
-                                   "time":  "0.125"
+                                   "time":  "0.45"
                                },
                       "type":  "PassBlockAssignment"
                   },

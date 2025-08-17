@@ -5,33 +5,18 @@
                   {
                       "guid":  "e82dfa71-9278-4fcb-846e-d7c13e660a45",
                       "data":  {
+                                   "waypoints":  "11-3.501000AUTOMOTIONLOCOSTYLE_NORMALTrue15-3.505090AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "11",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "100",
-                                   "offsetY":  "-3.5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "0470f729-8b93-44cb-b2da-4242c5c3aa48",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "15",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "3.5",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "0ec66882-7fc9-4370-bb67-54d6db40c0f5",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "9f44c4fb-f3c8-4501-a958-307a972ebdd1",

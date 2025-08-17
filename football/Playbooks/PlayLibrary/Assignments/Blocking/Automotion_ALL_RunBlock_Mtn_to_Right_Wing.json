@@ -5,33 +5,18 @@
                   {
                       "guid":  "30f05825-61d1-4458-b644-22a88829485f",
                       "data":  {
+                                   "waypoints":  "-0.5-2.70550AUTOMOTIONLOCOSTYLE_NORMALTrue6.5-2.705590AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-0.5",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "55",
-                                   "offsetY":  "-2.7",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "301b6b35-519d-4f5c-ab3c-c6d350341eb4",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "6.5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "55",
-                                   "offsetY":  "2.7",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "a6307f85-71ec-4779-9a30-cd1240cef347",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "04c11a56-f101-45db-90ac-8f787d404bf9",

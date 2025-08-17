@@ -1,0 +1,38 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_SlotLT_Stop_Escort_RT_Pull_H8_Lead",
+    "steps":  [
+                  {
+                      "guid":  "546df682-0472-44a6-9372-9eaca7fb9e3e",
+                      "data":  {
+                                   "waypoints":  "7.25-3.3110090AUTOMOTIONLOCOSTYLE_NORMALTrue-9-3.3110090AUTOMOTIONLOCOSTYLE_NORMALTrue-5-3.317590AUTOMOTIONLOCOSTYLE_NORMALTrue",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_2pt_Rec"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "8f7996d4-9697-4adc-97f8-91ce47130fa6",
+                      "data":  {
+                                   "blockingGap":  "OUTSIDE_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_KICKOUT"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "22b11bfa-575e-4588-bcc0-d258da996aad",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -5,33 +5,18 @@
                   {
                       "guid":  "8ce656a0-74d4-40ee-b151-712808565a9a",
                       "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "5.5",
+                                   "waypoints":  "5.5-30500AUTOMOTIONLOCOSTYLE_NORMALTrue4-305090AUTOMOTIONLOCOSTYLE_STRAFEFalse",
+                                   "shouldStopAtTarget":  "True",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0.2",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "30",
-                                   "offsetY":  "-3",
-                                   "stanceAtTarget":  "StanceType_None"
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_2pt_Rec"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "df2fcaf4-9a86-45bc-b440-f3eb3640c0c9",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "4",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "25",
-                                   "offsetY":  "3",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "3e78511a-97b0-4bfb-9124-b6d1aa113bf1",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "eda54ff1-d171-4d1e-a563-b6d2af774d6b",

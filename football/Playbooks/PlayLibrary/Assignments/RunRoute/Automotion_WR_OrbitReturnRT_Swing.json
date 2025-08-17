@@ -5,45 +5,18 @@
                   {
                       "guid":  "61454a59-02b3-4961-9b68-84d26d92f998",
                       "data":  {
+                                   "waypoints":  "-2-30700AUTOMOTIONLOCOSTYLE_NORMALTrue-2-705090AUTOMOTIONLOCOSTYLE_STRAFEFalse5.25-70750AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-2",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "75",
-                                   "offsetY":  "-3",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "3f551bea-bd27-498e-ae22-2fb0dde4ee66",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-2",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "70",
-                                   "offsetY":  "7",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "f08c4098-6efa-4c6e-9331-c7ca6705daa8",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "5.25",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "75",
-                                   "offsetY":  "-7",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "89b240f2-d567-4b3d-8a9c-f561426e81b3",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "c83e7e5b-e424-41d3-8e5c-e035198e735b",

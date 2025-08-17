@@ -5,21 +5,18 @@
                   {
                       "guid":  "2aedfc0b-ccde-48e6-9953-edef9f77f969",
                       "data":  {
+                                   "waypoints":  "-14-2.20700AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "True",
-                                   "offsetX":  "-14",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "70",
-                                   "offsetY":  "-2.2",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_2pt_Rec"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "ab2febac-b408-47fb-82d2-55d02682e3f2",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "e9fb0fe5-9361-442e-9996-068f3e8b57a6",

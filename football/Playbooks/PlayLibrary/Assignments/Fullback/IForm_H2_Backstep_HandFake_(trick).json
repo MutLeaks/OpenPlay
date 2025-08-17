@@ -1,5 +1,5 @@
 ﻿{
-    "routeType":  "AssignRouteType_Block_Run",
+    "routeType":  "AssignRouteType_RB_Dive",
     "name":  "football/Playbooks/PlayLibrary/Assignments/Fullback/IForm_H2_Backstep_HandFake_(trick)",
     "steps":  [
                   {
@@ -35,16 +35,11 @@
                       "type":  "ReceiveHandoffAssignment"
                   },
                   {
-                      "guid":  "45fc5f03-e8b1-419a-a3ed-f37c9de3928f",
+                      "guid":  "77e2d219-af5e-4988-989d-880d457b01f5",
                       "data":  {
-                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
-                                   "flags":  "RunBlockFlags_None",
-                                   "time":  "0",
-                                   "slamDuration":  "0",
-                                   "stalkDistance":  "0",
-                                   "opCodeEX":  "ID_RUNBLOCK"
+                                   "opCodeEX":  "ID_RUNEZ"
                                },
-                      "type":  "RunBlockAssignment"
+                      "type":  "RunEndZoneAssignment"
                   },
                   {
                       "guid":  "1836e317-bbae-45aa-a06a-8311e6a2c010",

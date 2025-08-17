@@ -5,36 +5,21 @@
                   {
                       "guid":  "f8b79c31-5097-497b-9f1c-790200e50803",
                       "data":  {
+                                   "waypoints":  "1-2.90700AUTOMOTIONLOCOSTYLE_NORMALTrue4.5-2.905090AUTOMOTIONLOCOSTYLE_STRAFETrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "0",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "55",
-                                   "offsetY":  "-2.5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
                   },
                   {
-                      "guid":  "a4a37b96-6d0e-405c-8641-5dccb336de71",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "3",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "55",
-                                   "offsetY":  "2.5",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "870fc69c-8263-45c1-afc2-c470b4cb259a",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
-                  },
-                  {
-                      "guid":  "c9071b32-089e-4c57-bc1a-a2712f46fd03",
+                      "guid":  "a19a02f0-efbe-4ffb-820e-b63823ce6317",
                       "data":  {
                                    "landingZoneKickoffDelay":  "False",
                                    "opCodeEX":  "ID_DELAY",
@@ -48,7 +33,7 @@
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "35",
-                                   "distance":  "5",
+                                   "distance":  "4",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "65",
                                    "opCodeEX":  "ID_RUNROUTE"
@@ -58,7 +43,7 @@
                   {
                       "guid":  "ed172c08-b8c5-43a2-b205-3dcc771f30c8",
                       "data":  {
-                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
                                    "opCodeEX":  "ID_RECCUT",
                                    "direction":  "RECEIVER_CUT_DIR_RIGHT"
                                },

@@ -7,29 +7,27 @@
                       "data":  {
                                    "landingZoneKickoffDelay":  "False",
                                    "opCodeEX":  "ID_DELAY",
-                                   "time":  "0.35",
+                                   "time":  "0.1",
                                    "timeNGPM":  "0.125"
                                },
                       "type":  "DelayAssignment"
                   },
                   {
-                      "guid":  "8da6e994-c9b8-4fb3-bbf6-767ea604d939",
+                      "guid":  "54420ca6-ed14-4231-8fc7-d80a00014155",
                       "data":  {
-                                   "overrideFacingDirection":  "False",
-                                   "direction":  "85",
-                                   "distance":  "2",
-                                   "facingDirectionOverride":  "0",
-                                   "speed":  "50",
-                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "5"
                                },
-                      "type":  "MoveDirectionAssignment"
+                      "type":  "InitialAnimAssignment"
                   },
                   {
                       "guid":  "3077c61c-a2b6-41ea-94da-ad0d67a24581",
                       "data":  {
                                    "landingZoneKickoffDelay":  "False",
                                    "opCodeEX":  "ID_DELAY",
-                                   "time":  "0",
+                                   "time":  "0.1",
                                    "timeNGPM":  "0"
                                },
                       "type":  "DelayAssignment"
@@ -39,9 +37,9 @@
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "0",
-                                   "distance":  "9",
+                                   "distance":  "8",
                                    "facingDirectionOverride":  "0",
-                                   "speed":  "55",
+                                   "speed":  "45",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"

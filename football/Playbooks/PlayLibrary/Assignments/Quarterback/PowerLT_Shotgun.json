@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Draw",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/PowerLT_Shotgun",
+    "steps":  [
+                  {
+                      "guid":  "010e497f-03e9-4f24-a554-07bd904fdec3",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "648e36fd-71db-455f-86ce-fe3dccaa3722",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "0b7ebf6b-9220-4104-8e1d-860769e5401f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

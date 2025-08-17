@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Cover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/LandingZoneKickoff/Kickoff/V2/LandingZone_Kickoff_Protect_Right_Edge_Outside_In",
+    "steps":  [
+                  {
+                      "guid":  "42ccd78b-65de-451d-ba97-f8efaeba0b5d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "True",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "6",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "bb3c7997-d68f-41b2-a72f-ccd61cd5057c",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "50",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "135",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "7b33a149-080d-4267-8cad-08d3bd9260c6",
+                      "data":  {
+                                   "overrideFacingDirection":  "True",
+                                   "direction":  "70",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "110",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "c13fdaf8-8488-4ecb-9b55-1193f8425995",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "guid":  "6ad430b1-b0ad-4ff3-8926-903c6085b8f7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

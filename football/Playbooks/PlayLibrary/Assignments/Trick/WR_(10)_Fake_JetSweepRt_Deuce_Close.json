@@ -3,6 +3,16 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_(10)_Fake_JetSweepRt_Deuce_Close",
     "steps":  [
                   {
+                      "guid":  "14a8337b-f75e-48fa-8751-7e4180c11149",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-5",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
                       "guid":  "21aa9955-988a-4048-a89d-8d88d8b21b7d",
                       "data":  {
                                    "opCodeEX":  "ID_CANNEDHANDOFF",
@@ -15,21 +25,18 @@
                   {
                       "guid":  "3977ef1e-6a0e-4997-bdca-4f514c445403",
                       "data":  {
+                                   "waypoints":  "6-2.201000AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "6",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "100",
-                                   "offsetY":  "-2.2",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "2d3cf2f0-09f8-4d7d-89b2-b5667a40c18d",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "0c42bb5d-d1e4-4c34-9ce7-1d299bea2586",

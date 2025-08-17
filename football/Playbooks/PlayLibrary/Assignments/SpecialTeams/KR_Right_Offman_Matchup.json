@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Block",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KR_Right_Offman_Matchup",
+    "steps":  [
+                  {
+                      "guid":  "58929f61-fe6a-4d9c-9be5-82a885108207",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "dfdba1ac-075f-4028-879a-e47a2dd06f0e",
+                      "data":  {
+                                   "offsetY":  "8",
+                                   "opCodeEX":  "ID_WEDGEBLOCK",
+                                   "direction":  "270",
+                                   "offsetX":  "0"
+                               },
+                      "type":  "WedgeBlockAssignment"
+                  },
+                  {
+                      "guid":  "9f0cc69f-5177-4c83-abc4-46b419f008bd",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "d5bbaa49-bcd4-41dc-bd30-328f6e463f15",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

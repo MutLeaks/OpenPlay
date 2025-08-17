@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Goal_Line_Offense/Normal/Mtn_PA_Mesh",
+                 "playName":  "Mtn PA Mesh",
+                 "playId":  "3272037592",
+                 "situation":  "ShortYardage",
+                 "guid":  "fd4954e0-adb6-4f92-a3ab-1e24f8b61e62",
+                 "offensePlayType":  "OffensePlayType_PassPlayAction",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Goal_Line_Offense/Normal/Normal [eafdb499-6a56-414d-b804-ecc84ff99259]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/BTInsideZone [807568c6-0818-42fd-810d-801a2dda1a27]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_InsideZoneLt_PA_Dropback_Precan_46_50",
+                            "guid":  "aa134001-021c-48ec-b70f-f238d3ae8722",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_H1_PA_PassBlock_HookRt",
+                            "guid":  "7a610b96-520c-4608-8ac5-112694306bd3",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/FB_ALL_FlatsLt_IForm",
+                            "guid":  "85deac2a-cb4d-4d52-8e6a-0361e11484bd",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_Block_DragRt24_Chip",
+                            "guid":  "53195f9f-e1e9-423b-ab22-1338ed1d3157",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_DragLt25_Delay_TE_Goalline",
+                            "guid":  "e2dba145-d9ab-4209-9b3d-45abe6c15f11",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_TE_MotionLt_Run100for07_AngleDigRt_X-5_EndShuffleMotion",
+                            "guid":  "39d99241-2a36-4a95-b617-c7829aa4cc17",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Run_Action_Block",
+                            "guid":  "25efd03a-eee3-42d1-92b0-91f7b4107821",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Run_Action_Block",
+                            "guid":  "25efd03a-eee3-42d1-92b0-91f7b4107821",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Run_Action_Block",
+                            "guid":  "25efd03a-eee3-42d1-92b0-91f7b4107821",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Run_Action_Block",
+                            "guid":  "25efd03a-eee3-42d1-92b0-91f7b4107821",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Run_Action_Block",
+                            "guid":  "25efd03a-eee3-42d1-92b0-91f7b4107821",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

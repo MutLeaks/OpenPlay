@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_ShuffleLT_HB_Option_HB_Choice_In_or_Out_Left_Side_X-7_GunOffsetRt",
+    "steps":  [
+                  {
+                      "guid":  "b54ded21-bd8b-4f14-9bf4-bd15c208df3c",
+                      "data":  {
+                                   "waypoints":  "-7-6.2505590AUTOMOTIONLOCOSTYLE_STRAFEFalse",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "c1f9955e-f56d-4cdc-819a-7f0a832223b0",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "100",
+                                   "distance":  "6.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "cc77eb6e-9aea-4dd1-a97e-9825a491c30f",
+                      "data":  {
+                                   "optionRouteInfo":  "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4a5e5732a-cc40-4655-8534-46b53b68c189143",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "afc60ee4-512c-4206-8079-92d587b04a54",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "c61eab63-ec30-4bd6-8158-c111859e444d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

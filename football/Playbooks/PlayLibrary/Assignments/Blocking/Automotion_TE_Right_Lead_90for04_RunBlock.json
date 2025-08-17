@@ -5,45 +5,27 @@
                   {
                       "guid":  "3f028fae-1fc5-4373-bc5c-4e6aa9ba3583",
                       "data":  {
+                                   "waypoints":  "-1-2.90700AUTOMOTIONLOCOSTYLE_NORMALTrue4.5-2.9505090AUTOMOTIONLOCOSTYLE_STRAFETrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-1",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "-2.2",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
                   },
                   {
-                      "guid":  "7e7ef947-5b0b-449e-bd5f-024b7a23670f",
+                      "guid":  "07055d47-321d-45e8-8834-dbcb4db8dc0a",
                       "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "4.5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "2.95",
-                                   "stanceAtTarget":  "StanceType_None"
+                                   "blockingGap":  "D_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_OUTSIDE_LAST"
                                },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "b5ff7a6b-b15a-46e5-8e00-85964324cb78",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
-                  },
-                  {
-                      "guid":  "ef4a60a0-1a2f-4226-84f0-0fc7b092c2fa",
-                      "data":  {
-                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
-                                   "flags":  "RunBlockFlags_None",
-                                   "time":  "0",
-                                   "slamDuration":  "0",
-                                   "stalkDistance":  "0",
-                                   "opCodeEX":  "ID_RUNBLOCK"
-                               },
-                      "type":  "RunBlockAssignment"
+                      "type":  "LeadBlockAssignment"
                   },
                   {
                       "guid":  "cfc6b0e5-e7f6-4e03-ab98-e3019e00e870",

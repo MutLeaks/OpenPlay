@@ -1,0 +1,72 @@
+﻿{
+    "play":  {
+                 "namePath":  "football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Wing_Close/Cheat_HB_Counter",
+                 "playName":  "Cheat HB Counter",
+                 "playId":  "3607849997",
+                 "situation":  "GeneralPurpose",
+                 "guid":  "006693a7-fe75-42a2-b883-e10d1276f103",
+                 "offensePlayType":  "OffensePlayType_RunInsideZone",
+                 "flowType":  "FlowType_SplitFlow",
+                 "formation":  "[Ebx] football/Playbooks/PlayLibrary/Formations/Offense/Pistol/Wing_Close/Wing_Close [27290006-9799-416e-97ba-d1942e7d52d7]",
+                 "defensePlayType":  "DefensePlayType_DontCare",
+                 "blockingScheme":  "[Ebx] football/Playbooks/PlayLibrary/Blocking/BTCounter [209a7808-cb93-4a85-9889-16b867118e97]",
+                 "runFitsCount":  "0"
+             },
+    "assignments":  [
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Precan/QB_PISTOL_01_InsideZone_DropBack_(146,145)",
+                            "guid":  "b07feedb-9fd5-4c2f-bad6-cb2d686d7095",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SB_H3_Hopstep_Hand_Pistol_(146,145)",
+                            "guid":  "9646c047-984a-44f6-8b9d-fde7d59a5498",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/OFP_TE_Cheat_Left_RunBlock",
+                            "guid":  "04af96e0-3db6-4eb2-821d-55fff021d79e",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_Run50for5_RunBlock_WRClearout_Shorter_Right",
+                            "guid":  "bf9beb6f-1c15-4a1f-81c6-7b29914c040b",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/OFP_WR_Run130for5_RunBlock_WRClearout_Shorter_Left",
+                            "guid":  "c3a058eb-d7aa-4613-a94b-8f5df84a148a",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/OFP_TE_Right_Lead_RunBlock",
+                            "guid":  "2c95b629-f889-46b0-b4db-a468bbb44dfc",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        },
+                        {
+                            "path":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_RunBlock",
+                            "guid":  "ed83879d-4c72-4aac-8e02-6e87891849ab",
+                            "type":  "Ebx"
+                        }
+                    ]
+}

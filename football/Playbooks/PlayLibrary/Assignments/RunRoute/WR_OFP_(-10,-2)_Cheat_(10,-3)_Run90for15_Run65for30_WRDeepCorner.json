@@ -1,0 +1,79 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Corner_Deep",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_OFP_(-10,-2)_Cheat_(10,-3)_Run90for15_Run65for30_WRDeepCorner",
+    "steps":  [
+                  {
+                      "guid":  "bd93dd99-db5a-4658-b2a8-5202648a6663",
+                      "data":  {
+                                   "offsetY":  "-2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-10",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "623d1e5a-0e40-4b4d-9c8c-7f55d91ae6c3",
+                      "data":  {
+                                   "waypoints":  "5-2.5110090AUTOMOTIONLOCOSTYLE_NORMALTrue8-2.5110090AUTOMOTIONLOCOSTYLE_NORMALFalse",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "3",
+                                   "automotionOrderTransitID":  "2",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0.2",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "435f5d11-c9af-4134-8dbd-f760a598feb6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "08c9a78d-c8bc-431e-bd87-255e26bc9eaf",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "13bbcec9-32ab-4fc0-9d5e-9707d60ffa53",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "60",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "15c221b5-55a8-4003-b557-8e2310ad8afb",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "402b498a-b1d5-438c-9792-cbb9dcb1b334",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

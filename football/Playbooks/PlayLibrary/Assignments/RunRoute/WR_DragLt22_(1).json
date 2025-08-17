@@ -7,7 +7,7 @@
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "115",
-                                   "distance":  "1.5",
+                                   "distance":  "2",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
@@ -15,13 +15,16 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "d74d21b5-9a8b-434b-a0eb-6b8310155de6",
+                      "guid":  "5b8e01d1-a7f8-4548-a673-736de2be3b98",
                       "data":  {
-                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
-                                   "opCodeEX":  "ID_RECCUT",
-                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "150",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
                                },
-                      "type":  "ReceiverCutAssignment"
+                      "type":  "RunRouteAssignment"
                   },
                   {
                       "guid":  "60e1bd40-6df8-433a-ac59-4386e2c488d4",

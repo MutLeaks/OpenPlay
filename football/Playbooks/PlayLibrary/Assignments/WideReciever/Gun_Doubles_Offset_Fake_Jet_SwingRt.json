@@ -15,28 +15,25 @@
                   {
                       "guid":  "0ecc8dda-dc83-4c99-b053-c20ca7b502bd",
                       "data":  {
+                                   "waypoints":  "-5.5-4.50650AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-5.5",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "65",
-                                   "offsetY":  "-4.5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "f1bedb2f-e832-40bb-a8bd-3dee072dde86",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "49b742b3-4978-47a6-8bbd-8d0c9fb94965",
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "0",
-                                   "distance":  "14",
+                                   "distance":  "8",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
@@ -47,7 +44,7 @@
                       "guid":  "5552da99-6e11-461a-814f-d13d37d8881f",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "3",
+                                   "direction":  "8",
                                    "distance":  "6",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",

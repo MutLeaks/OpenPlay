@@ -1,0 +1,35 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Recover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KOnside_Return_Onside_Blocker",
+    "steps":  [
+                  {
+                      "guid":  "0cb2edbb-368c-454d-b649-b025daae4dfc",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.6",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "e8282913-fa33-4227-9b2f-86c619c8552c",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "ef1c0dea-0b46-494c-9792-dedfdbe4c7e9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

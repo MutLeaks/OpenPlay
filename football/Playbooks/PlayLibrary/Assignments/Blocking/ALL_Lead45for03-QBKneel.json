@@ -3,6 +3,16 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/ALL_Lead45for03-QBKneel",
     "steps":  [
                   {
+                      "guid":  "b019eaf1-99ea-4581-bba8-c04a83f382ce",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.8",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
                       "guid":  "e9fea1e6-729a-44c2-9a36-b60233fa2062",
                       "data":  {
                                    "flags":  "PassBlockFlags_None",

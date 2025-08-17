@@ -5,33 +5,18 @@
                   {
                       "guid":  "4fb91862-9f2f-4cac-b977-8ceae200354b",
                       "data":  {
+                                   "waypoints":  "-2-2.90500AUTOMOTIONLOCOSTYLE_NORMALTrue-4.5-2.9504090AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "1",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "-2.2",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "9ebcedb1-db96-412c-9601-dc5e19b3f8b6",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-4.5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "40",
-                                   "offsetY":  "2.95",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "76a7d6b7-12c8-4705-9731-b19ee96b2804",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "0c1f7ecb-039c-4233-a1a4-c672e2fecd05",
@@ -42,18 +27,6 @@
                                    "timeNGPM":  "0.25"
                                },
                       "type":  "DelayAssignment"
-                  },
-                  {
-                      "guid":  "649e9c7c-863a-4fe1-89e9-7e250d42441f",
-                      "data":  {
-                                   "overrideFacingDirection":  "False",
-                                   "direction":  "0",
-                                   "distance":  "3.75",
-                                   "facingDirectionOverride":  "0",
-                                   "speed":  "100",
-                                   "opCodeEX":  "ID_MOVEDIRDIST"
-                               },
-                      "type":  "MoveDirectionAssignment"
                   },
                   {
                       "guid":  "34d3bc4e-38ae-4853-b49a-3044979402db",

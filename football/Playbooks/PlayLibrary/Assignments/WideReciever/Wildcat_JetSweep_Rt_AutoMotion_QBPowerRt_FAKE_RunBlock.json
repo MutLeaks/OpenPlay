@@ -3,45 +3,20 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/Wildcat_JetSweep_Rt_AutoMotion_QBPowerRt_FAKE_RunBlock",
     "steps":  [
                   {
-                      "guid":  "e004d7f8-4aef-49fa-923c-221d2ffb66c1",
-                      "data":  {
-                                   "offsetY":  "-0.8",
-                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
-                                   "offsetX":  "-10",
-                                   "stance":  "TwoPoint"
-                               },
-                      "type":  "OverrideFormPosAssignment"
-                  },
-                  {
                       "guid":  "01adca48-87a4-40d2-876f-222d8c2bdf82",
                       "data":  {
+                                   "waypoints":  "-5-40750AUTOMOTIONLOCOSTYLE_NORMALTrue0-40750AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-5",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "75",
-                                   "offsetY":  "-4",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "1a386f84-d6ca-4000-b600-194940254be5",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "0",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "75",
-                                   "offsetY":  "-4",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "45bd45e1-e48a-475a-b038-aef4b99bdacb",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "02211659-0710-452c-abbb-d61b2bcc3956",

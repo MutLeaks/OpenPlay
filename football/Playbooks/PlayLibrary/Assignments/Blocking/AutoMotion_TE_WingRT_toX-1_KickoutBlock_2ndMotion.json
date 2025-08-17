@@ -1,0 +1,57 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/AutoMotion_TE_WingRT_toX-1_KickoutBlock_2ndMotion",
+    "steps":  [
+                  {
+                      "guid":  "ff1405fd-7135-44b7-a569-5d78969e8c44",
+                      "data":  {
+                                   "waypoints":  "-4-30600AUTOMOTIONLOCOSTYLE_NORMALTrue-6-315090AUTOMOTIONLOCOSTYLE_STRAFETrue",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "2",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0.5",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "94091914-0b87-4e95-9898-359792949d67",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "guid":  "13e053ad-0e36-4b88-8c5f-84a6ea01e338",
+                      "data":  {
+                                   "blockingGap":  "D_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_HOLE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "629c4fc8-6549-4ff3-9493-c01ef0aed18d",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "b3646c88-b168-409e-943e-d8aefb810842",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

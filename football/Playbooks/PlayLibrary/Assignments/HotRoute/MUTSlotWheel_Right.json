@@ -3,11 +3,11 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/HotRoute/MUTSlotWheel_Right",
     "steps":  [
                   {
-                      "guid":  "79ddef5f-0439-45f6-9309-1f01ab78b1ea",
+                      "guid":  "7b1c84ca-e2fd-4ddf-9140-39b263efca31",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "4",
-                                   "distance":  "1",
+                                   "direction":  "5",
+                                   "distance":  "14",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
@@ -15,32 +15,20 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "b7afca48-34c9-4765-a594-aacb4dcd5f86",
+                      "guid":  "69936e04-ba44-46c2-a977-9cacf6e1bfc9",
                       "data":  {
-                                   "overrideFacingDirection":  "False",
-                                   "direction":  "25",
-                                   "distance":  "7",
-                                   "facingDirectionOverride":  "0",
-                                   "speed":  "100",
-                                   "opCodeEX":  "ID_RUNROUTE"
-                               },
-                      "type":  "RunRouteAssignment"
-                  },
-                  {
-                      "guid":  "75ad0731-90b1-4dc6-bf4e-10ea65fa9d48",
-                      "data":  {
-                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
                                    "opCodeEX":  "ID_RECCUT",
                                    "direction":  "RECEIVER_CUT_DIR_LEFT"
                                },
                       "type":  "ReceiverCutAssignment"
                   },
                   {
-                      "guid":  "e7d493e8-0e45-4573-816a-ed53591b9500",
+                      "guid":  "72baf6fa-1cb2-4eb0-977b-6b9468be3334",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "87",
-                                   "distance":  "25",
+                                   "direction":  "90",
+                                   "distance":  "30",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
@@ -48,14 +36,14 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "7f637c20-e115-4171-b3e6-0644585e6f09",
+                      "guid":  "4a7f758c-1527-440c-b82b-bda754493036",
                       "data":  {
                                    "opCodeEX":  "ID_RECGETOPEN"
                                },
                       "type":  "GetOpenAssignment"
                   },
                   {
-                      "guid":  "18c926d1-3a47-4e80-913e-4ed17f9fc998",
+                      "guid":  "27e81c19-9451-4388-8f77-ed1342c6c7d6",
                       "data":  {
                                    "opCodeEX":  "ID_NONE"
                                },

@@ -6,22 +6,13 @@
                       "guid":  "9c607246-c5fd-4a79-b6c7-6bcd8210a4c9",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "36.57",
+                                   "direction":  "35",
                                    "distance":  "8",
                                    "facingDirectionOverride":  "0",
-                                   "speed":  "65",
+                                   "speed":  "80",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"
-                  },
-                  {
-                      "guid":  "b5397461-9654-460e-90d0-1da5d875d15c",
-                      "data":  {
-                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
-                                   "opCodeEX":  "ID_RECCUT",
-                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
-                               },
-                      "type":  "ReceiverCutAssignment"
                   },
                   {
                       "guid":  "0fe3c6da-f942-4f71-aaab-ffc8ada7420d",
@@ -30,7 +21,7 @@
                                    "direction":  "9",
                                    "distance":  "15",
                                    "facingDirectionOverride":  "0",
-                                   "speed":  "65",
+                                   "speed":  "80",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"
@@ -43,6 +34,16 @@
                                    "direction":  "RECEIVER_CUT_DIR_RIGHT"
                                },
                       "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "b3f410ef-6688-4888-8844-4be73bded197",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
                   },
                   {
                       "guid":  "258794ee-b993-4370-830c-2ea6b69daee6",

@@ -1,0 +1,32 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Speed_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/PowerRt_Shotgun_QB_Sweep",
+    "steps":  [
+                  {
+                      "guid":  "aeb8ef24-36c9-494d-b910-52ee0ea04be5",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "10",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "c493e01e-96d8-4514-b27b-ad4047c3df5c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "2ed59c42-8ab6-40c5-a87c-46bd86bdf16c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

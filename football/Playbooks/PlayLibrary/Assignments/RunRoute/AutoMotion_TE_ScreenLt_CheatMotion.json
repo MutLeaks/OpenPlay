@@ -5,21 +5,18 @@
                   {
                       "guid":  "6d3b86e2-55c0-4313-90e5-ffb518778a72",
                       "data":  {
+                                   "waypoints":  "-3-301000AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-3",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "100",
-                                   "offsetY":  "-3",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "333a7ae8-5f6e-4073-8e98-b9928c6394c0",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "7837e05c-faf5-4d82-8abf-c3db53da96f1",
@@ -41,6 +38,16 @@
                                    "direction":  "RECEIVER_CUT_DIR_RIGHT"
                                },
                       "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "34518f49-eb57-4557-b445-eb902ffd054a",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
                   },
                   {
                       "guid":  "b3fb380f-b1e7-4191-8e2e-7110e2f821c9",

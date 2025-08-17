@@ -3,6 +3,16 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/TE_Pull_H7_Deep_WingTE_EndAround",
     "steps":  [
                   {
+                      "guid":  "aebbee0c-9fa5-41be-87f8-8d9e8fede3ae",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
                       "guid":  "8c35b211-91ac-4235-b2a6-60b53663a2f7",
                       "data":  {
                                    "blockingGap":  "RUN_HOLE",

@@ -27,13 +27,23 @@
                       "guid":  "b8d2ef37-6341-49fb-9d10-714121a551a9",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "238.5864",
-                                   "distance":  "2.11467",
+                                   "direction":  "250",
+                                   "distance":  "2.6",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "40e612b0-e1b3-4325-98fd-66adb21fbb62",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
                   },
                   {
                       "guid":  "74a67d69-e559-4612-9fce-a2cc0e1709d2",

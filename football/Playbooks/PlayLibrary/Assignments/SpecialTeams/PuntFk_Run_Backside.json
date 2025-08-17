@@ -1,0 +1,20 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Fake_Punt_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/PuntFk_Run_Backside",
+    "steps":  [
+                  {
+                      "guid":  "3963c478-a0b7-4288-8631-4a6bbd4021d5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "40233c46-17ea-425f-9fcc-939f53f55ea9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

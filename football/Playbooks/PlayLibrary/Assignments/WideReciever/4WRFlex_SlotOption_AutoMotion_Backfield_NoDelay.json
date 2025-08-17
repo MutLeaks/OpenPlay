@@ -1,0 +1,50 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/WideReciever/4WRFlex_SlotOption_AutoMotion_Backfield_NoDelay",
+    "steps":  [
+                  {
+                      "guid":  "ae1b7767-b2b7-4018-8cf4-629bc5df02fa",
+                      "data":  {
+                                   "waypoints":  "-3.75-70600AUTOMOTIONLOCOSTYLE_NORMALTrue",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "9c4e4836-8a5c-42ca-a20e-ac2ff86ffd53",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "315",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "11286c17-62f5-4ca0-a745-0936be278e29",
+                      "data":  {
+                                   "offsetY":  "-1",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "5"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "guid":  "cd3edc63-6e6b-4dea-b01d-4c140bebedfc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

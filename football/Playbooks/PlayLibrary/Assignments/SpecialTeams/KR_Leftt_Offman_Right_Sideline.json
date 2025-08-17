@@ -1,0 +1,45 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Return",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KR_Leftt_Offman_Right_Sideline",
+    "steps":  [
+                  {
+                      "guid":  "c77abf47-4033-4d4a-87c8-878e6b94054d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "0044df55-6353-4379-8ae3-039232c5f790",
+                      "data":  {
+                                   "offsetY":  "10",
+                                   "opCodeEX":  "ID_WEDGEBLOCK",
+                                   "direction":  "97",
+                                   "offsetX":  "-3"
+                               },
+                      "type":  "WedgeBlockAssignment"
+                  },
+                  {
+                      "guid":  "a0960242-b5f2-4731-b8f7-0cf01300e559",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "a1df1b91-a161-4363-92c8-58ed80752339",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

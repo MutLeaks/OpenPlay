@@ -1,0 +1,22 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/FB_IForm_H8_Lead_OutsideLast_OutsideGapRt",
+    "steps":  [
+                  {
+                      "guid":  "4962e379-972d-4f2f-bb57-94cf731f9d14",
+                      "data":  {
+                                   "blockingGap":  "OUTSIDE_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_OUTSIDE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "guid":  "8c76c9d5-8be4-466f-8c5d-2b1477b59355",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

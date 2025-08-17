@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Option_Give",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/UC_IForm_2P_Midline_Triple_LT",
+    "steps":  [
+                  {
+                      "guid":  "33f3c94d-4c0a-447f-950e-391cee92391a",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "199",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "198"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "4434cd2a-4553-4c59-96b3-e08242c381b9",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_LEFT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "255",
+                                   "pitchMan1":  "1"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "c6d34c5c-4f3f-476e-8472-3e654585ff7d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "ee163ee7-ba68-4788-ad29-3a55bc588913",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

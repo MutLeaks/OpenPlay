@@ -1,0 +1,88 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Lt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG_H2_Delay_Backstep_Hand_QBChoice_HBWheelLT_26_4",
+    "steps":  [
+                  {
+                      "guid":  "cf2af4a0-7ba4-4be9-9e08-eee40945f58c",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "26",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "4"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "ba74699a-9882-49ad-84be-dd30fa8be652",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "819d0c57-6552-4e8d-86d5-cd1fa7078b71",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "166",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "74",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "guid":  "fcedf43c-7e53-4c0b-be78-a270d414f8e1",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "153.2839",
+                                   "distance":  "3.195411",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d0ba7d9d-f4b9-421a-a53e-c5f01ad61dbd",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "138.6522",
+                                   "distance":  "15.96593",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "6a8655e8-db6c-4b1c-9e29-d8c02b7e629a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "100.2618",
+                                   "distance":  "14.81705",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5e6940cc-847d-404b-8a41-5c341aee2e52",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "999dc630-a7e0-44ba-8b3f-ef421a24dac7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

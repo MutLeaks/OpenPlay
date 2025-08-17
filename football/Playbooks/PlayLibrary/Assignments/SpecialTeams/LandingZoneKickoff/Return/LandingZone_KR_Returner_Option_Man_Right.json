@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Return",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/LandingZoneKickoff/Return/LandingZone_KR_Returner_Option_Man_Right",
+    "steps":  [
+                  {
+                      "guid":  "9bb8737b-0400-4d8e-9e36-154c8c23e00c",
+                      "data":  {
+                                   "opCodeEX":  "ID_KICKRET"
+                               },
+                      "type":  "KickOffCatchAssignment"
+                  },
+                  {
+                      "guid":  "be2d06fd-e40e-4a3e-a56d-c2bdc2e28c3e",
+                      "data":  {
+                                   "offsetY":  "5",
+                                   "opCodeEX":  "ID_WEDGEBLOCK",
+                                   "direction":  "270",
+                                   "offsetX":  "-15"
+                               },
+                      "type":  "WedgeBlockAssignment"
+                  },
+                  {
+                      "guid":  "35e39f0b-aca4-40b3-b1e7-da92cd9ca794",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "180",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "e86e7cfa-6c8e-41df-b0fe-0b5b93392705",
+                      "data":  {
+                                   "opCodeEX":  "ID_LAST_PLAY_DESIGNER_ASSIGN"
+                               },
+                      "type":  "RecUserHandoffAssignment"
+                  },
+                  {
+                      "guid":  "c0e75775-48ff-47c4-bffa-bef8765f42fc",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "1923b070-d771-4f57-a61a-2677cf41f1f1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

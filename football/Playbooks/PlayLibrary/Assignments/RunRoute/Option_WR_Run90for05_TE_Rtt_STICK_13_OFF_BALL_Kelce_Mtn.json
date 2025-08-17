@@ -5,33 +5,18 @@
                   {
                       "guid":  "29e78a31-3584-45ba-8c34-ad7ebc851074",
                       "data":  {
+                                   "waypoints":  "2.5-2.20350AUTOMOTIONLOCOSTYLE_NORMALTrue4-2.203590AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "2.5",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "35",
-                                   "offsetY":  "-2.2",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "2623bbff-9263-478f-bc62-c8ae8b40d943",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "4",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "35",
-                                   "offsetY":  "2.2",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "5801b7f2-00b8-4ae3-b94c-e8af5d947ea0",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "fa92c940-f151-4501-a437-b1b7e2ad3efb",
@@ -48,22 +33,10 @@
                   {
                       "guid":  "c20e19e7-fc44-4dcc-b4fb-e1517f4c8db7",
                       "data":  {
-                                   "optionRoute2":  "9",
-                                   "opCodeEX":  "ID_OPTIONROUTE",
-                                   "optionRoute3":  "1",
-                                   "optionRoute1":  "13"
+                                   "optionRouteInfo":  "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default289692ea-ad49-47b5-98dd-d464e0247ebe1538342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Cover2",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
                                },
                       "type":  "OptionRouteAssignment"
-                  },
-                  {
-                      "guid":  "9d14eb51-1501-4ba4-9110-751edb164b91",
-                      "data":  {
-                                   "optionRoute2":  "15",
-                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
-                                   "optionRoute3":  "16",
-                                   "optionRoute1":  "0"
-                               },
-                      "type":  "OptionRouteExtraInfoAssignment"
                   },
                   {
                       "guid":  "40f178e8-878d-447d-9d4f-2dc7425e196d",

@@ -3,21 +3,21 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Halfback/SG2RB_TripleOptionRt_Wide",
     "steps":  [
                   {
-                      "guid":  "098d754b-fe1e-4dc0-8585-2d05ff278505",
+                      "guid":  "57c108ba-d643-43d0-8414-40e06073244e",
                       "data":  {
-                                   "optionalInitalDirection":  "-1",
-                                   "opCodeEX":  "ID_INITIALMOVE",
-                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
-                                   "direction":  "0"
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
                                },
-                      "type":  "InitialAnimAssignment"
+                      "type":  "DelayAssignment"
                   },
                   {
                       "guid":  "85a93c0b-f190-452a-83cb-adc9287071c5",
                       "data":  {
-                                   "offsetY":  "-5",
+                                   "offsetY":  "-3",
                                    "opCodeEX":  "ID_OPTIONFOLLOW",
-                                   "offsetX":  "6"
+                                   "offsetX":  "5"
                                },
                       "type":  "OptionFollowAssignment"
                   },

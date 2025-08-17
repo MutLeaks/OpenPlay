@@ -35,13 +35,13 @@
                       "type":  "ReceiveHandoffAssignment"
                   },
                   {
-                      "guid":  "6cd68c91-f217-4457-a1e3-ca97a764f2cd",
+                      "guid":  "2f88ff49-8c29-4920-84a9-bcf2ee2dbf65",
                       "data":  {
-                                   "flags":  "PassBlockFlags_None",
-                                   "opCodeEX":  "ID_PASSBLOCK",
-                                   "time":  "0"
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_OUTSIDE"
                                },
-                      "type":  "PassBlockAssignment"
+                      "type":  "LeadBlockAssignment"
                   },
                   {
                       "guid":  "f791782d-21ba-45f9-9be9-792656629d00",

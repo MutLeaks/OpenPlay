@@ -35,16 +35,13 @@
                       "type":  "ReceiveHandoffAssignment"
                   },
                   {
-                      "guid":  "ea022736-96db-411d-9cce-303a22d2a63e",
+                      "guid":  "c4ce4195-f7a4-45db-a978-f257c21a7792",
                       "data":  {
-                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
-                                   "flags":  "RunBlockFlags_None",
-                                   "time":  "0",
-                                   "slamDuration":  "0",
-                                   "stalkDistance":  "0",
-                                   "opCodeEX":  "ID_RUNBLOCK"
+                                   "blockingGap":  "A_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
                                },
-                      "type":  "RunBlockAssignment"
+                      "type":  "LeadBlockAssignment"
                   },
                   {
                       "guid":  "31a2a660-0e9a-4575-ade6-227281609677",

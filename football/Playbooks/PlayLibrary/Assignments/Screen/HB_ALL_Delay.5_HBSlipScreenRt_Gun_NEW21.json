@@ -7,29 +7,27 @@
                       "data":  {
                                    "landingZoneKickoffDelay":  "False",
                                    "opCodeEX":  "ID_DELAY",
-                                   "time":  "0.3",
+                                   "time":  "0.1",
                                    "timeNGPM":  "0"
                                },
                       "type":  "DelayAssignment"
                   },
                   {
-                      "guid":  "631033a4-fc2b-4d4b-b98f-4752c0ebd5a2",
+                      "guid":  "b8744d6c-6901-4628-9a83-866ba3b72063",
                       "data":  {
-                                   "overrideFacingDirection":  "False",
-                                   "direction":  "45",
-                                   "distance":  "2",
-                                   "facingDirectionOverride":  "0",
-                                   "speed":  "25",
-                                   "opCodeEX":  "ID_RUNROUTE"
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "5"
                                },
-                      "type":  "RunRouteAssignment"
+                      "type":  "InitialAnimAssignment"
                   },
                   {
                       "guid":  "11d1f57a-7091-4724-8573-4c5391b5474e",
                       "data":  {
                                    "landingZoneKickoffDelay":  "False",
                                    "opCodeEX":  "ID_DELAY",
-                                   "time":  "0.25",
+                                   "time":  "0.1",
                                    "timeNGPM":  "0"
                                },
                       "type":  "DelayAssignment"
@@ -39,9 +37,9 @@
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "0",
-                                   "distance":  "9",
+                                   "distance":  "8",
                                    "facingDirectionOverride":  "0",
-                                   "speed":  "55",
+                                   "speed":  "45",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"

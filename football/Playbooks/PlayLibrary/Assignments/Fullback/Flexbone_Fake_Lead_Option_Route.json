@@ -1,0 +1,59 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Fullback/Flexbone_Fake_Lead_Option_Route",
+    "steps":  [
+                  {
+                      "guid":  "d4d04282-3da6-4d96-b936-f12cdfd8b391",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "95",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "96"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "a3435aaf-67a1-456b-a46c-7a51543e6fe0",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "864c9ee6-a2d5-4c8b-9e48-1f07d563e2cf",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "82",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "aa6bda19-a8be-47e7-ae54-c51132b5cea5",
+                      "data":  {
+                                   "optionRouteInfo":  "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4a5e5732a-cc40-4655-8534-46b53b68c189143",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "4dfac428-b2e4-4a8a-b015-2ffe90bdb4f8",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "df57b5e2-2be6-43c5-bf84-9e0d615a4b50",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

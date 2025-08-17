@@ -3,21 +3,11 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_H1_Run90for10_HookRt",
     "steps":  [
                   {
-                      "guid":  "37533631-6ce5-4fb9-a19e-a166f4519c14",
-                      "data":  {
-                                   "optionalInitalDirection":  "-1",
-                                   "opCodeEX":  "ID_INITIALMOVE",
-                                   "anim":  "MOVETYPE_BACKSTEP",
-                                   "direction":  "160"
-                               },
-                      "type":  "InitialAnimAssignment"
-                  },
-                  {
                       "guid":  "be3cdda6-3113-46f3-a3be-ddefa7e225c3",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "110",
-                                   "distance":  "4",
+                                   "direction":  "125",
+                                   "distance":  "2",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
                                    "opCodeEX":  "ID_RUNROUTE"

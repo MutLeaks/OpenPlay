@@ -5,33 +5,18 @@
                   {
                       "guid":  "db5b08cf-d3ed-40de-b9a5-efedd874ec23",
                       "data":  {
+                                   "waypoints":  "-10-50850AUTOMOTIONLOCOSTYLE_NORMALTrue-13.5-705090AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-10",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "85",
-                                   "offsetY":  "-5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "515d1340-9112-4de8-85eb-43a0dcde20bb",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-13.5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "7",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "c60f7983-9808-419c-b205-5f119fd7f820",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "20b65ae2-779c-48ed-a202-c98e8263298f",
@@ -65,7 +50,7 @@
                                    "opCodeEX":  "ID_SCRAMBLE",
                                    "direction":  "0",
                                    "distance":  "0",
-                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                                   "dropBackType":  "DROP_TYPEENUM_NONEVALUE"
                                },
                       "type":  "QBScrambleAssignment"
                   },

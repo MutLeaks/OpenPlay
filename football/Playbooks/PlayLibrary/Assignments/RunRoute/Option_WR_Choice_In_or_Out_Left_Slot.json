@@ -1,5 +1,5 @@
 ﻿{
-    "routeType":  "AssignRouteType_RR_Option_Hitch_In_Out",
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Choice_In_or_Out_Left_Slot",
     "steps":  [
                   {
@@ -15,24 +15,12 @@
                       "type":  "RunRouteAssignment"
                   },
                   {
-                      "guid":  "5a1f4ad4-3a71-4472-bdba-823d9c854a24",
+                      "guid":  "14d7f493-6f16-4994-a534-68c4380a16d8",
                       "data":  {
-                                   "optionRoute2":  "10",
-                                   "opCodeEX":  "ID_OPTIONROUTE",
-                                   "optionRoute3":  "5",
-                                   "optionRoute1":  "13"
+                                   "optionRouteInfo":  "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4a5e5732a-cc40-4655-8534-46b53b68c189143",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
                                },
                       "type":  "OptionRouteAssignment"
-                  },
-                  {
-                      "guid":  "e040e38b-6c14-4a14-ae50-f60553fd50f7",
-                      "data":  {
-                                   "optionRoute2":  "64",
-                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
-                                   "optionRoute3":  "143",
-                                   "optionRoute1":  "0"
-                               },
-                      "type":  "OptionRouteExtraInfoAssignment"
                   },
                   {
                       "guid":  "fd3479c3-8b33-4707-a9fe-d47ebb0a6014",

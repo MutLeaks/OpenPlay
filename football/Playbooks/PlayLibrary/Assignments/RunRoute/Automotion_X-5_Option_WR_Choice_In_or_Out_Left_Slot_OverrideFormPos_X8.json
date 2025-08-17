@@ -15,21 +15,18 @@
                   {
                       "guid":  "f79cf824-8288-4ebd-833c-23d79a6bd116",
                       "data":  {
+                                   "waypoints":  "-5-2.80850AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-5",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "85",
-                                   "offsetY":  "-2.8",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "8183e210-88fb-4c00-abe9-6ae3a6a98845",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "c5983d38-8399-4456-b4ef-f665ee3549fd",
@@ -46,22 +43,10 @@
                   {
                       "guid":  "5e4514e5-1f7c-4eeb-a72c-466dc8e1a50e",
                       "data":  {
-                                   "optionRoute2":  "10",
-                                   "opCodeEX":  "ID_OPTIONROUTE",
-                                   "optionRoute3":  "5",
-                                   "optionRoute1":  "13"
+                                   "optionRouteInfo":  "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4a5e5732a-cc40-4655-8534-46b53b68c189143",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
                                },
                       "type":  "OptionRouteAssignment"
-                  },
-                  {
-                      "guid":  "3b97b3a2-d325-4c1b-8d2a-ef0a5e2d2f3f",
-                      "data":  {
-                                   "optionRoute2":  "64",
-                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
-                                   "optionRoute3":  "143",
-                                   "optionRoute1":  "0"
-                               },
-                      "type":  "OptionRouteExtraInfoAssignment"
                   },
                   {
                       "guid":  "d81e41b9-093f-4e65-b581-60f8a8a212b2",

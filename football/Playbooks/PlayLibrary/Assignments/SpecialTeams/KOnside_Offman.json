@@ -1,0 +1,30 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Recover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KOnside_Offman",
+    "steps":  [
+                  {
+                      "guid":  "60ea956e-07f8-4233-bce2-07673436172f",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.1",
+                                   "timeNGPM":  "1"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "9da623f2-f492-42e2-a45c-2a480bb5f5f0",
+                      "data":  {
+                                   "opCodeEX":  "ID_GETBALL"
+                               },
+                      "type":  "GetBallAssignment"
+                  },
+                  {
+                      "guid":  "2f34361d-0c15-433f-bcd3-eef570258f73",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

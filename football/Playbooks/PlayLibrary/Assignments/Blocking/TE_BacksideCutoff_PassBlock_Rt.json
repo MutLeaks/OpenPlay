@@ -23,25 +23,13 @@
                       "type":  "InitialAnimAssignment"
                   },
                   {
-                      "guid":  "31718608-bc13-4265-b60c-166683280a53",
+                      "guid":  "ac467de1-b33d-4ed1-88c5-451ff904699d",
                       "data":  {
-                                   "overrideFacingDirection":  "False",
-                                   "direction":  "0",
-                                   "distance":  "7",
-                                   "facingDirectionOverride":  "0",
-                                   "speed":  "55",
-                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                                   "blockingGap":  "D_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
                                },
-                      "type":  "MoveDirectionAssignment"
-                  },
-                  {
-                      "guid":  "c170c76a-0685-4d0d-b3c3-003c3fae1aa0",
-                      "data":  {
-                                   "flags":  "PassBlockFlags_None",
-                                   "opCodeEX":  "ID_PASSBLOCK",
-                                   "time":  "0"
-                               },
-                      "type":  "PassBlockAssignment"
+                      "type":  "LeadBlockAssignment"
                   },
                   {
                       "guid":  "18375096-804a-4e34-be0f-051741c1b430",

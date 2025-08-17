@@ -3,6 +3,16 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Trick/WR_(10)_FlySweepRt",
     "steps":  [
                   {
+                      "guid":  "81a0c85e-3986-4e3c-a87d-88fdea33f318",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-5",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
                       "guid":  "507519d0-3885-49ab-9199-2cd895c9de79",
                       "data":  {
                                    "opCodeEX":  "ID_CANNEDHANDOFF",
@@ -15,21 +25,18 @@
                   {
                       "guid":  "bf66cc19-b048-4429-bd96-29bae5f922fb",
                       "data":  {
+                                   "waypoints":  "6-2.201000AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "6",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "100",
-                                   "offsetY":  "-2.2",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "4500ff4b-3613-4210-9f12-9370f6ce1e72",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "f39b43ef-f9d3-4fd4-a5b1-75d7e37a1af7",

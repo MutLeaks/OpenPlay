@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Triple_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Triple_Lt_GiveSpin_NoGive_Just_SpinFakeByQB",
+    "steps":  [
+                  {
+                      "guid":  "c6385f3f-2ab5-4f48-9034-034744b304f2",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_QB_OPTION_COUNTER",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "aa4d3514-32e6-4c68-8652-422498b1e4fb",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_LEFT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "1"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "5524204b-cd3d-4576-b638-db0bea4cee9a",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "11b63166-0dc8-4e6e-8d15-abfd73da5364",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

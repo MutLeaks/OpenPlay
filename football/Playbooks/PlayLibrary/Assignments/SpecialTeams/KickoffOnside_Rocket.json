@@ -1,0 +1,49 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Cover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KickoffOnside_Rocket",
+    "steps":  [
+                  {
+                      "guid":  "747de005-9a73-4c08-a733-16df72dbe989",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "7c60021f-eca4-49d4-829e-32e602bf09c6",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDISTCONST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "db0492d1-a97a-4202-91c6-4ab515cdef43",
+                      "data":  {
+                                   "opCodeEX":  "ID_GETBALL"
+                               },
+                      "type":  "GetBallAssignment"
+                  },
+                  {
+                      "guid":  "307a5545-d2cd-4190-9082-56fe7beceecd",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "guid":  "60c6b9a0-a259-4d83-9bed-b21017245901",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

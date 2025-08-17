@@ -3,16 +3,6 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_HB_SG_FlatsLt_HookRt",
     "steps":  [
                   {
-                      "guid":  "8d2ed354-8c24-42f1-88f3-92a955f9f891",
-                      "data":  {
-                                   "optionalInitalDirection":  "-1",
-                                   "opCodeEX":  "ID_INITIALMOVE",
-                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
-                                   "direction":  "180"
-                               },
-                      "type":  "InitialAnimAssignment"
-                  },
-                  {
                       "guid":  "bf533f59-4a61-4c7c-999f-3b62d3962ada",
                       "data":  {
                                    "overrideFacingDirection":  "False",
@@ -36,22 +26,10 @@
                   {
                       "guid":  "6590e158-7714-4052-846b-2dad35699af8",
                       "data":  {
-                                   "optionRoute2":  "10",
-                                   "opCodeEX":  "ID_OPTIONROUTE",
-                                   "optionRoute3":  "255",
-                                   "optionRoute1":  "1"
+                                   "optionRouteInfo":  "38342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Default1a21272b-8677-4987-824d-b65b811318c514300000000-0000-0000-0000-000000000000OptionRouteCoverage_Default",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
                                },
                       "type":  "OptionRouteAssignment"
-                  },
-                  {
-                      "guid":  "f02fd522-3b48-419f-bff3-a215bd09b0bd",
-                      "data":  {
-                                   "optionRoute2":  "143",
-                                   "opCodeEX":  "ID_OPTIONROUTEEXTRAINFO",
-                                   "optionRoute3":  "0",
-                                   "optionRoute1":  "0"
-                               },
-                      "type":  "OptionRouteExtraInfoAssignment"
                   },
                   {
                       "guid":  "924fd370-e4fc-491c-b9f5-a17046e034b1",

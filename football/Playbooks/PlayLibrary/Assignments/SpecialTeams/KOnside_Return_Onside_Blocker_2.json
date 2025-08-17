@@ -1,0 +1,47 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Recover",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/SpecialTeams/KOnside_Return_Onside_Blocker_2",
+    "steps":  [
+                  {
+                      "guid":  "b9916fa9-36bd-45e8-8505-3e7b9c90c212",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.9",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "a76c5a0e-0d30-483d-a50e-b55c2ab41900",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "270",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "guid":  "4f10b1cf-7119-46e9-bbd5-250c671af139",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "guid":  "584f0e71-2a09-41a2-93a5-8ed5a0608a7b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

@@ -13,16 +13,6 @@
                       "type":  "CannedHandoffAssignment"
                   },
                   {
-                      "guid":  "5ea59b3c-d928-4f86-b786-1a3b7af0181b",
-                      "data":  {
-                                   "optionalInitalDirection":  "-1",
-                                   "opCodeEX":  "ID_INITIALMOVE",
-                                   "anim":  "MOVETYPE_BACKSTEP",
-                                   "direction":  "135"
-                               },
-                      "type":  "InitialAnimAssignment"
-                  },
-                  {
                       "guid":  "b15f5eb6-4a03-4c10-bf26-ad9a7a16d7f9",
                       "data":  {
                                    "overrideFacingDirection":  "False",
@@ -39,7 +29,7 @@
                       "data":  {
                                    "flags":  "PassBlockFlags_None",
                                    "opCodeEX":  "ID_PASSBLOCK",
-                                   "time":  "2"
+                                   "time":  "1.5"
                                },
                       "type":  "PassBlockAssignment"
                   },
@@ -47,7 +37,7 @@
                       "guid":  "a94a2454-b0cc-4db2-b5ff-93b5c1246ebc",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "92",
+                                   "direction":  "100",
                                    "distance":  "4.5",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",

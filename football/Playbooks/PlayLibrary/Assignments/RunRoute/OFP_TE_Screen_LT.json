@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/OFP_TE_Screen_LT",
+    "steps":  [
+                  {
+                      "guid":  "f56fc50c-599d-4a92-b823-603714bd5313",
+                      "data":  {
+                                   "offsetY":  "-3",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "3.5",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "bb206f59-92e3-4b8f-830f-3355df915839",
+                      "data":  {
+                                   "overrideFacingDirection":  "True",
+                                   "direction":  "190",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "270",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "adb5fb18-da41-43ae-9c1b-2f59c3f75b28",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "False",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "guid":  "728ba022-0620-4bee-a22b-9f67c5164271",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "b3ceba05-c8a2-4429-bceb-2a33ceae6cdc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

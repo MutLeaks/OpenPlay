@@ -5,42 +5,30 @@
                   {
                       "guid":  "487d3fbc-ee28-448d-a9ac-a25baafe595c",
                       "data":  {
+                                   "waypoints":  "10.5-3.30600AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "10.5",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "60",
-                                   "offsetY":  "-3.3",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "34fd702a-6437-425e-ace2-d2f2ecf00323",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "27183113-acf8-45ac-9d51-334d79b6c9f7",
                       "data":  {
                                    "overrideFacingDirection":  "False",
                                    "direction":  "128",
-                                   "distance":  "4",
+                                   "distance":  "5",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "50",
                                    "opCodeEX":  "ID_RUNROUTE"
                                },
                       "type":  "RunRouteAssignment"
-                  },
-                  {
-                      "guid":  "f6c4cb79-294f-4143-b19e-dc7c84fb8d5e",
-                      "data":  {
-                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
-                                   "opCodeEX":  "ID_RECCUT",
-                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
-                               },
-                      "type":  "ReceiverCutAssignment"
                   },
                   {
                       "guid":  "a61e07da-6d15-40e7-abd1-e0b061d3a817",

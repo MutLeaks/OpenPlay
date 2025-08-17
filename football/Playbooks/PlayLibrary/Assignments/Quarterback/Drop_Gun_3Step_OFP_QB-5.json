@@ -1,0 +1,33 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pass",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Drop_Gun_3Step_OFP_QB-5",
+    "steps":  [
+                  {
+                      "guid":  "4010bc89-a498-4f86-a576-478ab7f12349",
+                      "data":  {
+                                   "offsetY":  "-5",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "0",
+                                   "stance":  "QB"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "guid":  "6beb988d-0487-4bfc-8862-175b7f192a5d",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_QBDROP_SG_3_STEP"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "guid":  "ad5eddc8-54df-400f-b5ea-1637f1771c07",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

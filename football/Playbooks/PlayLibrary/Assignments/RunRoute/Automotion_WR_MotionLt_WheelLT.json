@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Rt",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_MotionLt_WheelLT",
+    "steps":  [
+                  {
+                      "guid":  "ad7c5524-9822-452a-a3b9-933f08597c23",
+                      "data":  {
+                                   "waypoints":  "7-3.750900AUTOMOTIONLOCOSTYLE_NORMALTrue-9.5-3.750900AUTOMOTIONLOCOSTYLE_NORMALTrue",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "fdaa6d39-e386-499e-9268-d4f7bfff23fe",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "145.0578",
+                                   "distance":  "6.133106",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "a6814fe4-fce6-4257-be16-d0dba47a1f2a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "118.0725",
+                                   "distance":  "8.716496",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "a42f3881-0890-4744-9e05-bacfdda61e72",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "93.52866",
+                                   "distance":  "27.74122",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "d3d2676c-c9e9-4227-99e1-e6a3399dbda7",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "240b1023-f2bf-4ecf-90c6-fe6622785d71",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

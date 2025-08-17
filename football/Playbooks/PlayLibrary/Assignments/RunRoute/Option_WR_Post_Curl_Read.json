@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Stop",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Post_Curl_Read",
+    "steps":  [
+                  {
+                      "guid":  "4f728e58-dfca-46ea-b5fb-9dd4becce876",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "6df68b94-3aa8-46d4-90ec-0e3068880f1c",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "ae68ad3a-d12d-401b-98a8-0b2a69da832a",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "140",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "a7d4d82d-9126-4c26-9352-82f8f162a29f",
+                      "data":  {
+                                   "optionRouteInfo":  "4ab30846-46b3-4490-86e7-f4067736a863OptionRouteCoverage_Default1a21272b-8677-4987-824d-b65b811318c514300000000-0000-0000-0000-000000000000OptionRouteCoverage_Default",
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "guid":  "00c72f3a-e027-4621-8ad0-2cfb48d31a04",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "7f86fbc5-fa22-4ae4-9b9b-f9d1b4eb60d5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

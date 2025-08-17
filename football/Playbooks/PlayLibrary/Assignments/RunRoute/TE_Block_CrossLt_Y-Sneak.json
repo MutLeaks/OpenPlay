@@ -3,19 +3,22 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/TE_Block_CrossLt_Y-Sneak",
     "steps":  [
                   {
-                      "guid":  "187f85b3-8790-4231-b1d0-d564278b80f7",
+                      "guid":  "eb63dd8f-bcc3-4143-8a18-b5ddfc5e3828",
                       "data":  {
-                                   "flags":  "PassBlockFlags_None",
-                                   "opCodeEX":  "ID_PASSBLOCK",
-                                   "time":  "1"
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "1",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
                                },
-                      "type":  "PassBlockAssignment"
+                      "type":  "RunBlockAssignment"
                   },
                   {
                       "guid":  "1a02b91b-b272-4047-b3e3-c984bf424bb8",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "125",
+                                   "direction":  "130",
                                    "distance":  "4",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",
@@ -36,7 +39,7 @@
                       "guid":  "3cd557c9-dba8-4089-8493-57650a5bf4da",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "155",
+                                   "direction":  "172",
                                    "distance":  "25",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "100",

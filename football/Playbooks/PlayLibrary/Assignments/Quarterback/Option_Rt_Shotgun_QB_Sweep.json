@@ -3,14 +3,14 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Rt_Shotgun_QB_Sweep",
     "steps":  [
                   {
-                      "guid":  "0ad4409f-e773-4f73-aa11-bbbf906edd48",
+                      "guid":  "360eb8f5-d9ab-41d3-bc2a-f5d0951b202c",
                       "data":  {
-                                   "runType":  "TYPE_STANDARD_RIGHT",
-                                   "opCodeEX":  "ID_OPTIONRUN",
-                                   "pitchMan2":  "11",
-                                   "pitchMan1":  "11"
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_QB_OPTION",
+                                   "direction":  "0"
                                },
-                      "type":  "OptionRunAssignment"
+                      "type":  "InitialAnimAssignment"
                   },
                   {
                       "guid":  "281d418a-c5a8-48d5-8d7d-f1b54251fa7b",

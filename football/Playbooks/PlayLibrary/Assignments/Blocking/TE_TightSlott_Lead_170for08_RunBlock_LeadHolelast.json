@@ -3,14 +3,14 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/TE_TightSlott_Lead_170for08_RunBlock_LeadHolelast",
     "steps":  [
                   {
-                      "guid":  "7973a5d2-2bb3-4a68-be69-fc7c3e53d515",
+                      "guid":  "735b45df-2f06-447f-9f0c-3cd194eefe79",
                       "data":  {
-                                   "landingZoneKickoffDelay":  "False",
-                                   "opCodeEX":  "ID_DELAY",
-                                   "time":  "0.125",
-                                   "timeNGPM":  "0"
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_TRAP_PULL",
+                                   "direction":  "180"
                                },
-                      "type":  "DelayAssignment"
+                      "type":  "InitialAnimAssignment"
                   },
                   {
                       "guid":  "09ad1086-9d16-46e6-972d-26cc966ffb59",

@@ -1,0 +1,50 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Power_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Flexbone_Load_Option_Rt",
+    "steps":  [
+                  {
+                      "guid":  "46516509-bdfa-4178-b572-42cddd33adc8",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "69",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "70"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "9b4961d7-a3e3-42f1-82a0-14b339f002bf",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_QB_OPTION",
+                                   "direction":  "359"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "guid":  "f67cdce0-66c7-476b-9e12-e4cea78101c0",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_RIGHT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "2"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "78988a3a-feb9-4e4d-ac82-cd9ffb3d272b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "21e06e0d-a61c-40a0-86c5-23d4e51029fb",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

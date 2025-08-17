@@ -3,21 +3,11 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/Blocking/TE_Pull_H7_Deep_OffsetTE_Counter_LeadHole1st",
     "steps":  [
                   {
-                      "guid":  "f377a5cd-f6e2-4f41-a36b-0228cded1736",
-                      "data":  {
-                                   "landingZoneKickoffDelay":  "False",
-                                   "opCodeEX":  "ID_DELAY",
-                                   "time":  "0.15",
-                                   "timeNGPM":  "0"
-                               },
-                      "type":  "DelayAssignment"
-                  },
-                  {
                       "guid":  "35359de7-f7de-4c34-8dc8-4c1cf295e0b3",
                       "data":  {
                                    "optionalInitalDirection":  "-1",
                                    "opCodeEX":  "ID_INITIALMOVE",
-                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "anim":  "MOVETYPE_INVALID",
                                    "direction":  "180"
                                },
                       "type":  "InitialAnimAssignment"

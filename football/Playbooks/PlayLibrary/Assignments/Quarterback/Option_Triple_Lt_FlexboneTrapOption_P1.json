@@ -1,0 +1,50 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Triple_Option",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Option_Triple_Lt_FlexboneTrapOption_P1",
+    "steps":  [
+                  {
+                      "guid":  "14e70e6f-f3c5-473e-b468-f580f3f0c7d7",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "90",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "79"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "055bd1c4-45cd-4bda-a851-78c633e1fbbb",
+                      "data":  {
+                                   "opCodeEX":  "ID_HANDOFF_OPTION",
+                                   "playerNum":  "1",
+                                   "optionHandoffType":  "TYPE_FLEXBONE_TRAP",
+                                   "pitchPlayerNum":  "1"
+                               },
+                      "type":  "OptionHandoffAssignment"
+                  },
+                  {
+                      "guid":  "e721bf6a-e33d-4fa2-9f78-7003f74c29dc",
+                      "data":  {
+                                   "runType":  "TYPE_STANDARD_LEFT",
+                                   "opCodeEX":  "ID_OPTIONRUN",
+                                   "pitchMan2":  "11",
+                                   "pitchMan1":  "5"
+                               },
+                      "type":  "OptionRunAssignment"
+                  },
+                  {
+                      "guid":  "99b6db84-fe2b-42e8-8c46-13dba1027760",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "guid":  "854010df-d32e-4f2a-8cfd-70f8c0245103",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

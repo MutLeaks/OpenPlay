@@ -1,0 +1,23 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pitch",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/Quarterback/Flexbone_QB_FB_Toss",
+    "steps":  [
+                  {
+                      "guid":  "21fc2f13-e7b8-4be6-94c4-d794347f6978",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "80",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "89"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "guid":  "367fdb26-02f1-48b3-b6af-796a9edc3692",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

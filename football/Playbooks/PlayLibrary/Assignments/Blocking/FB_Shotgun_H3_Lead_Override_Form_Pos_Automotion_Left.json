@@ -15,33 +15,18 @@
                   {
                       "guid":  "16d47716-0f2a-4a6a-b8fd-92a63534f711",
                       "data":  {
+                                   "waypoints":  "-1-3.150500AUTOMOTIONLOCOSTYLE_NORMALTrue1.5-3.1503590AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-1",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "-3.15",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "3d9bb060-5fd2-4239-97b8-e5f264648759",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "1.5",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "35",
-                                   "offsetY":  "3.15",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "324d80fe-10ff-4009-8162-5023dd4f17ca",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "5407aad1-b016-4188-b877-6ca957258ffd",

@@ -5,21 +5,18 @@
                   {
                       "guid":  "0e183586-3d6d-42e6-af8f-eb5c66d98de8",
                       "data":  {
+                                   "waypoints":  "3-80500AUTOMOTIONLOCOSTYLE_NORMALTrue",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "3",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "50",
-                                   "offsetY":  "-8",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "f909551b-a863-4343-91cc-3474091ca397",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "3cdfae63-8336-405d-aa0f-c87eaeebe723",
@@ -49,7 +46,7 @@
                                    "opCodeEX":  "ID_SCRAMBLE",
                                    "direction":  "0",
                                    "distance":  "0",
-                                   "dropBackType":  "DROP_TYPEENUM_INVALID"
+                                   "dropBackType":  "DROP_TYPEENUM_NONEVALUE"
                                },
                       "type":  "QBScrambleAssignment"
                   },

@@ -1,44 +1,29 @@
 ﻿{
-    "routeType":  "AssignRouteType_RR_Drag",
+    "routeType":  "AssignRouteType_RR_WR_Screen",
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/WR_ScreenRt_AutoMotion_LeftWR_Welker",
     "steps":  [
                   {
                       "guid":  "126eddfb-db47-4073-b38a-0341032a145f",
                       "data":  {
+                                   "waypoints":  "-13-2.50600AUTOMOTIONLOCOSTYLE_NORMALTrue-11-2.505090AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-13",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "32.5",
-                                   "offsetY":  "-2.5",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
                   },
                   {
-                      "guid":  "569a2309-7329-47c2-9003-4e5ecc134347",
-                      "data":  {
-                                   "shouldStopAtTarget":  "False",
-                                   "offsetX":  "-11",
-                                   "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "25",
-                                   "offsetY":  "2.5",
-                                   "stanceAtTarget":  "StanceType_None"
-                               },
-                      "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "64aef57d-ee1f-4ea9-872f-3ec0e5325bb4",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
-                  },
-                  {
-                      "guid":  "e4f5d398-643a-4c3d-8a00-8585cf67ef07",
+                      "guid":  "105f43d2-1334-4828-97ba-93e017813bc5",
                       "data":  {
                                    "overrideFacingDirection":  "False",
-                                   "direction":  "10",
-                                   "distance":  "0.25",
+                                   "direction":  "0",
+                                   "distance":  "0.5",
                                    "facingDirectionOverride":  "0",
                                    "speed":  "25",
                                    "opCodeEX":  "ID_RUNROUTE"

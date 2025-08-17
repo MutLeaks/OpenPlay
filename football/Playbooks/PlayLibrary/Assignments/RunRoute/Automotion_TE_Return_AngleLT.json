@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Angle",
+    "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_TE_Return_AngleLT",
+    "steps":  [
+                  {
+                      "guid":  "8adec84c-502d-4a06-a028-35705e14780a",
+                      "data":  {
+                                   "waypoints":  "-1-2.20650AUTOMOTIONLOCOSTYLE_NORMALTrue6.5-2.20650AUTOMOTIONLOCOSTYLE_NORMALTrue",
+                                   "shouldStopAtTarget":  "False",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "stanceAtTarget":  "StanceType_None"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "guid":  "e48b198d-733e-4452-9b03-22c5e73351b7",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "8.184873",
+                                   "distance":  "3.447999",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "c58ec23a-d877-4d05-b9ef-6aa70904ca90",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "58.81503",
+                                   "distance":  "7.591634",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "5786b509-ddea-48c0-88f7-83d123b6951a",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "guid":  "e4fb7791-af88-4670-9117-47cb326a677f",
+                      "data":  {
+                                   "overrideFacingDirection":  "False",
+                                   "direction":  "155.496",
+                                   "distance":  "18.35575",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "guid":  "e1cc5ce5-d5b0-4863-97d5-0b76c80e2834",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "guid":  "39d7236e-c33a-41ae-8262-c12fab45f97d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ]
+}

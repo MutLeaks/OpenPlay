@@ -3,23 +3,20 @@
     "name":  "football/Playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_CrossLt_RightWR",
     "steps":  [
                   {
-                      "guid":  "a02109ba-63a8-481a-8c69-20ffaec9236a",
+                      "guid":  "e5c250b4-3d33-49e4-bf4c-e72f1697d4a9",
                       "data":  {
+                                   "waypoints":  "12-2.60550AUTOMOTIONLOCOSTYLE_NORMALTrue8.6-2.603290AUTOMOTIONLOCOSTYLE_STRAFEFalse",
                                    "shouldStopAtTarget":  "False",
-                                   "offsetX":  "9",
+                                   "automotionOrderPlayer":  "0",
+                                   "automotionOrderTransitID":  "1",
+                                   "endDelay":  "0",
+                                   "useLegacyLocoPathing":  "False",
                                    "opCodeEX":  "ID_AUTOMOTION",
-                                   "speed":  "60",
-                                   "offsetY":  "-2.6",
+                                   "startDelay":  "0",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
                                    "stanceAtTarget":  "StanceType_None"
                                },
                       "type":  "AutoMotionAssignment"
-                  },
-                  {
-                      "guid":  "e8d282aa-bf9c-4113-9c09-6b3ab457ebd9",
-                      "data":  {
-                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
-                               },
-                      "type":  "AutoMotionSnapAssignment"
                   },
                   {
                       "guid":  "a8db9034-10f1-4d30-9df4-4cc29c69f12b",
